@@ -52,16 +52,38 @@ function broCard(p){
     </div>
   </article>`;
 }
-function renderBro(q=''){
-  const list=withBro.filter(p=>!q || (p.name+' '+p.developer+' '+p.locality+' '+p.city+' '+p.configShort).toLowerCase().includes(q.toLowerCase()))
+const CITY_ORDER=['Mohali','New Chandigarh','Zirakpur'];
+const broCities=CITY_ORDER.filter(c=>withBro.some(p=>p.city===c))
+  .concat([...new Set(withBro.map(p=>p.city))].filter(c=>!CITY_ORDER.includes(c)));
+let broCity='';
+function renderBro(){
+  const q=($('#broSearch').value||'').toLowerCase();
+  const list=withBro.filter(p=>(!broCity||p.city===broCity) &&
+      (!q || (p.name+' '+p.developer+' '+p.locality+' '+p.city+' '+p.configShort).toLowerCase().includes(q)))
     .sort((a,b)=>(b.featured-a.featured)||a.name.localeCompare(b.name));
   $('#broCount').textContent=list.length;
   const g=$('#brochuresGrid'),em=$('#broEmpty');
-  if(list.length){g.innerHTML=list.map(broCard).join('');g.classList.remove('hide');em.classList.add('hide');}
-  else{g.innerHTML='';g.classList.add('hide');em.classList.remove('hide');}
+  // city chips
+  $('#broCityChips').innerHTML=[['','All cities']].concat(broCities.map(c=>[c,c])).map(([v,l])=>{
+    const n=v?withBro.filter(p=>p.city===v).length:withBro.length;
+    return `<button class="chip ${broCity===v?'active':''}" data-brocity="${v}">${l} <span style="opacity:.6">${n}</span></button>`;
+  }).join('');
+  // group by city
+  if(list.length){
+    const groups=broCities.filter(c=>list.some(p=>p.city===c));
+    g.innerHTML=groups.map(c=>{
+      const cards=list.filter(p=>p.city===c);
+      return `<div style="margin-bottom:36px">
+        <h3 style="font-size:1.3rem;margin-bottom:4px">${c} <span style="font-family:var(--sans);font-size:.95rem;font-weight:400;color:var(--muted)">· ${cards.length}</span></h3>
+        <p style="color:var(--muted);font-size:.86rem;margin-bottom:16px">${cards.length} project${cards.length>1?'s':''} with a downloadable brochure</p>
+        <div class="grid cards">${cards.map(broCard).join('')}</div></div>`;
+    }).join('');
+    g.classList.remove('hide');em.classList.add('hide');
+  }else{g.innerHTML='';g.classList.add('hide');em.classList.remove('hide');}
 }
 renderBro();
-$('#broSearch').addEventListener('input',e=>renderBro(e.target.value));
+$('#broSearch').addEventListener('input',renderBro);
+document.addEventListener('click',e=>{const c=e.target.closest('[data-brocity]');if(c){broCity=c.dataset.brocity;renderBro();}});
 
 /* ---------- map viewer ---------- */
 const lb=$('#mapLb'),img=$('#mapLbImg'),cap=$('#mapLbCap');
