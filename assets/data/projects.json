@@ -1071,7 +1071,8 @@
   ],
   "floorplans": [
    "assets/img/projects/joy-grand/fp1.jpg",
-   "assets/img/projects/joy-grand/fp2.jpg"
+   "assets/img/projects/joy-grand/fp2.jpg",
+   "assets/img/projects/joy-grand/fp3.jpg"
   ],
   "category": "Residential",
   "placeholder": false,
@@ -2002,63 +2003,72 @@
   "id": 24,
   "slug": "vintage-greens",
   "name": "Vintage Greens",
-  "tagline": "",
+  "tagline": "Embrace Nature's Vintage Charm",
   "developer": "Vintage Buildtech",
   "city": "Zirakpur",
-  "location": "PR-7 International Airport Road, Zirakpur",
+  "location": "PR-7, International Airport Road, Ramgarh Bhudda, Zirakpur",
   "rera": [
    "PBRERA-SAS79-PR1181"
   ],
   "type": "Apartments",
   "category": "Residential",
-  "status": "New Launch",
-  "configShort": "1 BHK, 3 BHK & 4 BHK",
+  "status": "Under Construction",
+  "configShort": "3 BHK & 4 BHK",
   "configs": [
    {
     "type": "3 BHK",
-    "super_area_sqft": 2350,
-    "carpet_area_sqft": null,
-    "price": null
+    "super_area_sqft": "2350"
    },
    {
-    "type": "3+1 BHK",
-    "super_area_sqft": 2698,
-    "carpet_area_sqft": null,
-    "price": null
+    "type": "3 BHK + 1",
+    "super_area_sqft": "2698"
    },
    {
-    "type": "4 BHK",
-    "super_area_sqft": 3796,
-    "carpet_area_sqft": null,
-    "price": null
+    "type": "4 BHK + 1",
+    "super_area_sqft": "3796"
    }
   ],
   "bhk": [
-   1,
    3,
    4
   ],
-  "price": "Approx Rs. 2.13 Cr (3+1 BHK); others On Request",
-  "sizeRange": "2350-3796",
+  "price": "Price on Request",
+  "sizeRange": "2350 - 3796 sq.ft.",
   "sizeMin": 2350,
   "sizeMax": 3796,
   "highlights": [
-   "Ultra-luxury high-rise on the 200-ft wide PR-7 Airport Road",
-   "Large-format 3 BHK, 3+1 BHK and 4 BHK park-facing homes",
-   "Premium positioning with expansive unit sizes",
-   "New-launch inventory with projected 2030 possession"
+   "Landmark high-rise towers with timeless architecture",
+   "Spacious 3 BHK, 3 BHK+1 and 4 BHK+1 luxury apartments",
+   "Grand clubhouse with a curved contemporary facade",
+   "Lush landscaped greens and open spaces",
+   "5-tier security with CCTV surveillance",
+   "EV charging points and modern infrastructure",
+   "10 minutes to Chandigarh International Airport"
   ],
   "amenities": [
-   "Clubhouse",
+   "Grand Clubhouse",
    "Swimming Pool",
-   "Gymnasium",
-   "Landscaped Gardens",
-   "Indoor Games",
-   "24x7 Security"
+   "Modern Gym",
+   "Basketball Court",
+   "Tennis Court",
+   "Mini Theater",
+   "Kids Play Area",
+   "EV Charging Points",
+   "Banquet Hall",
+   "5-Tier Security",
+   "Pet Park",
+   "Library",
+   "Landscaped Greens"
   ],
   "specs": {},
-  "about": "",
-  "locationAdv": [],
+  "about": "Vintage Greens by Vintage Buildtech rises as a landmark of timeless architecture and modern living along the International Airport Road in Zirakpur. The sculpted high-rise towers, framed by lush greens and curving landscapes, blend nature, elegance and functionality into a community where every residence reflects thoughtful planning.\n\nThe project offers spacious 3 BHK, 3 BHK+1 and 4 BHK+1 apartments from 2350 to 3796 sq.ft, each balancing privacy, comfort and community. Wide corridors, dedicated utility and servant provisions and generous balconies bring an effortless flow, while the grand clubhouse anchors the social heart.\n\nResidents enjoy a curated suite of amenities \u2014 pool, gym, mini theatre, tennis and basketball courts, banquet hall, library, pet park and kids' play areas \u2014 all secured by a five-tier system. Minutes from the airport and the wider Tricity, Vintage Greens pairs serene green surroundings with seamless urban connectivity.",
+  "locationAdv": [
+   "3 min to upcoming Max Hospital",
+   "5 min to Decathlon",
+   "10 min to Chandigarh International Airport",
+   "20 min to Elante Mall & Sukhna Lake",
+   "25 min to PGI Hospital & Panjab University"
+  ],
   "architect": "",
   "units": null,
   "towers": null,
@@ -2067,19 +2077,27 @@
    30.655,
    76.8
   ],
-  "featured": false,
-  "placeholder": true,
-  "hero": "",
-  "card": "",
-  "gallery": [],
-  "floorplans": [],
-  "commercialType": null,
-  "sources": [
-   "https://www.99acres.com/vintage-greens-zirakpur-chandigarh-npxid-r446731",
-   "https://vintagegreenszirakpur.com/"
+  "featured": true,
+  "placeholder": false,
+  "hero": "assets/img/projects/vintage-greens/hero.jpg",
+  "card": "assets/img/projects/vintage-greens/card.jpg",
+  "gallery": [
+   "assets/img/projects/vintage-greens/g1.jpg",
+   "assets/img/projects/vintage-greens/g2.jpg",
+   "assets/img/projects/vintage-greens/g3.jpg",
+   "assets/img/projects/vintage-greens/g4.jpg"
   ],
-  "confidence": "medium",
-  "brochure": ""
+  "floorplans": [
+   "assets/img/projects/vintage-greens/fp1.jpg",
+   "assets/img/projects/vintage-greens/fp2.jpg",
+   "assets/img/projects/vintage-greens/fp3.jpg",
+   "assets/img/projects/vintage-greens/fp4.jpg",
+   "assets/img/projects/vintage-greens/fp5.jpg"
+  ],
+  "commercialType": null,
+  "sources": [],
+  "confidence": "high",
+  "brochure": "assets/brochures/vintage-greens.pdf"
  },
  {
   "id": 25,
@@ -2777,5 +2795,741 @@
   "sources": [],
   "confidence": "high",
   "brochure": "assets/brochures/wave-estate-group-housing-2-phase-2.pdf"
+ },
+ {
+  "id": 37,
+  "slug": "noble-magnollia",
+  "coords": [
+   30.665,
+   76.712
+  ],
+  "featured": false,
+  "name": "Noble Magnollia",
+  "tagline": "Luxury 3 & 4 BHK residences in the heart of Mohali",
+  "developer": "ACPL",
+  "city": "Mohali",
+  "location": "Sector 88, Mohali",
+  "rera": [],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "",
+  "configShort": "3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "3 BHK + Lounge",
+    "super_area_sqft": ""
+   },
+   {
+    "type": "4 BHK + Lounge",
+    "super_area_sqft": ""
+   }
+  ],
+  "bhk": [
+   3,
+   4
+  ],
+  "price": "Price on Request",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "Spacious 3 & 4 BHK residences, each with a dedicated family lounge",
+   "Gated community of multiple high-rise towers",
+   "Central landscaped greens with water features and trails",
+   "On-site retail arcade and residents' club",
+   "Vaastu-aligned unit layouts",
+   "Wide private balconies; servant room and utility in every home",
+   "By ACPL, with design credentials across India and Dubai"
+  ],
+  "amenities": [
+   "Residents' club",
+   "Retail arcade",
+   "Central landscaped park",
+   "Water features",
+   "Tennis / sports courts",
+   "Children's play areas",
+   "Walking trails",
+   "Gated secured entry",
+   "High-speed lifts"
+  ],
+  "specs": {},
+  "about": "Noble Magnollia is a premium residential address in Sector 88, Mohali, by ACPL \u2014 a developer with a footprint across India and Dubai. Set within a master-planned gated community, the towers are arranged around a sweeping central landscape of manicured greens, reflective water bodies and walking trails, creating a calm, resort-like setting at the heart of the Tricity.\n\nThe development offers expansive 3 and 4 BHK residences, each with a dedicated family lounge and generous balconies that draw in light and greenery. Every home is Vaastu-planned with a puja niche, servant quarters and well-considered utility spaces. Beyond the apartments, residents enjoy an on-site club and retail arcade, sports courts, play zones and abundant open landscape.",
+  "locationAdv": [
+   "Sector 88, a prime Mohali residential corridor",
+   "Frontage on main arterial roads",
+   "Well connected to Chandigarh and the Tricity"
+  ],
+  "architect": "",
+  "units": null,
+  "towers": 7,
+  "landArea": "",
+  "placeholder": false,
+  "hero": "assets/img/projects/noble-magnollia/hero.jpg",
+  "card": "assets/img/projects/noble-magnollia/card.jpg",
+  "gallery": [
+   "assets/img/projects/noble-magnollia/g1.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/noble-magnollia/fp1.jpg",
+   "assets/img/projects/noble-magnollia/fp2.jpg",
+   "assets/img/projects/noble-magnollia/fp3.jpg",
+   "assets/img/projects/noble-magnollia/fp4.jpg",
+   "assets/img/projects/noble-magnollia/fp5.jpg",
+   "assets/img/projects/noble-magnollia/fp6.jpg",
+   "assets/img/projects/noble-magnollia/fp7.jpg"
+  ],
+  "commercialType": null,
+  "sources": [],
+  "confidence": "high",
+  "brochure": "assets/brochures/noble-magnollia.pdf"
+ },
+ {
+  "id": 38,
+  "slug": "noble-aurellia",
+  "coords": [
+   30.667,
+   76.713
+  ],
+  "featured": true,
+  "name": "Noble Aurellia",
+  "tagline": "Abode of Happiness",
+  "developer": "Noble Ventures (with CRA Buildtech)",
+  "city": "Mohali",
+  "location": "Sector 88, Mohali (S.A.S. Nagar)",
+  "rera": [
+   "PBRERA-SAS81-PR1136"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Under Construction",
+  "configShort": "3 BHK",
+  "configs": [
+   {
+    "type": "3 BHK (Tower A1 & A2)",
+    "super_area_sqft": "2651",
+    "carpet_area_sqft": "1489"
+   },
+   {
+    "type": "3 BHK + S (Tower B1 & B2)",
+    "super_area_sqft": "2901",
+    "carpet_area_sqft": "1555"
+   },
+   {
+    "type": "3 BHK Penthouse",
+    "super_area_sqft": "5302",
+    "carpet_area_sqft": "2975"
+   },
+   {
+    "type": "3 BHK + S Penthouse",
+    "super_area_sqft": "5782",
+    "carpet_area_sqft": "3110"
+   }
+  ],
+  "bhk": [
+   3
+  ],
+  "price": "Price on Request",
+  "sizeRange": "2651 - 5782 sq.ft.",
+  "sizeMin": 2651,
+  "sizeMax": 5782,
+  "highlights": [
+   "Exclusive high-rise residences in a resort-style setting",
+   "Four curved towers fronting a central urban park",
+   "Non-linear design that maximises open space and privacy",
+   "Panoramic views of the Central Aquatic Green",
+   "3 BHK and 3 BHK + Servant homes plus duplex penthouses",
+   "Grand sculptural arrival gateway and porte-cochere",
+   "Resort-style swimming pool with sun deck",
+   "On-site retail high street"
+  ],
+  "amenities": [
+   "Resort-style swimming pool with deck",
+   "Grand clubhouse with double-height lobby",
+   "Central green with aquatic water features",
+   "Walking trails",
+   "Tennis court",
+   "Sports courts",
+   "Children's play area",
+   "Open-air amphitheatre",
+   "Retail high street",
+   "Grand entrance gateway",
+   "24x7 security",
+   "High-speed lifts",
+   "Power backup"
+  ],
+  "specs": {
+   "Structure": "RCC framed high-rise designed for seismic safety",
+   "Flooring": "Premium marble / large-format vitrified tiles in living and bedrooms",
+   "Kitchen": "Modular kitchen with stone counter and marble dado, provision for premium appliances",
+   "Air Conditioning": "VRV/VRF air-conditioning",
+   "Security": "24x7 controlled entry/exit with high-speed passenger and fire lifts"
+  },
+  "about": "Noble Aurellia is a collection of exclusive high-rise residences conceived as a resort-style retreat in the heart of Sector 88, Mohali. Developed by Noble Ventures with CRA Buildtech, four stylish towers front a landscaped urban park, offering a stunning panorama of the Central Aquatic Green. Breaking from the conventional linear layout, the towers are curved and angled away from one another to maximise open space, frame uninterrupted views and heighten privacy.\n\nHomes are offered as expansive 3 BHK and 3 BHK with servant configurations, scaling up to duplex penthouses, with super areas from 2,651 to 5,782 sq.ft. Interiors are finished in a warm, quiet-luxury palette of marble, fluted woodwork and layered lighting, while wide balconies extend the living spaces toward the greens.\n\nResidents enjoy resort-style amenities anchored by a sculptural clubhouse, a pool with sun deck, water channels, sports courts and landscaped gathering spaces, with an on-site retail high street. Positioned on a main arterial road with direct access to the Tricity, Noble Aurellia pairs an elevated lifestyle with everyday convenience.",
+  "locationAdv": [
+   "Sector 88 with main-road frontage and excellent connectivity",
+   "Close to Aerocity, IT City and the Mohali grid",
+   "Convenient access to Chandigarh International Airport",
+   "Near reputed schools and Tricity hospitals"
+  ],
+  "architect": "",
+  "units": null,
+  "towers": 4,
+  "landArea": "",
+  "placeholder": false,
+  "hero": "assets/img/projects/noble-aurellia/hero.jpg",
+  "card": "assets/img/projects/noble-aurellia/card.jpg",
+  "gallery": [
+   "assets/img/projects/noble-aurellia/g1.jpg",
+   "assets/img/projects/noble-aurellia/g2.jpg",
+   "assets/img/projects/noble-aurellia/g3.jpg",
+   "assets/img/projects/noble-aurellia/g4.jpg",
+   "assets/img/projects/noble-aurellia/g5.jpg",
+   "assets/img/projects/noble-aurellia/g6.jpg",
+   "assets/img/projects/noble-aurellia/g7.jpg",
+   "assets/img/projects/noble-aurellia/g8.jpg",
+   "assets/img/projects/noble-aurellia/g9.jpg",
+   "assets/img/projects/noble-aurellia/g10.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/noble-aurellia/fp1.jpg",
+   "assets/img/projects/noble-aurellia/fp2.jpg",
+   "assets/img/projects/noble-aurellia/fp3.jpg",
+   "assets/img/projects/noble-aurellia/fp4.jpg",
+   "assets/img/projects/noble-aurellia/fp5.jpg",
+   "assets/img/projects/noble-aurellia/fp6.jpg",
+   "assets/img/projects/noble-aurellia/fp7.jpg",
+   "assets/img/projects/noble-aurellia/fp8.jpg",
+   "assets/img/projects/noble-aurellia/fp9.jpg"
+  ],
+  "commercialType": null,
+  "sources": [],
+  "confidence": "high",
+  "brochure": "assets/brochures/noble-aurellia.pdf"
+ },
+ {
+  "id": 39,
+  "slug": "uptown-skylla",
+  "coords": [
+   30.652,
+   76.802
+  ],
+  "featured": false,
+  "name": "Uptown Skylla",
+  "tagline": "Epitome of Exclusivity",
+  "developer": "Artique Infratech",
+  "city": "Zirakpur",
+  "location": "PR-7, 200 ft Airport Road, Zirakpur",
+  "rera": [
+   "PBRERA-SAS79-PR0546"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "",
+  "configShort": "2 BHK, 3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "2 BHK",
+    "super_area_sqft": "1220",
+    "carpet_area_sqft": "797"
+   },
+   {
+    "type": "3 BHK Executive",
+    "super_area_sqft": "1420",
+    "carpet_area_sqft": "989"
+   },
+   {
+    "type": "3 BHK Premium",
+    "super_area_sqft": "1505",
+    "carpet_area_sqft": "1130"
+   },
+   {
+    "type": "3 BHK Grande",
+    "super_area_sqft": "1665",
+    "carpet_area_sqft": "1247"
+   },
+   {
+    "type": "3 BHK + Utility",
+    "super_area_sqft": "2020",
+    "carpet_area_sqft": "1320"
+   },
+   {
+    "type": "4 BHK + Utility",
+    "super_area_sqft": "2505",
+    "carpet_area_sqft": "1790"
+   }
+  ],
+  "bhk": [
+   2,
+   3,
+   4
+  ],
+  "price": "Price on Request",
+  "sizeRange": "1220 - 2505 sq.ft.",
+  "sizeMin": 1220,
+  "sizeMax": 2505,
+  "highlights": [
+   "IGBC Gold-certified development",
+   "Directly on PR-7, 200 ft Airport Road, Zirakpur",
+   "RCC earthquake-resistant frame, vetted by IIT Roorkee",
+   "2, 3 & 4 BHK with a choice of 6 layouts",
+   "Club Skylla \u2014 on-site clubhouse with pool & gym",
+   "Gated society with 24x7 CCTV surveillance",
+   "Landscaped parks, courtyards and fountain gardens"
+  ],
+  "amenities": [
+   "Club House (Club Skylla)",
+   "Swimming Pool",
+   "Air-Conditioned Gymnasium",
+   "Multi-Purpose Party Hall",
+   "Indoor Games",
+   "Open Air Amphitheatre",
+   "Jogging Track",
+   "Meditation Area",
+   "Basketball Court",
+   "Kids Play Area",
+   "2 Central Parks",
+   "Water Bodies & Fountains",
+   "Convenience Stores",
+   "24x7 CCTV & Manned Security",
+   "Power Backup",
+   "Rain Water Harvesting",
+   "Reserved & Guest Parking"
+  ],
+  "specs": {
+   "Structure": "RCC earthquake-resistant frame, vetted from IIT Roorkee",
+   "Flooring": "Vitrified tile flooring; anti-skid premium tiles in washrooms",
+   "Kitchen": "Semi-modular kitchen with double-bowl sink; granite counter; premium tiles 2 ft above counter",
+   "Security": "Gated society with 24x7 CCTV surveillance & manned security",
+   "Power Backup": "Adequate water supply & power backup"
+  },
+  "about": "Uptown Skylla by Artique Infratech redefines luxury living in the heart of the Tricity. Located directly on PR-7, the 200 ft Airport Road in Zirakpur, this highrise community places residents within easy reach of Chandigarh, Mohali and Panchkula, alongside leading schools, hospitals, malls and the airport.\n\nThe development offers a thoughtfully curated mix of 2, 3 and 4 BHK apartments across six layouts, from 1220 to 2505 sq.ft. Homes draw in natural light and courtyard views, with integrated kitchens and ample storage. On-site, Club Skylla adds a pool, air-conditioned gym, indoor games and a party hall.\n\nAn IGBC Gold-certified community built on an RCC earthquake-resistant frame vetted from IIT Roorkee, Uptown Skylla pairs premium living with jogging tracks, an amphitheatre, water bodies and fountain gardens \u2014 all within a secured, gated society monitored round the clock.",
+  "locationAdv": [
+   "Directly on PR-7, 200 ft Airport Road, Zirakpur",
+   "2 min: St Xavier's International School, INOX, Decathlon, D-Mart",
+   "10 min: Chandigarh International Airport, Elante Mall, IT City, IISER",
+   "20 min: Fortis Hospital, PGI, Punjab University, Sukhna Lake"
+  ],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "placeholder": false,
+  "hero": "assets/img/projects/uptown-skylla/hero.jpg",
+  "card": "assets/img/projects/uptown-skylla/card.jpg",
+  "gallery": [
+   "assets/img/projects/uptown-skylla/g1.jpg",
+   "assets/img/projects/uptown-skylla/g2.jpg",
+   "assets/img/projects/uptown-skylla/g3.jpg",
+   "assets/img/projects/uptown-skylla/g4.jpg",
+   "assets/img/projects/uptown-skylla/g5.jpg",
+   "assets/img/projects/uptown-skylla/g6.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/uptown-skylla/fp1.jpg",
+   "assets/img/projects/uptown-skylla/fp2.jpg",
+   "assets/img/projects/uptown-skylla/fp3.jpg"
+  ],
+  "commercialType": null,
+  "sources": [],
+  "confidence": "high",
+  "brochure": "assets/brochures/uptown-skylla.pdf"
+ },
+ {
+  "id": 40,
+  "slug": "affinity-belgravia",
+  "coords": [
+   30.612,
+   76.822
+  ],
+  "featured": true,
+  "name": "Affinity Belgravia",
+  "tagline": "Life... styled for you.",
+  "developer": "Affinity Buildtech",
+  "city": "Zirakpur",
+  "location": "NH 7, Near Airport Lights, Patiala Road (Patiala Highway), Zirakpur",
+  "rera": [
+   "PBRERA-SAS79-PR0844"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Under Construction",
+  "configShort": "3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "2150",
+    "carpet_area_sqft": "1350",
+    "price": null
+   },
+   {
+    "type": "3 BHK + Servant Room",
+    "super_area_sqft": "2650",
+    "carpet_area_sqft": "1681",
+    "price": null
+   },
+   {
+    "type": "4 BHK + Servant Room",
+    "super_area_sqft": "3380",
+    "carpet_area_sqft": "2160",
+    "price": null
+   }
+  ],
+  "bhk": [
+   3,
+   4
+  ],
+  "price": "Price on Request",
+  "sizeRange": "2150 - 3380 sq.ft. (Super Area)",
+  "sizeMin": 2150,
+  "sizeMax": 3380,
+  "highlights": [
+   "15-acre signature gated development",
+   "S+20 storeyed high-rise towers",
+   "3 BHK, 3 BHK + Servant and 4 BHK + Servant residences and penthouses",
+   "MIVAN aluminium-formwork, earthquake-resistant construction",
+   "Strategic Patiala Highway location, 5 mins from Aerocity and 15 mins from International Airport",
+   "Panoramic sun decks with views of landscaped gardens, city skyline and Shivalik Hills",
+   "Grand double-height lobby with chandeliers and high-speed premium elevators",
+   "Integrated commercial plaza with branded retail shops",
+   "Versatile clubhouse with swimming pool, gym, indoor games and banquet hall",
+   "24x7 hi-tech security with CCTV surveillance and boom-barrier access"
+  ],
+  "amenities": [
+   "Swimming pool with children's pool and poolside sundecks",
+   "Hi-tech air-conditioned gymnasium",
+   "Clubhouse with grand reception area",
+   "Indoor games room",
+   "Steam and sauna",
+   "Yoga and aerial-yoga studio",
+   "Banquet / multipurpose hall",
+   "Amphitheatre with performance area",
+   "Tennis court",
+   "Half basketball court",
+   "Indoor squash court",
+   "Badminton court",
+   "Musical jogging track",
+   "Kids' recreational park with slides and swings",
+   "Children's play equipment and separate kids' zone",
+   "Landscaped gardens with water bodies and fountains",
+   "Gazebos, pergolas and outdoor sit-out areas",
+   "Peaceful meditation garden",
+   "Senior citizens' zone",
+   "Party zone with cafeteria",
+   "Drivers' waiting area and dormitory",
+   "EV charging station",
+   "Ample paved parking",
+   "Rainwater harvesting and sewage treatment plant"
+  ],
+  "specs": {
+   "Structure": "Earthquake-resistant concrete structure using modern aluminium formwork system (MIVAN), bricks only where needed",
+   "Flooring": "Premium quality vitrified floor tiles in living/dining/bedrooms; anti-skid vitrified tiles in washrooms and balconies",
+   "Kitchen": "Premium vitrified tile flooring; premium quality tiles up to 2 ft above counters with acrylic emulsion above; wet-point provision for dishwasher and washing machine",
+   "Security": "Secured gated complex with 24x7 security, boom-barrier entry/exit, CCTV surveillance, fire fighting system, fire alarm and sprinklers",
+   "Power Backup": "Provision for split ACs with concealed electrical wiring, fire-resistant wires and adequate electrical points"
+  },
+  "about": "Affinity Belgravia is a 15-acre signature residential address by Affinity Buildtech, rising along NH 7 on the Patiala Highway in Zirakpur. Conceived for a discerning few, the development comprises S+20 storeyed towers offering expansive 3 BHK, 3 BHK with servant room and 4 BHK with servant room residences and penthouses, each crafted with floor-to-ceiling windows, branded flooring and panoramic sun decks that frame the landscaped gardens, city skyline and distant Shivalik Hills.\n\nBuilt on the modern MIVAN aluminium-formwork system for strength and precision, the project pairs architectural grandeur with everyday convenience. A grand double-height lobby, high-speed premium elevators and a richly amenitised clubhouse, the Versatile Club, anchor a lifestyle that ranges from a swimming pool, air-conditioned gymnasium and indoor games to a banquet hall, amphitheatre and a suite of sports courts. Expansive landscaping with water bodies, jogging tracks, meditation gardens and dedicated zones for children and seniors completes the experience.\n\nStrategically positioned minutes from Aerocity, the International Airport, IT City, Amity University and the region's leading malls, hospitals and schools, Affinity Belgravia also integrates a vibrant commercial plaza with branded retail. It is an address designed for those who have an affinity for quality and an uncompromising attitude towards all things fine.",
+  "locationAdv": [
+   "Aerocity - 5 mins",
+   "International Airport - 15 mins",
+   "Aero Polis - 5 mins",
+   "Amity University - 10 mins",
+   "IT City - 12 mins",
+   "D-Mart - 5 mins",
+   "ISB - 15 mins",
+   "Elante Mall - 20 mins",
+   "Dhillon Plaza - 5 mins",
+   "Best Price - 10 mins",
+   "Manav Rachna School - 10 mins",
+   "Amcare Hospital - 10 mins",
+   "Chhat Bir Zoo - minutes away",
+   "Direct access to Patiala Highway and Chandigarh-Delhi Highway"
+  ],
+  "architect": "",
+  "units": null,
+  "towers": 10,
+  "landArea": "15 acres",
+  "placeholder": false,
+  "hero": "assets/img/projects/affinity-belgravia/hero.jpg",
+  "card": "assets/img/projects/affinity-belgravia/card.jpg",
+  "gallery": [
+   "assets/img/projects/affinity-belgravia/g1.jpg",
+   "assets/img/projects/affinity-belgravia/g2.jpg",
+   "assets/img/projects/affinity-belgravia/g3.jpg",
+   "assets/img/projects/affinity-belgravia/g4.jpg",
+   "assets/img/projects/affinity-belgravia/g5.jpg",
+   "assets/img/projects/affinity-belgravia/g6.jpg",
+   "assets/img/projects/affinity-belgravia/g7.jpg",
+   "assets/img/projects/affinity-belgravia/g8.jpg",
+   "assets/img/projects/affinity-belgravia/g9.jpg",
+   "assets/img/projects/affinity-belgravia/g10.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/affinity-belgravia/fp1.jpg",
+   "assets/img/projects/affinity-belgravia/fp2.jpg",
+   "assets/img/projects/affinity-belgravia/fp3.jpg"
+  ],
+  "commercialType": null,
+  "sources": [],
+  "confidence": "high",
+  "brochure": "assets/brochures/affinity-belgravia.pdf"
+ },
+ {
+  "id": 41,
+  "slug": "green-lotus-utsav",
+  "coords": [
+   30.648,
+   76.805
+  ],
+  "featured": false,
+  "name": "Green Lotus Utsav",
+  "tagline": "Where life is a celebration",
+  "developer": "Maya Estate (Green Lotus)",
+  "city": "Zirakpur",
+  "location": "International Airport Road, Zirakpur, Distt. Mohali",
+  "rera": [
+   "PBRERA-SAS79-PR0425"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "",
+  "configShort": "3 BHK, 4 BHK, 5 BHK & 6 BHK",
+  "configs": [
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "2100",
+    "carpet_area_sqft": "1110"
+   },
+   {
+    "type": "3 BHK + S",
+    "super_area_sqft": "2525",
+    "carpet_area_sqft": "1346"
+   },
+   {
+    "type": "4 BHK",
+    "super_area_sqft": "3150",
+    "carpet_area_sqft": "1741"
+   },
+   {
+    "type": "5 BHK + S",
+    "super_area_sqft": "3785",
+    "carpet_area_sqft": "2233"
+   },
+   {
+    "type": "5 BHK Duplex",
+    "super_area_sqft": "5750",
+    "carpet_area_sqft": "3323"
+   },
+   {
+    "type": "6 BHK Duplex Penthouse",
+    "super_area_sqft": "9945",
+    "carpet_area_sqft": "4069"
+   }
+  ],
+  "bhk": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "price": "Price on Request",
+  "sizeRange": "2100 - 9945 sq.ft.",
+  "sizeMin": 2100,
+  "sizeMax": 9945,
+  "highlights": [
+   "IGBC Pre-Certified Platinum rated green project",
+   "Green residences on International Airport Road, Zirakpur",
+   "International Airport just 7 minutes away",
+   "20-30% lower energy costs; 30-40% lower water usage",
+   "3 to 6 BHK homes, duplexes, penthouses and shops",
+   "Penthouses with private green terraces and splash pools",
+   "The Green Club with extensive clubhouse facilities",
+   "By Green Lotus, the region's dedicated green project company"
+  ],
+  "amenities": [
+   "The Green Club clubhouse",
+   "Cafe & Lounge",
+   "All-season indoor Swimming Pool",
+   "Gymnasium",
+   "Badminton Court",
+   "Squash Court",
+   "Lawn Tennis",
+   "Billiards & Games Room",
+   "Library",
+   "Guest Rooms",
+   "Landscaped green terraces",
+   "Basement parking",
+   "EV charging points",
+   "Rain water harvesting",
+   "Waste water treatment & reuse"
+  ],
+  "specs": {
+   "Structure": "Green-rated RCC construction with FSC-certified wood & low-VOC paints",
+   "Flooring": "Vitrified tiles; anti-skid tiles in bathrooms; granite in common corridors",
+   "Kitchen": "Modular kitchen with granite slab, glazed tile dado, chimney & hob",
+   "Security": "Gated society with video calling phone & digital door locks",
+   "Power Backup": "7.5 - 12.5 KVA paid power backup per apartment category"
+  },
+  "about": "Green Lotus Utsav is a premium IGBC pre-certified Platinum rated residential development by Maya Estate, on International Airport Road in Zirakpur. Conceived under the belief that life should be celebrated, Utsav brings together spacious 3, 4 and 5 BHK apartments, expansive duplexes and lavish penthouses, alongside retail shops, in a thoughtfully planned green community by Green Lotus \u2014 the region's dedicated green project company.\n\nEvery home is designed for optimised sunshine, fresh-air circulation and resource efficiency, delivering a projected 20-30% reduction in energy costs and a 30-40% cut in water usage. Sustainability is built in \u2014 rain water harvesting, waste water reuse, FSC-certified wood, low-VOC paints, EV charging and energy-efficient systems. Interiors are finished with vitrified flooring, modular kitchens with granite slabs, branded sanitaryware and a comprehensive package of premium appliances.\n\nAt the heart of the community is The Green Club \u2014 an all-season pool, gym, badminton, squash and tennis courts, billiards and games room, cafe, library and guest rooms. Upper-category homes extend the celebration outdoors with private terraces, deck areas and splash pools. With the airport seven minutes away and seamless Tricity connectivity, Green Lotus Utsav blends green living with everyday convenience.",
+  "locationAdv": [
+   "International Airport - 7 mins",
+   "Inox Cinemas - 3 mins",
+   "Paras Downtown Mall - 5 mins",
+   "IT City Mohali - 10 mins",
+   "Elante Mall - 15 mins",
+   "Fortis Mohali - 15 mins",
+   "Upcoming Amity University - 8 mins"
+  ],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "placeholder": false,
+  "hero": "assets/img/projects/green-lotus-utsav/hero.jpg",
+  "card": "assets/img/projects/green-lotus-utsav/card.jpg",
+  "gallery": [
+   "assets/img/projects/green-lotus-utsav/g1.jpg",
+   "assets/img/projects/green-lotus-utsav/g2.jpg",
+   "assets/img/projects/green-lotus-utsav/g3.jpg",
+   "assets/img/projects/green-lotus-utsav/g4.jpg",
+   "assets/img/projects/green-lotus-utsav/g5.jpg",
+   "assets/img/projects/green-lotus-utsav/g6.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/green-lotus-utsav/fp1.jpg",
+   "assets/img/projects/green-lotus-utsav/fp2.jpg",
+   "assets/img/projects/green-lotus-utsav/fp3.jpg",
+   "assets/img/projects/green-lotus-utsav/fp4.jpg",
+   "assets/img/projects/green-lotus-utsav/fp5.jpg",
+   "assets/img/projects/green-lotus-utsav/fp6.jpg",
+   "assets/img/projects/green-lotus-utsav/fp7.jpg"
+  ],
+  "commercialType": null,
+  "sources": [],
+  "confidence": "high",
+  "brochure": "assets/brochures/green-lotus-utsav.pdf"
+ },
+ {
+  "id": 42,
+  "slug": "escon-primera",
+  "coords": [
+   30.658,
+   76.808
+  ],
+  "featured": true,
+  "name": "Escon Primera",
+  "tagline": "Defining the Skyline of Tricity",
+  "developer": "Malwa Developers",
+  "city": "Mohali",
+  "location": "International Airport Road, District Mohali, Tricity",
+  "rera": [
+   "PBRERA-SAS79-PR0529",
+   "PBRERA-SAS79-PR0852"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Under Construction",
+  "configShort": "1 BHK, 2 BHK & 3 BHK",
+  "configs": [
+   {
+    "type": "2 BHK",
+    "super_area_sqft": ""
+   },
+   {
+    "type": "3 BHK (Phase 1)",
+    "super_area_sqft": "1550"
+   },
+   {
+    "type": "3 BHK (Phase 2)",
+    "super_area_sqft": "2050"
+   },
+   {
+    "type": "3+1 BHK",
+    "super_area_sqft": "2450"
+   }
+  ],
+  "bhk": [
+   2,
+   3
+  ],
+  "price": "Price on Request",
+  "sizeRange": "1550 - 2450 sq.ft.",
+  "sizeMin": 1550,
+  "sizeMax": 2450,
+  "highlights": [
+   "Zero-debt, zero-litigation developer with a 41+ year track record",
+   "21 acres of fully registered land bank in the developer's name",
+   "State-of-the-art MIVAN aluminium-formwork construction",
+   "440+ homes across high-rise towers up to 17+ floors",
+   "Just 5 minutes from Chandigarh International Airport",
+   "5 acres of open green area within the gated development",
+   "Escon Culture \u2014 The Club, a dedicated lifestyle clubhouse",
+   "4-tier security with 880+ dedicated parking spaces"
+  ],
+  "amenities": [
+   "Escon Culture \u2014 The Club",
+   "Gymnasium",
+   "Swimming pool",
+   "Steam room",
+   "Banquet hall",
+   "In-house cafe",
+   "Mini-theatre",
+   "Basketball court",
+   "Cricket pitch",
+   "Tennis court",
+   "Skating rink",
+   "Golf putting area",
+   "Kids play area",
+   "Cycle track",
+   "5 acres open green area",
+   "Biometric access elevators",
+   "4-tier security",
+   "EV charging station",
+   "Rainwater harvesting",
+   "Commercial shops within the complex"
+  ],
+  "specs": {
+   "Structure": "Monolithic RCC with MIVAN aluminium formwork \u2014 crack-proof, earthquake-resistant, seepage-proof",
+   "Kitchen": "Provision for working counter, cooking range, refrigerator and veggie-wash; utility for washing machine",
+   "Security": "4-tier security, biometric & RFID tower access, automatic boom barriers, guards in every tower"
+  },
+  "about": "Escon Primera is a landmark high-rise residential development by Malwa Developers, rising along the International Airport Road in District Mohali at the heart of the Tricity. Conceived to define the skyline of Tricity, it brings together 440+ intricately designed homes across towers reaching 17 or more floors, set within 5 acres of open green and anchored by Escon Culture \u2014 The Club. Configurations span 2 and 3 BHK residences (1550 and 2050 sq.ft.) alongside expansive 2450 sq.ft. 3+1 BHK homes, each crafted for efficient, Vastu-compliant living.\n\nWhat sets it apart is the assurance behind it: Malwa Developers is a single-family firm with a 41-year track record and a debt-free, dispute-free history, and the complete 21-acre land bank is fully registered in the developer's name. Every home is built using MIVAN aluminium-formwork technology, producing a monolithic structure engineered for smoother finishes, greater wall strength and superior resistance to seepage and seismic stress.\n\nResidents enjoy a gymnasium, swimming pool, steam room, banquet hall, cafe and mini-theatre, complemented by basketball, tennis and cricket facilities, a skating rink, golf putting area and children's zones. With four-tier security, biometric and RFID access, EV charging, rainwater harvesting and 880+ parking spaces, Escon Primera is a future-ready address five minutes from the airport.",
+  "locationAdv": [
+   "Chandigarh International Airport - 5 mins",
+   "Cosmo Mall & D-Mart, Zirakpur - 5 mins",
+   "Upcoming Amity University - 10 mins",
+   "Fortis Hospital & GMCH-32 - 20 mins",
+   "Direct access to the 200 ft PR-7 road and NH-22"
+  ],
+  "architect": "",
+  "units": 440,
+  "towers": 9,
+  "landArea": "21 acres",
+  "placeholder": false,
+  "hero": "assets/img/projects/escon-primera/hero.jpg",
+  "card": "assets/img/projects/escon-primera/card.jpg",
+  "gallery": [
+   "assets/img/projects/escon-primera/g1.jpg",
+   "assets/img/projects/escon-primera/g2.jpg",
+   "assets/img/projects/escon-primera/g3.jpg",
+   "assets/img/projects/escon-primera/g4.jpg",
+   "assets/img/projects/escon-primera/g5.jpg",
+   "assets/img/projects/escon-primera/g6.jpg",
+   "assets/img/projects/escon-primera/g7.jpg",
+   "assets/img/projects/escon-primera/g8.jpg",
+   "assets/img/projects/escon-primera/g9.jpg",
+   "assets/img/projects/escon-primera/g10.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/escon-primera/fp1.jpg",
+   "assets/img/projects/escon-primera/fp2.jpg",
+   "assets/img/projects/escon-primera/fp3.jpg",
+   "assets/img/projects/escon-primera/fp4.jpg",
+   "assets/img/projects/escon-primera/fp5.jpg",
+   "assets/img/projects/escon-primera/fp6.jpg"
+  ],
+  "commercialType": null,
+  "sources": [],
+  "confidence": "high",
+  "brochure": "assets/brochures/escon-primera.pdf"
  }
 ]

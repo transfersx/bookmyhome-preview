@@ -13,6 +13,19 @@
   "pdf": "assets/maps/pdf/m6.pdf"
  },
  {
+  "id": "omaxe",
+  "title": "Omaxe Township Master Plan",
+  "sub": "New Chandigarh \u00b7 Parts A\u2013F",
+  "area": "New Chandigarh",
+  "pages": 1,
+  "note": "The full Omaxe New Chandigarh township layout across Parts A\u2013F \u2014 residential, commercial and institutional pockets.",
+  "images": [
+   "assets/maps/omaxe_1.jpg"
+  ],
+  "thumb": "assets/maps/thumb/omaxe_1.jpg",
+  "pdf": "assets/maps/pdf/omaxe.pdf"
+ },
+ {
   "id": "m1",
   "title": "IT City \u2014 Sector 82A Alpha",
   "sub": "GMADA plotted sectors \u00b7 Mohali",
