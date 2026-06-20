@@ -14,6 +14,8 @@
         <a href="listings.html?status=Ready">Ready to move</a>
         <a href="listings.html?type=Penthouses">Luxury collection</a>
         <a href="compare.html">Compare homes</a>
+        <a href="maps.html">Plot maps</a>
+        <a href="partner.html">Partner &amp; Refer &amp; Earn</a>
         <a href="shortlist.html">My shortlist</a>
       </div>
       <div>

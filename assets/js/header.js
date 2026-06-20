@@ -11,6 +11,7 @@
   const onCom     = (path==='listings.html' && cat==='Commercial');
   const onMaps    = (path==='maps.html');
   const onExplore = (path==='explore.html');
+  const onPartner = (path==='partner.html');
   const A=(c)=>c?' style="color:var(--brand)"':'';
   mount.innerHTML=`
   <header class="site-header">
@@ -22,6 +23,7 @@
         <a href="listings.html?category=Plots"${A(onPlots)}>Plots</a>
         <a href="listings.html?category=Commercial"${A(onCom)}>Commercial</a>
         <a href="maps.html"${A(onMaps)}>Maps</a>
+        <a href="partner.html"${A(onPartner)}>Partner</a>
       </nav>
       <div class="nav-actions">
         <a href="shortlist.html" class="icon-btn" aria-label="Shortlist">
@@ -47,6 +49,7 @@
       <a href="listings.html?category=Plots"><span>Plots</span></a>
       <a href="listings.html?category=Commercial"><span>Commercial · Invest</span></a>
       <a href="maps.html"><span>Maps &amp; plot layouts</span></a>
+      <a href="partner.html"><span>Partner with us — Refer &amp; Earn</span></a>
       <a href="index.html#matcher" data-close><span>Find My Home</span></a>
       <a href="shortlist.html"><span>My Shortlist</span></a>
       <a href="compare.html"><span>Compare</span></a>
