@@ -386,6 +386,8 @@ input[type=range]{width:100%;accent-color:var(--brand)}
 .empty{text-align:center;padding:60px 20px;color:var(--muted)}
 .empty svg{color:var(--line-2);margin-bottom:14px}
 .hide{display:none!important}
+.hide-sm{display:none}
+@media(min-width:680px){.hide-sm{display:inline-flex}}
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(120%);background:var(--ink);color:#fff;padding:13px 22px;border-radius:999px;font-size:.9rem;font-weight:500;z-index:130;transition:.3s;box-shadow:var(--shadow-lg)}
 .toast.show{transform:translateX(-50%)}
 .skeleton{background:linear-gradient(90deg,var(--cream-2),var(--line),var(--cream-2));background-size:200% 100%;animation:sh 1.3s infinite}
