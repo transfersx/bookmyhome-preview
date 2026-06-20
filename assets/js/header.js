@@ -6,8 +6,10 @@
   const path=location.pathname.split('/').pop();
   const cat=params.get('category')||'';
   // active states
-  const onHomes   = (path==='listings.html' && cat!=='Commercial');
+  const onHomes   = (path==='listings.html' && cat!=='Commercial' && cat!=='Plots');
+  const onPlots   = (path==='listings.html' && cat==='Plots');
   const onCom     = (path==='listings.html' && cat==='Commercial');
+  const onMaps    = (path==='maps.html');
   const A=(c)=>c?' style="color:var(--brand)"':'';
   mount.innerHTML=`
   <header class="site-header">
@@ -15,10 +17,10 @@
       <a class="brand" href="index.html"><img src="assets/img/logo.jpg" alt="Book My Home"></a>
       <nav class="nav-links">
         <a href="listings.html?category=Residential"${A(onHomes)}>Homes</a>
+        <a href="listings.html?category=Plots"${A(onPlots)}>Plots</a>
         <a href="listings.html?category=Commercial"${A(onCom)}>Commercial</a>
-        <a href="listings.html">All properties</a>
+        <a href="maps.html"${A(onMaps)}>Maps</a>
         <a href="index.html#matcher">Find My Home</a>
-        <a href="index.html#contact">Contact</a>
       </nav>
       <div class="nav-actions">
         <a href="shortlist.html" class="icon-btn" aria-label="Shortlist">
@@ -40,8 +42,9 @@
         <button class="icon-btn" data-close aria-label="Close">✕</button>
       </div>
       <a href="listings.html?category=Residential"><span>Homes</span></a>
+      <a href="listings.html?category=Plots"><span>Plots</span></a>
       <a href="listings.html?category=Commercial"><span>Commercial · Invest</span></a>
-      <a href="listings.html"><span>All properties</span></a>
+      <a href="maps.html"><span>Maps &amp; plot layouts</span></a>
       <a href="index.html#matcher" data-close><span>Find My Home</span></a>
       <a href="shortlist.html"><span>My Shortlist</span></a>
       <a href="compare.html"><span>Compare</span></a>

@@ -1,0 +1,72 @@
+[
+ {
+  "id": "m6",
+  "title": "Tricity Master Plan",
+  "sub": "Chandigarh \u00b7 Mohali \u00b7 Panchkula \u00b7 Zirakpur",
+  "area": "Tricity",
+  "pages": 1,
+  "note": "The complete Tricity layout \u2014 sectors, roads, airport & landmarks. Great for getting your bearings before a plot hunt.",
+  "images": [
+   "assets/maps/m6_1.jpg"
+  ],
+  "thumb": "assets/maps/thumb/m6_1.jpg",
+  "pdf": "assets/maps/pdf/m6.pdf"
+ },
+ {
+  "id": "m1",
+  "title": "IT City \u2014 Sector 82A Alpha",
+  "sub": "GMADA plotted sectors \u00b7 Mohali",
+  "area": "Mohali",
+  "pages": 1,
+  "note": "Block-wise residential & commercial plots (33'\u00d779', 50'\u00d790', 40'\u00d790'), with Amity University and Marbella Grand marked.",
+  "images": [
+   "assets/maps/m1_1.jpg"
+  ],
+  "thumb": "assets/maps/thumb/m1_1.jpg",
+  "pdf": "assets/maps/pdf/m1.pdf"
+ },
+ {
+  "id": "m4",
+  "title": "Sector 66 Plotted Layout \u2014 Vandan Group",
+  "sub": "Plots in Marla & Kanal \u00b7 Greater Mohali",
+  "area": "Mohali",
+  "pages": 5,
+  "note": "Block-wise plot layout adjoining Sector 66, with group-housing & reserved pockets.",
+  "images": [
+   "assets/maps/m4_1.jpg",
+   "assets/maps/m4_2.jpg",
+   "assets/maps/m4_3.jpg",
+   "assets/maps/m4_4.jpg",
+   "assets/maps/m4_5.jpg"
+  ],
+  "thumb": "assets/maps/thumb/m4_1.jpg",
+  "pdf": "assets/maps/pdf/m4.pdf"
+ },
+ {
+  "id": "m2",
+  "title": "Greater Mohali Plotted Township",
+  "sub": "Sector blocks A\u2013D \u00b7 commercial pockets",
+  "area": "Mohali",
+  "pages": 2,
+  "note": "Marla-plot blocks with commercial areas, schools, sports complex & community centre.",
+  "images": [
+   "assets/maps/m2_1.jpg",
+   "assets/maps/m2_2.jpg"
+  ],
+  "thumb": "assets/maps/thumb/m2_1.jpg",
+  "pdf": "assets/maps/pdf/m2.pdf"
+ },
+ {
+  "id": "m3",
+  "title": "Kharar\u2013Rurka Sector Plot Map",
+  "sub": "Group housing & residential plots",
+  "area": "Kharar",
+  "pages": 1,
+  "note": "Plotted sectors near Rurka with group-housing pockets (Ambika Realcon) and 30'\u00d760' / 36'\u00d775' plots.",
+  "images": [
+   "assets/maps/m3_1.jpg"
+  ],
+  "thumb": "assets/maps/thumb/m3_1.jpg",
+  "pdf": "assets/maps/pdf/m3.pdf"
+ }
+]

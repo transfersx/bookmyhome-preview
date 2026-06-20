@@ -21,7 +21,7 @@ if(imgs.length===0){
     <div style="width:66px;height:66px;border-radius:18px;display:grid;place-items:center;background:${icbg};color:${icc}">${isCom?window.BMH.I.store:window.BMH.I.building}</div>
     <span style="font-family:var(--serif);font-weight:600;font-size:1.5rem">${p.name}</span>
     <small style="text-transform:uppercase;letter-spacing:.12em;opacity:.7;font-size:.72rem">Photos &amp; brochure on request</small>
-    <button class="btn ${isCom?'btn-accent':'btn-primary'} btn-sm" data-enq style="margin-top:4px">Request brochure</button>
+    <button class="btn ${isCom?'btn-accent':'btn-primary'} btn-sm" data-brochure style="margin-top:4px">${p.brochure?'Download brochure':'Request brochure'}</button>
   </div>`;
 }else if(imgs.length>=3){
   gEl.innerHTML=`
@@ -121,6 +121,7 @@ $('#enquireCard').innerHTML=`
   <div class="price"><b>${window.BMH.shortPrice(p.price)}</b><span>${p.configShort} · ${sizeTxt}${p.placeholder&&p.price!=='Price on Request'?' · indicative':''}</span></div>
   ${p.price&&!/request/i.test(p.price)&&p.price.length>22?`<p style="font-size:.78rem;color:var(--muted);margin-top:-6px">${p.price}</p>`:''}
   <button class="btn btn-primary btn-block" data-enq>Get exact price</button>
+  <button class="btn btn-dark btn-block" data-brochure>${p.brochure?'Download brochure (PDF)':'Request brochure'}</button>
   <button class="btn btn-ghost btn-block" data-enq data-visit>Schedule a site visit</button>
   <div style="display:flex;gap:10px">
     <button class="btn btn-ghost btn-sm" id="favBtn" style="flex:1" data-fav="${p.id}">${window.BMH.I.heart} Save</button>
@@ -246,4 +247,29 @@ $('#enqForm').addEventListener('submit',e=>{
   toast('Thank you — an advisor will call you about '+p.name);
 });
 $('#waFab').href=`https://wa.me/919888268882?text=${encodeURIComponent("Hi Book My Home, I'm interested in "+p.name+" ("+p.location.split(',')[0]+"). Please share pricing & availability.")}`;
+
+/* ---------- email-gated brochure download ---------- */
+const broModal=$('#brochureModal');
+$('#broTitle').textContent='Brochure · '+p.name;
+document.addEventListener('click',e=>{
+  if(e.target.closest('[data-brochure]')){
+    e.preventDefault();
+    $('#broForm').classList.remove('hide');$('#broDone').classList.add('hide');$('#broDownload').classList.add('hide');
+    broModal.classList.add('open');
+  }
+  if(e.target.matches('[data-bro-close]'))broModal.classList.remove('open');
+});
+$('#broForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const lead={...Object.fromEntries(new FormData(e.target)),project:p.name,intent:'brochure',at:Date.now()};
+  const leads=JSON.parse(localStorage.getItem('bmh_leads')||'[]');leads.push(lead);localStorage.setItem('bmh_leads',JSON.stringify(leads));
+  $('#broForm').classList.add('hide');$('#broDone').classList.remove('hide');
+  if(p.brochure){
+    $('#broDoneMsg').textContent='Thanks! Your brochure for '+p.name+' is ready.';
+    const dl=$('#broDownload');dl.href=p.brochure;dl.setAttribute('download',(p.slug||'brochure')+'.pdf');dl.classList.remove('hide');
+    window.open(p.brochure,'_blank');
+  }else{
+    $('#broDoneMsg').textContent='Thank you — our advisor will email the '+p.name+' brochure to you shortly.';
+  }
+});
 })();

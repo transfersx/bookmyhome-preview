@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Plot Maps & Tricity Master Plan — Book My Home</title>
+<meta name="description" content="View or download GMADA sector maps, the Tricity master plan and developer plot layouts across Mohali, New Chandigarh & Zirakpur.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="icon" href="assets/img/logo.jpg">
+</head>
+<body>
+<div id="hdr"></div>
+
+<section class="listing-top">
+  <div class="wrap">
+    <span class="eyebrow">Plot sales · Tricity</span>
+    <h1>Maps &amp; plot layouts</h1>
+    <p style="color:var(--muted);margin-top:8px;max-width:60ch">View or download GMADA sector maps, the full Tricity master plan and developer plot layouts — handy when you just want the lay of the land before a plot hunt.</p>
+  </div>
+</section>
+
+<div class="wrap section" style="padding-top:30px">
+  <div class="grid cards" id="mapsGrid"></div>
+
+  <div style="margin-top:40px;background:linear-gradient(140deg,#241b18,#3a2c26);color:#fff;border-radius:var(--radius-lg);padding:36px 26px;display:grid;gap:18px" class="reveal">
+    <div style="max-width:560px">
+      <span class="eyebrow" style="color:var(--gold)">Buying a plot?</span>
+      <h2 style="color:#fff;font-size:clamp(1.5rem,4.5vw,2.2rem);margin:8px 0">Tell us the sector — we'll find the plot.</h2>
+      <p style="color:rgba(255,255,255,.72)">Share the map, block or sector you like and a Book My Home advisor will check live availability, pricing and resale plots, then take you to see them.</p>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <a href="index.html#contact" class="btn btn-accent">Enquire about a plot</a>
+      <a href="https://wa.me/919888268882?text=Hi%20Book%20My%20Home%2C%20I'm%20looking%20for%20a%20plot%20in%20Tricity" target="_blank" rel="noopener" class="btn btn-ghost" style="background:transparent;color:#fff;border-color:rgba(255,255,255,.3)">WhatsApp us</a>
+    </div>
+  </div>
+</div>
+
+<footer class="footer" id="footer"></footer>
+
+<!-- map viewer lightbox -->
+<div class="lightbox" id="mapLb">
+  <button class="lb-close" data-mlb-close>✕</button>
+  <button class="lb-nav lb-prev" data-mlb-prev>‹</button>
+  <img id="mapLbImg" src="" alt="">
+  <button class="lb-nav lb-next" data-mlb-next>›</button>
+  <div id="mapLbCap" style="position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#fff;font-size:.85rem"></div>
+</div>
+
+<div class="fab">
+  <a class="wa" href="https://wa.me/919888268882" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.743-.927.235.085z"/></svg></a>
+  <button class="top" id="toTop" style="display:none" aria-label="Top"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/header.js"></script>
+<script src="assets/js/footer.js"></script>
+<script src="assets/js/maps-data.js"></script>
+<script src="assets/js/maps.js"></script>
+</body>
+</html>

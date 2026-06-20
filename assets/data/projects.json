@@ -141,7 +141,8 @@
   "placeholder": false,
   "sources": [],
   "confidence": "high",
-  "commercialType": null
+  "commercialType": null,
+  "brochure": "assets/brochures/falcon-view.pdf"
  },
  {
   "id": 2,
@@ -343,7 +344,8 @@
   "placeholder": false,
   "sources": [],
   "confidence": "high",
-  "commercialType": null
+  "commercialType": null,
+  "brochure": "assets/brochures/galaxy-heights-2.pdf"
  },
  {
   "id": 3,
@@ -491,7 +493,8 @@
   "placeholder": false,
   "sources": [],
   "confidence": "high",
-  "commercialType": null
+  "commercialType": null,
+  "brochure": "assets/brochures/noble-callista.pdf"
  },
  {
   "id": 4,
@@ -614,7 +617,8 @@
   "placeholder": false,
   "sources": [],
   "confidence": "high",
-  "commercialType": null
+  "commercialType": null,
+  "brochure": "assets/brochures/galaxy-heights.pdf"
  },
  {
   "id": 5,
@@ -625,25 +629,82 @@
   "city": "Mohali",
   "location": "Sector 88, SAS Nagar (Mohali), Punjab",
   "rera": [
-   "PBRERA-SAS81-PR1114"
+   "PBRERA-SAS81-PR1114",
+   "PBRERA-SAS81-PR0828"
   ],
   "type": "Residential Apartments",
   "status": "Under Construction",
-  "configShort": "4 BHK + Utility",
+  "configShort": "2, 3 & 4 BHK + Utility",
   "configs": [
    {
     "type": "4 BHK + Utility",
     "super_area_sqft": "3490",
     "carpet_area_sqft": "",
     "price": null
+   },
+   {
+    "type": "2 BHK",
+    "super_area_sqft": "1095",
+    "carpet_area_sqft": "691",
+    "price": null
+   },
+   {
+    "type": "2 BHK + Study",
+    "super_area_sqft": "1290",
+    "carpet_area_sqft": "824",
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "1565",
+    "carpet_area_sqft": "1032",
+    "price": null
+   },
+   {
+    "type": "3 BHK + Store + Servant",
+    "super_area_sqft": "1950",
+    "carpet_area_sqft": "1268",
+    "price": null
+   },
+   {
+    "type": "3 BHK + 3T + Utility + Store",
+    "super_area_sqft": "2085",
+    "carpet_area_sqft": "1260",
+    "price": null
+   },
+   {
+    "type": "3 BHK + 3T + Utility + Store",
+    "super_area_sqft": "1926",
+    "carpet_area_sqft": "1260",
+    "price": null
+   },
+   {
+    "type": "3 BHK + 3T + Store",
+    "super_area_sqft": "1785",
+    "carpet_area_sqft": "1158",
+    "price": null
+   },
+   {
+    "type": "3 BHK + 3T + Store",
+    "super_area_sqft": "1725",
+    "carpet_area_sqft": "1096",
+    "price": null
+   },
+   {
+    "type": "3 BHK + 3T + Store",
+    "super_area_sqft": "1661",
+    "carpet_area_sqft": "1096",
+    "price": null
    }
   ],
   "bhk": [
+   2,
+   3,
    4
   ],
   "price": "Price on Request",
-  "sizeRange": "3490 sq.ft.",
-  "sizeMin": 3490,
+  "sizeRange": "1095 - 3490 sq.ft.",
+  "sizeMin": 1095,
   "sizeMax": 3490,
   "highlights": [
    "Iconic Phase III development promoting the Parkside Life",
@@ -680,24 +741,15 @@
    "Pool table",
    "Squash court",
    "Zen garden",
-   "Tree house",
-   "Tennis court",
-   "Basketball court",
-   "Cricket pitch",
-   "Skating rink",
-   "Outdoor & open gym",
-   "Reflexology path",
-   "Community garden",
-   "Celebration & club lawns",
-   "Maze and chess board",
-   "Adjoining 4.3 acre GMADA park"
+   "Tree house"
   ],
   "specs": {
-   "Structure": "RCC framed structure; doors & windows with DGU (double glazed units)",
-   "Flooring": "Marble flooring in residences",
-   "Kitchen": "Modular kitchen with hob and chimney",
-   "Security": "Smart door locks; gated community with main entrance gate and control room",
-   "Power Backup": ""
+   "Living Room": "Vitrified tile flooring; acrylic emulsion over POP; hardwood frame designer veneer flush door",
+   "Kitchen": "Vitrified tiles; dado tile to 2 ft above counter; granite counter with SS sink; modular kitchen with chimney & hob (higher configs)",
+   "Master Toilet": "Anti-skid ceramic tiles; dado to 7 ft; granite counter, wash basin and wall-hung EWC",
+   "Windows": "UPVC 3-track frame with net shutters",
+   "Electricals": "FRLS copper wiring; modular switches; MCB & ACB",
+   "Common Areas": "Double-height entrance lobby; patterned marble/granite; two-tier security with intercom and CCTV"
   },
   "about": "Hero Homes Mohali, set in Sector 88, is the Phase III chapter of Hero Realty's flagship residential brand \u2014 an iconic development where contemporary living blends seamlessly with the serenity of nature. Conceived around the idea of the Parkside Life, the project offers spacious 4 BHK residences framed by lush green landscapes, more than 85% open spaces and uninterrupted views of the Shivalik Hills from every balcony.\n\nThe two new towers introduce 172 elevated homes, each 3,490 sq.ft., defined by marble flooring, six-foot-wide balconies, smart door locks, DGU doors and windows, and a modular kitchen with hob and chimney. Residents arrive through a majestic tower entrance into a grand double-height lobby, and enjoy an exclusive 28,934 sq.ft. recreation zone alongside a sprawling 22,500 sq.ft. clubhouse.\n\nBacked by the seven-decade legacy of Hero Enterprise and built to an IGBC Gold standard on a climate-responsive, Vastu-aligned master plan, the community pairs wellness-focused amenities \u2014 yoga terrace, business center, senior citizen e-library lounge and abundant sport and play facilities \u2014 with strong connectivity to Chandigarh, its airport and the city's key institutions. The result is a rare balance of modern convenience and natural grandeur.",
   "locationAdv": [
@@ -713,8 +765,8 @@
   ],
   "architect": "",
   "units": 172,
-  "towers": 2,
-  "landArea": "",
+  "towers": 8,
+  "landArea": "18.49 acres",
   "coords": [
    30.6655,
    76.7155
@@ -731,17 +783,26 @@
    "assets/img/projects/hero-homes-mohali/g6.jpg",
    "assets/img/projects/hero-homes-mohali/g7.jpg",
    "assets/img/projects/hero-homes-mohali/g8.jpg",
-   "assets/img/projects/hero-homes-mohali/g9.jpg"
+   "assets/img/projects/hero-homes-mohali/g9.jpg",
+   "assets/img/projects/hero-homes-mohali/g10.jpg",
+   "assets/img/projects/hero-homes-mohali/g11.jpg",
+   "assets/img/projects/hero-homes-mohali/g12.jpg"
   ],
   "floorplans": [
    "assets/img/projects/hero-homes-mohali/fp1.jpg",
-   "assets/img/projects/hero-homes-mohali/fp2.jpg"
+   "assets/img/projects/hero-homes-mohali/fp2.jpg",
+   "assets/img/projects/hero-homes-mohali/fp3.jpg",
+   "assets/img/projects/hero-homes-mohali/fp4.jpg",
+   "assets/img/projects/hero-homes-mohali/fp5.jpg",
+   "assets/img/projects/hero-homes-mohali/fp6.jpg",
+   "assets/img/projects/hero-homes-mohali/fp7.jpg"
   ],
   "category": "Residential",
   "placeholder": false,
   "sources": [],
   "confidence": "high",
-  "commercialType": null
+  "commercialType": null,
+  "brochure": "assets/brochures/hero-homes-mohali.pdf"
  },
  {
   "id": 6,
@@ -804,7 +865,8 @@
   "placeholder": false,
   "sources": [],
   "confidence": "high",
-  "commercialType": null
+  "commercialType": null,
+  "brochure": "assets/brochures/premium-residences.pdf"
  },
  {
   "id": 7,
@@ -922,7 +984,8 @@
   "placeholder": false,
   "sources": [],
   "confidence": "high",
-  "commercialType": null
+  "commercialType": null,
+  "brochure": "assets/brochures/horizon-belmond.pdf"
  },
  {
   "id": 8,
@@ -1014,7 +1077,8 @@
   "placeholder": false,
   "sources": [],
   "confidence": "high",
-  "commercialType": null
+  "commercialType": null,
+  "brochure": "assets/brochures/joy-grand.pdf"
  },
  {
   "id": 9,
@@ -1136,7 +1200,8 @@
   "placeholder": false,
   "sources": [],
   "confidence": "high",
-  "commercialType": null
+  "commercialType": null,
+  "brochure": "assets/brochures/the-medallion.pdf"
  },
  {
   "id": 10,
@@ -1211,7 +1276,8 @@
    "https://www.99acres.com/omaxe-the-lake-mullanpur-chandigarh-npxid-r58272",
    "https://www.squareyards.com/chandigarh-residential-property/omaxe-lake/9070/project"
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "brochure": ""
  },
  {
   "id": 11,
@@ -1290,7 +1356,8 @@
    "https://www.squareyards.com/chandigarh-residential-property/omaxe-cassia-floors/8997/project",
    "https://www.omaxe.com/residential-property-in-new-chandigarh/omaxe-cassia"
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "brochure": ""
  },
  {
   "id": 12,
@@ -1365,7 +1432,8 @@
    "https://www.squareyards.com/chandigarh-residential-property/omaxe-new-chandigarh/108949/project",
    "https://www.99acres.com/omaxe-new-chandigarh-mullanpur-chandigarh-npxid-r154285"
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "brochure": ""
  },
  {
   "id": 13,
@@ -1380,7 +1448,7 @@
    "PBRERA-SAS81-PC0244"
   ],
   "type": "Plots",
-  "category": "Residential",
+  "category": "Plots",
   "status": "Ready to Move",
   "configShort": "3 BHK & 4 BHK",
   "configs": [
@@ -1409,10 +1477,7 @@
     "price": null
    }
   ],
-  "bhk": [
-   3,
-   4
-  ],
+  "bhk": [],
   "price": "Independent floors \u20b980 Lakh onwards; plots \u20b91 Cr onwards",
   "sizeRange": "",
   "sizeMin": 250,
@@ -1455,7 +1520,8 @@
    "https://www.squareyards.com/chandigarh-residential-property/dlf-hyde-park/9015/project",
    "https://www.99acres.com/dlf-hyde-park-estate-mullanpur-chandigarh-npxid-r1357"
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "brochure": ""
  },
  {
   "id": 14,
@@ -1527,7 +1593,8 @@
    "https://www.newchandigarhmarbella.com/",
    "https://bnhabitat.com/project/marbella-twin-towers"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "brochure": ""
  },
  {
   "id": 15,
@@ -1609,7 +1676,8 @@
    "https://www.squareyards.com/chandigarh-residential-property/manohar-singh-palm-residency/9076/project",
    "https://www.99acres.com/manohar-palm-residency-mullanpur-chandigarh-npxid-r303083"
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "brochure": ""
  },
  {
   "id": 16,
@@ -1683,7 +1751,8 @@
    "https://apexrealty.in/the-address-new-chandigarh/",
    "http://theaddressapartments.com/"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "brochure": ""
  },
  {
   "id": 20,
@@ -1767,7 +1836,8 @@
    "https://www.squareyards.com/zirakpur-residential-property/maya-garden-city/9081/project",
    "https://www.99acres.com/maya-garden-city-zirakpur-chandigarh-npxid-r1570"
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "brochure": ""
  },
  {
   "id": 21,
@@ -1842,7 +1912,8 @@
    "https://motiaz.com/motiaz-blue-ridge",
    "https://www.squareyards.com/zirakpur-residential-property/motiaz-royal-citi/111305/project"
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "brochure": ""
  },
  {
   "id": 22,
@@ -1924,7 +1995,8 @@
    "https://www.realestateindia.com/projects/highland-park-by-aps-group-in-highland-marg-zirakpur/",
    "https://www.highlandparkhomes.in/"
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "brochure": ""
  },
  {
   "id": 24,
@@ -2006,7 +2078,8 @@
    "https://www.99acres.com/vintage-greens-zirakpur-chandigarh-npxid-r446731",
    "https://vintagegreenszirakpur.com/"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "brochure": ""
  },
  {
   "id": 25,
@@ -2079,7 +2152,8 @@
    "https://www.flatszirakpur.com/homeland-global-park-mohali/",
    "https://homelandglobalpark-mohali.com/"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "brochure": ""
  },
  {
   "id": 29,
@@ -2152,7 +2226,8 @@
    "https://omaxeworldstreetnewchandigarh.in/about/",
    "https://omaxechandigarh.in/omaxe-world-street-commercial-new-chandigarh/"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "brochure": ""
  },
  {
   "id": 30,
@@ -2222,7 +2297,8 @@
    "https://www.99acres.com/jlpl-shops-sco-and-built-up-booths-mohali-chandigarh-npxid-c670",
    "https://mypropertystore.com/jlpl-bay-shops-sco-booths-sector-82-mohali/"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "brochure": ""
  },
  {
   "id": 31,
@@ -2292,7 +2368,8 @@
    "http://mypropertystore.com/jlpl-shops-scos-and-booths-in-sec-90-91-mohali/",
    "https://www.99acres.com/jlpl-shops-sco-and-built-up-booths-mohali-chandigarh-npxid-c670"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "brochure": ""
  },
  {
   "id": 32,
@@ -2357,7 +2434,8 @@
    "https://pcinfratech.com/properties/tdi-park-street-mohali/",
    "https://www.mohaliaerotropolis.com/developer/tdi-infratech"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "brochure": ""
  },
  {
   "id": 33,
@@ -2423,6 +2501,281 @@
    "https://www.fortunerealestates.co.in/home/project/8/sector-88-89",
    "https://mohalirealty.com/sector-88-89-mohali/"
   ],
-  "confidence": "low"
+  "confidence": "low",
+  "brochure": ""
+ },
+ {
+  "id": 34,
+  "slug": "opus-one",
+  "name": "Opus One",
+  "tagline": "The tallest residential address in New Chandigarh",
+  "developer": "GB Realty",
+  "city": "New Chandigarh",
+  "location": "ECO City, New Chandigarh (Mullanpur)",
+  "rera": [
+   "PBRERA-SAS81-PR1267"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Under Construction",
+  "configShort": "3 BHK, 4 BHK & 5 BHK",
+  "configs": [
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null
+   },
+   {
+    "type": "4 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null
+   },
+   {
+    "type": "5 BHK",
+    "super_area_sqft": "6042",
+    "carpet_area_sqft": "3533"
+   }
+  ],
+  "bhk": [
+   3,
+   4,
+   5
+  ],
+  "price": "Price on Request",
+  "sizeRange": "",
+  "sizeMin": 6042,
+  "sizeMax": 6042,
+  "highlights": [
+   "The tallest residential development in New Chandigarh",
+   "688 exclusive residences across 9 unit plans",
+   "7-tier security",
+   "IGBC Platinum pre-certified & Punjab Govt 'Iconic' certified",
+   "Architecture by Ar\u00e9te Design Studio; landscape by TROP (Bangkok)",
+   "Interiors by Chris Godfrey (Singapore); lighting by LDP (Australia)"
+  ],
+  "amenities": [
+   "Sky lounges",
+   "Infinity pool",
+   "Clubhouse",
+   "Landscaped podium",
+   "Concierge",
+   "Spa & wellness"
+  ],
+  "specs": {},
+  "about": "Opus One by GB Realty is a hyper-luxury residential landmark in ECO City, New Chandigarh \u2014 the tallest residential development in the region. Spanning 688 exclusive residences across nine carefully composed unit plans, it brings together a global design pedigree: architecture by Ar\u00e9te Design Studio, landscape by TROP of Bangkok, interiors by Chris Godfrey of Singapore and lighting by LDP of Australia.\n\nIGBC Platinum pre-certified and certified 'Iconic' by the Punjab Government, Opus One pairs 3, 4 and 5 BHK homes with a seven-tier security system and resort-grade amenities. It is an address designed for those who want their home to be a statement as much as a sanctuary.",
+  "locationAdv": [],
+  "architect": "Ar\u00e9te Design Studio",
+  "units": 688,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.802,
+   76.71
+  ],
+  "featured": true,
+  "placeholder": false,
+  "hero": "assets/img/projects/opus-one/hero.jpg",
+  "card": "assets/img/projects/opus-one/card.jpg",
+  "gallery": [
+   "assets/img/projects/opus-one/g1.jpg",
+   "assets/img/projects/opus-one/g2.jpg",
+   "assets/img/projects/opus-one/g3.jpg",
+   "assets/img/projects/opus-one/g4.jpg",
+   "assets/img/projects/opus-one/g5.jpg",
+   "assets/img/projects/opus-one/g6.jpg",
+   "assets/img/projects/opus-one/g7.jpg",
+   "assets/img/projects/opus-one/g8.jpg",
+   "assets/img/projects/opus-one/g9.jpg",
+   "assets/img/projects/opus-one/g10.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/opus-one/fp1.jpg",
+   "assets/img/projects/opus-one/fp2.jpg",
+   "assets/img/projects/opus-one/fp3.jpg",
+   "assets/img/projects/opus-one/fp4.jpg",
+   "assets/img/projects/opus-one/fp5.jpg"
+  ],
+  "commercialType": null,
+  "sources": [],
+  "confidence": "high",
+  "brochure": "assets/brochures/opus-one.pdf"
+ },
+ {
+  "id": 35,
+  "slug": "la-parisian",
+  "name": "La Parisian",
+  "tagline": "A Parisian dream in New Chandigarh",
+  "developer": "Ambika Group (Ambika Realcon)",
+  "city": "New Chandigarh",
+  "location": "Sector 88-B, New Chandigarh (Greater Mohali)",
+  "rera": [
+   "PBRERA-SAS80-PR0398",
+   "PBRERA-SAS80-PR0456"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "",
+  "configShort": "3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "3 BHK (Triomphe)",
+    "super_area_sqft": "1450 - 2185",
+    "carpet_area_sqft": null
+   },
+   {
+    "type": "4 BHK (Versailles)",
+    "super_area_sqft": "2920",
+    "carpet_area_sqft": null
+   }
+  ],
+  "bhk": [
+   3,
+   4
+  ],
+  "price": "Price on Request",
+  "sizeRange": "1450 - 2920",
+  "sizeMin": 1450,
+  "sizeMax": 2920,
+  "highlights": [
+   "French Paris-inspired architecture with green-domed G+15 towers",
+   "An Eiffel Tower replica at the heart of the central greens",
+   "3 BHK (Triomphe) & 4 BHK (Versailles) luxury residences",
+   "Grand European-style clubhouse and landscaped gardens",
+   "RERA-registered across Phase I & II",
+   "Set in fast-growing Sector 88-B, New Chandigarh"
+  ],
+  "amenities": [
+   "Clubhouse",
+   "Swimming pool",
+   "Zen garden",
+   "Landscaped central greens",
+   "Kids play area",
+   "Gymnasium"
+  ],
+  "specs": {},
+  "about": "La Parisian by the Ambika Group brings a slice of Paris to New Chandigarh. Its green-domed, European-styled towers rise around landscaped central greens crowned by an Eiffel Tower replica, creating one of the region's most distinctive residential addresses.\n\nThe development offers 3 BHK homes in the Triomphe towers and expansive 4 BHK residences in the Versailles tower, paired with a grand clubhouse and curated gardens. RERA-registered across two phases, La Parisian is designed for those who want their everyday to feel like a getaway.",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.792,
+   76.722
+  ],
+  "featured": true,
+  "placeholder": false,
+  "hero": "assets/img/projects/la-parisian/hero.jpg",
+  "card": "assets/img/projects/la-parisian/card.jpg",
+  "gallery": [
+   "assets/img/projects/la-parisian/g1.jpg",
+   "assets/img/projects/la-parisian/g2.jpg",
+   "assets/img/projects/la-parisian/g3.jpg",
+   "assets/img/projects/la-parisian/g4.jpg",
+   "assets/img/projects/la-parisian/g5.jpg",
+   "assets/img/projects/la-parisian/g6.jpg",
+   "assets/img/projects/la-parisian/g7.jpg",
+   "assets/img/projects/la-parisian/g8.jpg",
+   "assets/img/projects/la-parisian/g9.jpg",
+   "assets/img/projects/la-parisian/g10.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/la-parisian/fp1.jpg",
+   "assets/img/projects/la-parisian/fp2.jpg",
+   "assets/img/projects/la-parisian/fp3.jpg",
+   "assets/img/projects/la-parisian/fp4.jpg",
+   "assets/img/projects/la-parisian/fp5.jpg",
+   "assets/img/projects/la-parisian/fp6.jpg",
+   "assets/img/projects/la-parisian/fp7.jpg",
+   "assets/img/projects/la-parisian/fp8.jpg"
+  ],
+  "commercialType": null,
+  "sources": [],
+  "confidence": "high",
+  "brochure": "assets/brochures/la-parisian.pdf"
+ },
+ {
+  "id": 36,
+  "slug": "wave-estate-group-housing-2-phase-2",
+  "name": "Wave Estate \u2014 Group Housing-2 (Phase 2)",
+  "tagline": "2/3/4 BHK, Duplexes & Penthouses",
+  "developer": "Wave",
+  "city": "Mohali",
+  "location": "Wave Estate, Sector 99, Mohali",
+  "rera": [
+   "PBRERA-SAS81-PR1009"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "",
+  "configShort": "2 BHK, 3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "2 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "4 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Duplex",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Penthouse",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   2,
+   3,
+   4
+  ],
+  "price": "Price on Request",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "Part of the established Wave Estate township, Mohali",
+   "Choice of 2, 3 & 4 BHK apartments, duplexes and penthouses",
+   "RERA-registered (PBRERA-SAS81-PR1009)"
+  ],
+  "amenities": [],
+  "specs": {},
+  "about": "Wave Estate \u2014 Group Housing-2 (Phase 2) is a residential development within the established Wave Estate township in Mohali. It offers a range of homes spanning 2, 3 and 4 BHK apartments alongside duplexes and penthouses, registered under Punjab RERA (PBRERA-SAS81-PR1009).",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.69,
+   76.688
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [],
+  "confidence": "high",
+  "brochure": "assets/brochures/wave-estate-group-housing-2-phase-2.pdf"
  }
 ]

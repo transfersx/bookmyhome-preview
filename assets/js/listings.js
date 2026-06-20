@@ -27,11 +27,13 @@ function chipRow(el, items, getActive, onClick, labelFn){
 }
 function buildFilters(){
   const com=state.category==='Commercial';
+  const plots=state.category==='Plots';
   // category toggle active state + show/hide relevant groups
   $$('#catToggle button').forEach(b=>b.classList.toggle('active',(b.dataset.cat||'')===state.category));
-  $('#gBhk')&&$('#gBhk').classList.toggle('hide',com);
+  $('#gBhk')&&$('#gBhk').classList.toggle('hide',com||plots);
   $('#gType')&&$('#gType').classList.toggle('hide',com);
   $('#gCtype')&&$('#gCtype').classList.toggle('hide',!com);
+  $('#plotsBanner')&&$('#plotsBanner').classList.toggle('hide',!plots);
   chipRow($('#fCity'),['All',...cities],v=>v==='All'?!state.city:state.city===v,v=>{state.city=v==='All'?'':v;apply();});
   chipRow($('#fBhk'),[2,3,4,5],v=>state.bhk.includes(+v),v=>{v=+v;state.bhk.includes(v)?state.bhk=state.bhk.filter(x=>x!==v):state.bhk.push(v);apply();},v=>v+' BHK');
   chipRow($('#fType'),['All',...types],v=>v==='All'?!state.type:state.type===v,v=>{state.type=v==='All'?'':v;apply();});
