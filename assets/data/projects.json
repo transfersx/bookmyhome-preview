@@ -3655,5 +3655,134 @@
   "brochure": "assets/brochures/el-spazia.pdf",
   "locality": "PR-7 Airport Road, Zirakpur",
   "devName": "Allwin Infrastructure"
+ },
+ {
+  "id": 44,
+  "slug": "gillco-meraqui",
+  "name": "Gillco Meraqui",
+  "tagline": "Majestic. Momentous. Mesmerising.",
+  "developer": "Gillco Group",
+  "city": "Mohali",
+  "location": "Sector 126, Airport Road (PR7), Mohali",
+  "rera": [],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "",
+  "configShort": "3 & 4 BHK + Servant",
+  "configs": [
+   {
+    "type": "3 BHK + Servant (Compact)",
+    "super_area_sqft": "3150"
+   },
+   {
+    "type": "3 BHK + Servant (Standard)",
+    "super_area_sqft": "3200"
+   },
+   {
+    "type": "3 BHK + Servant (Extended Balcony)",
+    "super_area_sqft": "3500"
+   },
+   {
+    "type": "4 BHK + Servant (Standard)",
+    "super_area_sqft": "4350"
+   },
+   {
+    "type": "4 BHK + Servant (Extended Balcony)",
+    "super_area_sqft": "4550"
+   }
+  ],
+  "bhk": [
+   3,
+   4
+  ],
+  "price": "Price on Request",
+  "sizeRange": "3150 - 4550 sq.ft.",
+  "sizeMin": 3150,
+  "sizeMax": 4550,
+  "highlights": [
+   "An exclusive collection of 444 residences across 6 high-rise towers on Mohali's Airport Road (PR7)",
+   "Expansive 3 & 4 BHK homes with servant quarters, 3150-4550 sq.ft.",
+   "Designed by Morphogenesis, among the world's Top 100 architectural firms",
+   "Frontage on the 200ft-wide Airport Road with seamless Tricity connectivity",
+   "The Meraqui Club \u2014 a grand resident-only clubhouse",
+   "Rooftop infinity pool, indoor heated pool, infrared sauna and private bowling alley",
+   "Landscapes by Oracles, lighting by Lucent, interiors by Essajees Atelier",
+   "Vastu-aligned design with structural engineering by Perceptive Ideas"
+  ],
+  "amenities": [
+   "Rooftop infinity pool",
+   "Indoor heated swimming pool",
+   "Infrared sauna",
+   "Private bowling alley",
+   "Grand clubhouse (The Meraqui Club)",
+   "Private theatre",
+   "Yoga & meditation zone",
+   "Gymnasium",
+   "Indoor games & lounge",
+   "Jacuzzi",
+   "Pickleball court",
+   "Padel court",
+   "Badminton court",
+   "Futsal court",
+   "Running track",
+   "Pet park",
+   "Open-air theatre",
+   "Star-gazing deck",
+   "Kids' play area",
+   "Reflective water bodies",
+   "Manicured gardens"
+  ],
+  "specs": {
+   "Structure": "RCC framed towers, engineered by Perceptive Ideas Consulting Engineers",
+   "Flooring": "Premium imported marble and large-format vitrified flooring",
+   "Kitchen": "Spacious modular kitchen with store; wet & dry kitchen in 4 BHK homes",
+   "Security": "Gated community with controlled entry and round-the-clock security"
+  },
+  "about": "Gillco Meraqui is the most exquisite chapter yet in the Gillco Group's 25-year legacy of building landmark homes across the Tricity. Rising along the 200ft-wide Airport Road in Sector 126, Mohali, Meraqui is an exclusive collection of 444 residences across six soaring towers. Its name, drawn from the Greek philosophy of Meraki and the golden ratio of Phi, speaks to a life approached with intention, devotion and timeless beauty.\n\nConceived by Morphogenesis, one of the world's Top 100 architectural firms, every home is a private world of grandeur. The generously proportioned 3 and 4 BHK residences, each with servant quarters and ranging from 3150 to 4550 sq.ft., are crafted as sanctuaries in proportion, material and detail, with expansive balconies framing the Mohali skyline.\n\nAt its heart lies The Meraqui Club, anchored by a rooftop infinity pool, an indoor heated pool, an infrared sauna, a private bowling alley and a world-class dining experience. Landscapes by Oracles, lighting by Lucent Worldwide, interiors by Essajees Atelier and Vastu guidance come together to create an address that defines life at its finest.",
+  "locationAdv": [
+   "Direct frontage on the 200ft Airport Road (PR7)",
+   "Seamless connectivity to Mohali, Chandigarh, Kharar & Zirakpur",
+   "Adjacent to Gillco Park Hills, Sector 126",
+   "Close to Fortis & Ivy hospitals and leading schools",
+   "Easy access to Chandigarh International Airport"
+  ],
+  "architect": "Morphogenesis (Sonali & Manit Rastogi)",
+  "units": 444,
+  "towers": 6,
+  "landArea": "",
+  "coords": [
+   30.705,
+   76.685
+  ],
+  "featured": true,
+  "placeholder": false,
+  "hero": "assets/img/projects/gillco-meraqui/hero.jpg",
+  "card": "assets/img/projects/gillco-meraqui/card.jpg",
+  "gallery": [
+   "assets/img/projects/gillco-meraqui/g1.jpg",
+   "assets/img/projects/gillco-meraqui/g2.jpg",
+   "assets/img/projects/gillco-meraqui/g3.jpg",
+   "assets/img/projects/gillco-meraqui/g4.jpg",
+   "assets/img/projects/gillco-meraqui/g5.jpg",
+   "assets/img/projects/gillco-meraqui/g6.jpg",
+   "assets/img/projects/gillco-meraqui/g7.jpg",
+   "assets/img/projects/gillco-meraqui/g8.jpg",
+   "assets/img/projects/gillco-meraqui/g9.jpg",
+   "assets/img/projects/gillco-meraqui/g10.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/gillco-meraqui/fp1.jpg",
+   "assets/img/projects/gillco-meraqui/fp2.jpg",
+   "assets/img/projects/gillco-meraqui/fp3.jpg",
+   "assets/img/projects/gillco-meraqui/fp4.jpg",
+   "assets/img/projects/gillco-meraqui/fp5.jpg",
+   "assets/img/projects/gillco-meraqui/fp6.jpg"
+  ],
+  "commercialType": null,
+  "sources": [],
+  "confidence": "high",
+  "brochure": "assets/brochures/gillco-meraqui.pdf",
+  "devName": "Gillco Group",
+  "locality": "Airport Road, Mohali"
  }
 ]
