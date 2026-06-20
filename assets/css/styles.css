@@ -159,6 +159,16 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.12;letter-spa
 .card-media{position:relative;aspect-ratio:4/3;background:var(--cream-2);overflow:hidden}
 .card-media img{width:100%;height:100%;object-fit:cover;transition:.5s}
 .card:hover .card-media img{transform:scale(1.05)}
+.card-media.is-ph{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;padding:16px}
+.card-media.ph-res{background:linear-gradient(135deg,#f8efe9,#efd6db)}
+.card-media.ph-com{background:linear-gradient(140deg,#241b18,#3f3029)}
+.card-media.is-ph .ph-ic{width:50px;height:50px;border-radius:14px;display:grid;place-items:center}
+.card-media.ph-res .ph-ic{background:rgba(255,255,255,.65);color:var(--brand)}
+.card-media.ph-com .ph-ic{background:rgba(255,255,255,.1);color:var(--gold)}
+.card-media.is-ph .ph-name{font-family:var(--serif);font-weight:600;font-size:1.1rem}
+.card-media.ph-com .ph-name{color:#fff}
+.card-media.is-ph small{font-size:.64rem;text-transform:uppercase;letter-spacing:.12em;opacity:.65}
+.card-media.ph-com small{color:rgba(255,255,255,.75)}
 .card-media .pills{position:absolute;top:12px;left:12px;display:flex;gap:6px;flex-wrap:wrap}
 .pill{font-size:.68rem;font-weight:700;letter-spacing:.04em;padding:5px 10px;border-radius:999px;background:rgba(255,255,255,.94);backdrop-filter:blur(4px);color:var(--ink);text-transform:uppercase}
 .pill.brand{background:var(--brand);color:#fff}
@@ -184,6 +194,10 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.12;letter-spa
 /* ---------- listings layout ---------- */
 .listing-top{background:var(--cream);border-bottom:1px solid var(--line);padding:26px 0}
 .listing-top h1{font-size:clamp(1.6rem,5vw,2.3rem)}
+.cat-toggle{display:inline-flex;gap:4px;background:#fff;border:1px solid var(--line-2);border-radius:999px;padding:4px;margin-top:16px}
+.cat-toggle button{padding:8px 17px;border-radius:999px;font-size:.86rem;font-weight:600;color:var(--ink-2);transition:.18s;white-space:nowrap}
+.cat-toggle button:hover{color:var(--brand)}
+.cat-toggle button.active{background:var(--brand);color:#fff}
 .toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:18px}
 .toolbar .search{flex:1;min-width:200px;display:flex;align-items:center;gap:9px;background:#fff;border:1.5px solid var(--line-2);border-radius:999px;padding:11px 17px}
 .toolbar .search input{border:none;outline:none;font-family:inherit;font-size:.92rem;width:100%;background:none}
@@ -290,6 +304,17 @@ input[type=range]{width:100%;accent-color:var(--brand)}
 .opt.sel{background:var(--accent);border-color:var(--accent)}
 .q-progress{height:4px;background:rgba(255,255,255,.16);border-radius:2px;overflow:hidden;margin-top:6px}
 .q-progress i{display:block;height:100%;background:var(--accent);transition:.4s;width:25%}
+
+/* ---------- BMH Invest commercial band ---------- */
+.invest-band{background:linear-gradient(140deg,#241b18,#3a2c26);border-radius:var(--radius-lg);padding:38px 26px;display:grid;gap:30px;color:#fff}
+@media(min-width:880px){.invest-band{grid-template-columns:1.05fr 1fr;align-items:center;padding:48px 42px;gap:48px}}
+.invest-head h2{color:#fff;font-size:clamp(1.7rem,4.5vw,2.5rem)}
+.invest-head p{color:rgba(255,255,255,.72);margin-top:10px;max-width:42ch}
+.invest-signals{display:grid;gap:18px}
+.sig{display:flex;gap:13px;align-items:flex-start}
+.sig-ic{width:42px;height:42px;border-radius:12px;background:rgba(255,255,255,.08);color:var(--gold);display:grid;place-items:center;flex-shrink:0}
+.sig b{display:block;font-size:.98rem;color:#fff;margin-bottom:2px}
+.sig span{font-size:.85rem;color:rgba(255,255,255,.65);line-height:1.5}
 
 /* ---------- locality strip ---------- */
 .loc-strip{display:flex;gap:14px;overflow-x:auto;padding:4px 0 14px;scrollbar-width:none}

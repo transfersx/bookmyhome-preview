@@ -6,6 +6,10 @@ const {P,card,$,$$,toast}=window.BMH;
 const feat=P.filter(p=>p.featured).slice(0,6);
 const grid=document.getElementById('featuredGrid');
 if(grid)grid.innerHTML=(feat.length?feat:P.slice(0,6)).map(card).join('');
+/* commercial cards for the BMH Invest band */
+const invest=P.filter(p=>p.category==='Commercial');
+const ig=document.getElementById('investGrid');
+if(ig)ig.innerHTML=invest.slice(0,6).map(card).join('');
 window.BMH.renderFavStatesNow&&window.BMH.renderFavStatesNow();
 document.querySelectorAll('[data-fav]').forEach(b=>b.classList.toggle('on',window.BMH.shortlist().includes(b.dataset.fav)));
 const c=window.BMH.compare();document.querySelectorAll('[data-cmp]').forEach(b=>b.checked=c.includes(b.dataset.cmp));
@@ -13,18 +17,20 @@ const st=document.getElementById('stProj');if(st)st.textContent=P.length;
 
 /* localities strip — built from project images + sectors */
 const locs=[
-  {name:'Sector 66A, Mohali',sub:'Aerocity · JLPL township',img:'falcon-view'},
-  {name:'IT City, Sector 82',sub:'Airport Road growth corridor',img:'the-medallion'},
-  {name:'Sector 66 Beta',sub:'Boutique luxury enclave',img:'noble-callista'},
-  {name:'Sector 88, Mohali',sub:'Green, Shivalik-facing',img:'hero-homes-mohali'},
-  {name:'Sector 88–89',sub:'New-age high-rise belt',img:'horizon-belmond'},
+  {name:'Sector 66A, Mohali',sub:'Aerocity · JLPL township',img:'falcon-view',href:'listings.html?q=Sector 66'},
+  {name:'IT City, Sector 82',sub:'Airport Road growth corridor',img:'the-medallion',href:'listings.html?q=IT City'},
+  {name:'Mullanpur',sub:'New Chandigarh · Omaxe, DLF, Marbella',href:'listings.html?city=New Chandigarh'},
+  {name:'Sector 88, Mohali',sub:'Green, Shivalik-facing',img:'hero-homes-mohali',href:'listings.html?q=Sector 88'},
+  {name:'VIP & Patiala Road',sub:'Zirakpur · Sushma, Motiaz, GBP',href:'listings.html?city=Zirakpur'},
+  {name:'Sector 88–89',sub:'New-age high-rise belt',img:'horizon-belmond',href:'listings.html?q=Sector 88'},
 ];
 const ls=document.getElementById('locStrip');
 if(ls)ls.innerHTML=locs.map(l=>{
-  const pr=P.find(p=>p.slug===l.img);
+  const pr=l.img&&P.find(p=>p.slug===l.img);
   const img=pr?(pr.card||pr.hero):'';
-  return `<a class="loc-card" href="listings.html?q=${encodeURIComponent(l.name.split(',')[0])}">
-    <img loading="lazy" src="${img}" alt="${l.name}">
+  const media=img?`<img loading="lazy" src="${img}" alt="${l.name}">`:`<div style="position:absolute;inset:0;background:linear-gradient(150deg,#241b18,#4a3a32)"></div>`;
+  return `<a class="loc-card" href="${l.href}">
+    ${media}
     <div class="lc-body"><h3>${l.name}</h3><span>${l.sub}</span></div></a>`;
 }).join('');
 

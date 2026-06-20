@@ -13,7 +13,17 @@ const sizeTxt=p.sizeMin?`${p.sizeMin.toLocaleString('en-IN')}–${p.sizeMax.toLo
 const imgs=[p.hero,...(p.gallery||[])].filter(Boolean);
 const allImgs=[...imgs,...(p.floorplans||[])];
 const gEl=$('#gallery');
-if(imgs.length>=3){
+const isCom=p.category==='Commercial';
+if(imgs.length===0){
+  const bg=isCom?'linear-gradient(140deg,#241b18,#3f3029)':'linear-gradient(135deg,#f8efe9,#efd6db)';
+  const fg=isCom?'#fff':'var(--ink)', icbg=isCom?'rgba(255,255,255,.1)':'rgba(255,255,255,.65)', icc=isCom?'var(--gold)':'var(--brand)';
+  gEl.innerHTML=`<div class="g-main" style="background:${bg};display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;color:${fg};cursor:default">
+    <div style="width:66px;height:66px;border-radius:18px;display:grid;place-items:center;background:${icbg};color:${icc}">${isCom?window.BMH.I.store:window.BMH.I.building}</div>
+    <span style="font-family:var(--serif);font-weight:600;font-size:1.5rem">${p.name}</span>
+    <small style="text-transform:uppercase;letter-spacing:.12em;opacity:.7;font-size:.72rem">Photos &amp; brochure on request</small>
+    <button class="btn ${isCom?'btn-accent':'btn-primary'} btn-sm" data-enq style="margin-top:4px">Request brochure</button>
+  </div>`;
+}else if(imgs.length>=3){
   gEl.innerHTML=`
     <div class="g-main" data-lb="0"><img src="${imgs[0]}" alt="${p.name}"></div>
     <div class="g-side">
@@ -101,13 +111,15 @@ $('#detailMain').innerHTML=`
       <div class="row"><span>Property type</span><p>${p.type}</p></div>
       <div class="row"><span>RERA</span><p>${reraTxt}</p></div>
     </div>
-    <p style="font-size:.76rem;color:var(--muted);margin-top:14px">Information curated from the developer brochure and reorganised for clarity. Images are artistic representations. Please verify final figures with a Book My Home advisor before purchase.</p>
+    ${p.sources&&p.sources.length?`<div style="margin-top:16px"><span style="font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:700">Sources</span><div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px">${p.sources.map(u=>`<a href="${u}" target="_blank" rel="noopener" style="font-size:.78rem;color:var(--brand);border:1px solid var(--line-2);border-radius:999px;padding:4px 11px">${hostOf(u)} ↗</a>`).join('')}</div></div>`:''}
+    <p style="font-size:.76rem;color:var(--muted);margin-top:14px">${p.placeholder?'Details compiled from public market sources and reorganised for clarity — treat sizes and any prices as indicative. ':'Information curated from the developer brochure and reorganised for clarity. Images are artistic representations. '}Please confirm final figures and RERA status with a Book My Home advisor before any commitment.</p>
   </div>
 `;
 
 /* ---------- sticky enquiry + EMI ---------- */
 $('#enquireCard').innerHTML=`
-  <div class="price"><b>${p.price}</b><span>${p.configShort} · ${sizeTxt}</span></div>
+  <div class="price"><b>${window.BMH.shortPrice(p.price)}</b><span>${p.configShort} · ${sizeTxt}${p.placeholder&&p.price!=='Price on Request'?' · indicative':''}</span></div>
+  ${p.price&&!/request/i.test(p.price)&&p.price.length>22?`<p style="font-size:.78rem;color:var(--muted);margin-top:-6px">${p.price}</p>`:''}
   <button class="btn btn-primary btn-block" data-enq>Get exact price</button>
   <button class="btn btn-ghost btn-block" data-enq data-visit>Schedule a site visit</button>
   <div style="display:flex;gap:10px">
@@ -151,6 +163,7 @@ function dedupeConfigs(cfgs){
   }));
 }
 function cap(s){return s.replace(/\b\w/g,c=>c.toUpperCase())}
+function hostOf(u){try{return new URL(u).hostname.replace('www.','')}catch(e){return 'source'}}
 function aboutParas(t){
   let parts=t.includes('\n')?t.split(/\n+/):t.split(/(?<=\.)\s+(?=[A-Z])/);
   parts=parts.map(s=>s.trim()).filter(Boolean);

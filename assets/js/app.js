@@ -58,27 +58,48 @@ const I={
   heart:'<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg>',
   bed:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h18a2 2 0 012 2v10M2 17h20M6 8V6a2 2 0 012-2h7"/></svg>',
   ruler:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8l4-4 14 14-4 4zM8 9l2 2M12 5l2 2M15 12l2 2M5 12l2 2"/></svg>',
-  search:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4-4"/></svg>'
+  search:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4-4"/></svg>',
+  building:'<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21h18M5 21V5a2 2 0 012-2h10a2 2 0 012 2v16M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2"/></svg>',
+  store:'<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l1.5-5h15L21 9M4 9v10a1 1 0 001 1h14a1 1 0 001-1V9M3 9h18M9 20v-6h6v6"/></svg>'
 };
 window.BMH.I=I;
 
 /* ---------- project card ---------- */
+function shortPrice(price){
+  if(!price||/request/i.test(price))return 'Price on Request';
+  const m=price.match(/(?:₹|Rs\.?)\s*([\d.,]+)\s*(Cr|Crore|Lakh|Lac|L|K)?/i);
+  if(m){const unit=(m[2]||'').replace(/crore/i,'Cr').replace(/lac|lakh/i,'L');return 'From ₹'+m[1].replace(/\.$/,'')+(unit?' '+unit:'');}
+  return price.length>22?price.slice(0,20)+'…':price;
+}
+window.BMH.shortPrice=shortPrice;
 function pill(p){
   const ps=[];
-  if(p.status&&p.status.toLowerCase().includes('ready')) ps.push('<span class="pill ready">Ready to Move</span>');
-  else if(p.status&&p.status.toLowerCase().includes('new')) ps.push('<span class="pill brand">New Launch</span>');
+  if(p.category==='Commercial') ps.push('<span class="pill" style="background:var(--ink);color:#fff">'+(p.commercialType||'Commercial')+'</span>');
+  if(p.status&&/ready/i.test(p.status)) ps.push('<span class="pill ready">Ready to Move</span>');
+  else if(p.status&&/new/i.test(p.status)) ps.push('<span class="pill brand">New Launch</span>');
   else if(p.featured) ps.push('<span class="pill brand">Featured</span>');
-  ps.push(`<span class="pill">${p.type.split(' ')[0]}</span>`);
+  if(p.category!=='Commercial') ps.push(`<span class="pill">${p.type.split(' ')[0]}</span>`);
+  if(p.rera&&p.rera.length) ps.push('<span class="pill" style="background:#e7f3ec;color:#1f8a54">RERA ✓</span>');
   return ps.join('');
+}
+function phInner(p){
+  const com=p.category==='Commercial';
+  return `<div class="ph-ic">${com?I.store:I.building}</div>
+    <span class="ph-name">${com?(p.commercialType||'Commercial'):p.city}</span>
+    <small>Photos on request</small>`;
 }
 function card(p){
   const inShort=shortlist().includes(String(p.id));
   const inCmp=compare().includes(String(p.id));
-  const size = p.sizeMin? `${p.sizeMin.toLocaleString('en-IN')}–${p.sizeMax.toLocaleString('en-IN')} sq.ft.` : 'Sizes on request';
+  const hasImg=!!(p.card||p.hero);
+  const com=p.category==='Commercial';
+  const size = p.sizeMin? `${p.sizeMin.toLocaleString('en-IN')}–${p.sizeMax.toLocaleString('en-IN')} sq.ft.` : (com?(p.city):'Sizes on request');
+  const media = hasImg
+    ? `<img loading="lazy" src="${p.card||p.hero}" alt="${p.name}"><div class="pills">${pill(p)}</div>`
+    : `${phInner(p)}<div class="pills">${pill(p)}</div>`;
   return `<article class="card reveal">
-    <a class="card-media" href="project.html?p=${p.slug}">
-      <img loading="lazy" src="${p.card||p.hero}" alt="${p.name}">
-      <div class="pills">${pill(p)}</div>
+    <a class="card-media${hasImg?'':' is-ph '+(com?'ph-com':'ph-res')}" href="project.html?p=${p.slug}">
+      ${media}
     </a>
     <button class="card-fav ${inShort?'on':''}" data-fav="${p.id}" aria-label="Shortlist">${I.heart}</button>
     <div class="card-body">
@@ -88,7 +109,7 @@ function card(p){
         <span>${p.configShort}</span><span class="dot"></span><span>${size}</span>
       </div>
       <div class="card-foot">
-        <div class="card-price"><b>${p.price}</b><span class="card-dev">by ${p.developer.split('(')[0].trim()}</span></div>
+        <div class="card-price"><b>${shortPrice(p.price)}</b><span class="card-dev">by ${p.developer.split('(')[0].trim()}</span></div>
         <label class="card-cmp"><input type="checkbox" data-cmp="${p.id}" ${inCmp?'checked':''}>Compare</label>
       </div>
     </div>

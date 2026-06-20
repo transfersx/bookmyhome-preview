@@ -136,7 +136,12 @@
    "assets/img/projects/falcon-view/fp3.jpg",
    "assets/img/projects/falcon-view/fp4.jpg",
    "assets/img/projects/falcon-view/fp5.jpg"
-  ]
+  ],
+  "category": "Residential",
+  "placeholder": false,
+  "sources": [],
+  "confidence": "high",
+  "commercialType": null
  },
  {
   "id": 2,
@@ -333,7 +338,12 @@
    "assets/img/projects/galaxy-heights-2/fp17.jpg",
    "assets/img/projects/galaxy-heights-2/fp18.jpg",
    "assets/img/projects/galaxy-heights-2/fp19.jpg"
-  ]
+  ],
+  "category": "Residential",
+  "placeholder": false,
+  "sources": [],
+  "confidence": "high",
+  "commercialType": null
  },
  {
   "id": 3,
@@ -476,7 +486,12 @@
    "assets/img/projects/noble-callista/fp2.jpg",
    "assets/img/projects/noble-callista/fp3.jpg",
    "assets/img/projects/noble-callista/fp4.jpg"
-  ]
+  ],
+  "category": "Residential",
+  "placeholder": false,
+  "sources": [],
+  "confidence": "high",
+  "commercialType": null
  },
  {
   "id": 4,
@@ -594,7 +609,12 @@
    "assets/img/projects/galaxy-heights/fp5.jpg",
    "assets/img/projects/galaxy-heights/fp6.jpg",
    "assets/img/projects/galaxy-heights/fp7.jpg"
-  ]
+  ],
+  "category": "Residential",
+  "placeholder": false,
+  "sources": [],
+  "confidence": "high",
+  "commercialType": null
  },
  {
   "id": 5,
@@ -716,7 +736,12 @@
   "floorplans": [
    "assets/img/projects/hero-homes-mohali/fp1.jpg",
    "assets/img/projects/hero-homes-mohali/fp2.jpg"
-  ]
+  ],
+  "category": "Residential",
+  "placeholder": false,
+  "sources": [],
+  "confidence": "high",
+  "commercialType": null
  },
  {
   "id": 6,
@@ -774,7 +799,12 @@
    "assets/img/projects/premium-residences/fp2.jpg",
    "assets/img/projects/premium-residences/fp3.jpg",
    "assets/img/projects/premium-residences/fp4.jpg"
-  ]
+  ],
+  "category": "Residential",
+  "placeholder": false,
+  "sources": [],
+  "confidence": "high",
+  "commercialType": null
  },
  {
   "id": 7,
@@ -887,7 +917,12 @@
   "floorplans": [
    "assets/img/projects/horizon-belmond/fp1.jpg",
    "assets/img/projects/horizon-belmond/fp2.jpg"
-  ]
+  ],
+  "category": "Residential",
+  "placeholder": false,
+  "sources": [],
+  "confidence": "high",
+  "commercialType": null
  },
  {
   "id": 8,
@@ -974,7 +1009,12 @@
   "floorplans": [
    "assets/img/projects/joy-grand/fp1.jpg",
    "assets/img/projects/joy-grand/fp2.jpg"
-  ]
+  ],
+  "category": "Residential",
+  "placeholder": false,
+  "sources": [],
+  "confidence": "high",
+  "commercialType": null
  },
  {
   "id": 9,
@@ -1091,6 +1131,1801 @@
    "assets/img/projects/the-medallion/fp2.jpg",
    "assets/img/projects/the-medallion/fp3.jpg",
    "assets/img/projects/the-medallion/fp4.jpg"
-  ]
+  ],
+  "category": "Residential",
+  "placeholder": false,
+  "sources": [],
+  "confidence": "high",
+  "commercialType": null
+ },
+ {
+  "id": 10,
+  "slug": "omaxe-the-lake",
+  "name": "Omaxe The Lake",
+  "tagline": "",
+  "developer": "Omaxe Ltd",
+  "city": "New Chandigarh",
+  "location": "Mullanpur, New Chandigarh (Greater Mohali)",
+  "rera": [
+   "PBRERA-SAS80-PR0040"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Under Construction",
+  "configShort": "2 BHK, 3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "2 BHK",
+    "super_area_sqft": "from ~950",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "4 BHK",
+    "super_area_sqft": "2300-3800",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   2,
+   3,
+   4
+  ],
+  "price": "2 BHK \u20b91.07 Cr / 3 BHK \u20b91.3 Cr / 4 BHK \u20b91.96 Cr onwards",
+  "sizeRange": "950-5300",
+  "sizeMin": 950,
+  "sizeMax": 5300,
+  "highlights": [
+   "Lake-facing high-rise apartments set within a 35-acre integrated township",
+   "Located near the India Trade Tower, with direct connectivity to Chandigarh",
+   "Wide configuration range from compact 2 BHK to expansive 4 BHK residences",
+   "Backed by Omaxe, an established large-format developer in New Chandigarh"
+  ],
+  "amenities": [],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.795,
+   76.715
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://www.99acres.com/omaxe-the-lake-mullanpur-chandigarh-npxid-r58272",
+   "https://www.squareyards.com/chandigarh-residential-property/omaxe-lake/9070/project"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": 11,
+  "slug": "omaxe-cassia-independent-floors",
+  "name": "Omaxe Cassia (Independent Floors)",
+  "tagline": "",
+  "developer": "Omaxe Ltd",
+  "city": "New Chandigarh",
+  "location": "North Mullanpur, New Chandigarh (Greater Mohali)",
+  "rera": [
+   "PBRERA-SAS80-PR0034"
+  ],
+  "type": "Floors",
+  "category": "Residential",
+  "status": "Ready to Move",
+  "configShort": "3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "1725",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "4 BHK",
+    "super_area_sqft": "2200",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   3,
+   4
+  ],
+  "price": "\u20b953.20 Lakh onwards",
+  "sizeRange": "1725-2200",
+  "sizeMin": 1725,
+  "sizeMax": 2200,
+  "highlights": [
+   "Low-density independent floors across a 9.65-acre layout",
+   "3 and 4 BHK floors with a separate servant's quarter and dedicated entry",
+   "Strong internal connectivity to key points across the Tricity",
+   "Part of Omaxe's larger New Chandigarh ecosystem of plots, floors and retail"
+  ],
+  "amenities": [
+   "24-hour water supply",
+   "Power backup",
+   "CCTV surveillance",
+   "Club house",
+   "Covered car parking",
+   "Fire safety",
+   "Gymnasium",
+   "Landscaped garden",
+   "Children's play area",
+   "Security personnel"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.795,
+   76.715
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://www.squareyards.com/chandigarh-residential-property/omaxe-cassia-floors/8997/project",
+   "https://www.omaxe.com/residential-property-in-new-chandigarh/omaxe-cassia"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": 12,
+  "slug": "omaxe-new-chandigarh",
+  "name": "Omaxe New Chandigarh",
+  "tagline": "",
+  "developer": "Omaxe Ltd",
+  "city": "New Chandigarh",
+  "location": "North Mullanpur, New Chandigarh (Greater Mohali)",
+  "rera": [
+   "PBRERA-SAS80-PR0034"
+  ],
+  "type": "Floors",
+  "category": "Residential",
+  "status": "Ready to Move",
+  "configShort": "2 BHK, 3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "2 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "4 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   2,
+   3,
+   4
+  ],
+  "price": "On Request (approx \u20b98,050/sqft as of Q4 2025)",
+  "sizeRange": "1800-4500",
+  "sizeMin": 1800,
+  "sizeMax": 4500,
+  "highlights": [
+   "Established, largely ready-to-move integrated township in North Mullanpur",
+   "Mix of apartments, independent floors and villas alongside social infrastructure",
+   "Eco-conscious master plan with green open spaces",
+   "One of the earliest and largest private developments in New Chandigarh"
+  ],
+  "amenities": [],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.795,
+   76.715
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://www.squareyards.com/chandigarh-residential-property/omaxe-new-chandigarh/108949/project",
+   "https://www.99acres.com/omaxe-new-chandigarh-mullanpur-chandigarh-npxid-r154285"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": 13,
+  "slug": "dlf-hyde-park-estate",
+  "name": "DLF Hyde Park Estate",
+  "tagline": "",
+  "developer": "DLF Ltd",
+  "city": "New Chandigarh",
+  "location": "Mullanpur, New Chandigarh (Greater Mohali)",
+  "rera": [
+   "PBRERA-SAS80-PRO845",
+   "PBRERA-SAS81-PC0244"
+  ],
+  "type": "Plots",
+  "category": "Residential",
+  "status": "Ready to Move",
+  "configShort": "3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "Residential Plot",
+    "super_area_sqft": "250 / 350 / 500 sq yd",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK Independent Floor",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "4 BHK Independent Floor",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK Villa",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   3,
+   4
+  ],
+  "price": "Independent floors \u20b980 Lakh onwards; plots \u20b91 Cr onwards",
+  "sizeRange": "",
+  "sizeMin": 250,
+  "sizeMax": 500,
+  "highlights": [
+   "Premium gated estate spanning roughly 236 acres with plots, floors and villas",
+   "Clubhouse of around 30,000 sq ft with gym, indoor games and pool",
+   "Wide internal road network (40-80 ft) with extensive landscaped parks",
+   "Integrated retail and commercial precinct (Central Square) within the township"
+  ],
+  "amenities": [
+   "Clubhouse",
+   "Gymnasium",
+   "Swimming pool",
+   "Indoor games",
+   "Landscaped parks",
+   "Retail / commercial spaces",
+   "24-hour security"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.795,
+   76.715
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://hydeparkproject.dlf.in/",
+   "https://www.squareyards.com/chandigarh-residential-property/dlf-hyde-park/9015/project",
+   "https://www.99acres.com/dlf-hyde-park-estate-mullanpur-chandigarh-npxid-r1357"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": 14,
+  "slug": "marbella-twin-towers",
+  "name": "Marbella Twin Towers",
+  "tagline": "",
+  "developer": "Marbella (TRPL Realtech / associated developer)",
+  "city": "New Chandigarh",
+  "location": "Mullanpur Garibdass, New Chandigarh (Greater Mohali)",
+  "rera": [
+   "PBRERA-SAS80-PR0616"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Under Construction",
+  "configShort": "5 BHK",
+  "configs": [
+   {
+    "type": "5 BHK",
+    "super_area_sqft": "~4390 super area (~2471 carpet)",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   5
+  ],
+  "price": "\u20b94.36 Cr onwards",
+  "sizeRange": "~4390",
+  "sizeMin": 2471,
+  "sizeMax": 4390,
+  "highlights": [
+   "Iconic twin towers rising to around 33 floors with roughly 264 ultra-luxury units",
+   "Spacious 5 BHK residences with two dedicated car-parking spaces each",
+   "High-end positioning at a premium per-sq-ft in the heart of New Chandigarh",
+   "Resort-style amenity deck targeting the luxury buyer segment"
+  ],
+  "amenities": [
+   "Swimming pool",
+   "Landscaped gardens",
+   "Children's play area",
+   "Games room / billiards",
+   "Spa",
+   "Car wash area",
+   "Prayer area",
+   "24-hour water and power",
+   "On-call ambulance service"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.795,
+   76.715
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://trprealtech.in/marbella-twin-towers/",
+   "https://www.newchandigarhmarbella.com/",
+   "https://bnhabitat.com/project/marbella-twin-towers"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": 15,
+  "slug": "manohar-singh-palm-residency",
+  "name": "Manohar Singh Palm Residency",
+  "tagline": "",
+  "developer": "Manohar Singh & Co (Manohar Infrastructure)",
+  "city": "New Chandigarh",
+  "location": "North Mullanpur, New Chandigarh (Greater Mohali)",
+  "rera": [
+   "PBRERA-SAS80-PR0092"
+  ],
+  "type": "Floors",
+  "category": "Residential",
+  "status": "Ready to Move",
+  "configShort": "2 BHK, 3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "2 BHK",
+    "super_area_sqft": "980",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "1560-1675",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "4 BHK",
+    "super_area_sqft": "3100",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   2,
+   3,
+   4
+  ],
+  "price": "\u20b948 Lakh - \u20b91.52 Cr",
+  "sizeRange": "980-3100",
+  "sizeMin": 980,
+  "sizeMax": 3100,
+  "highlights": [
+   "Ready-to-move independent floors across a broad 2 to 4 BHK range",
+   "Established township by a long-standing local New Chandigarh developer",
+   "Accessible entry price point relative to high-rise apartment options nearby",
+   "Self-contained community amenities within the residency"
+  ],
+  "amenities": [
+   "Swimming pool",
+   "Gymnasium",
+   "Club house",
+   "Children's play area",
+   "Park",
+   "Banquet hall"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.795,
+   76.715
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://www.squareyards.com/chandigarh-residential-property/manohar-singh-palm-residency/9076/project",
+   "https://www.99acres.com/manohar-palm-residency-mullanpur-chandigarh-npxid-r303083"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": 16,
+  "slug": "the-address",
+  "name": "The Address",
+  "tagline": "",
+  "developer": "Address Infrastructures / PCL Gateway",
+  "city": "New Chandigarh",
+  "location": "Sector 17, Mullanpur, New Chandigarh (Greater Mohali)",
+  "rera": [
+   "PBRERA-SAS80-PR0178"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Under Construction",
+  "configShort": "2 BHK & 3 BHK",
+  "configs": [
+   {
+    "type": "2 BHK",
+    "super_area_sqft": "850",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "1150",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   2,
+   3
+  ],
+  "price": "Price on Request",
+  "sizeRange": "850-1150",
+  "sizeMin": 850,
+  "sizeMax": 1150,
+  "highlights": [
+   "Value-positioned 2 and 3 BHK apartments across a 9.8-acre layout",
+   "22 towers with around 1,196 units and roughly 60% open area",
+   "Located adjacent to the new international cricket stadium in New Chandigarh",
+   "Compact, efficient floor plates aimed at first-home and investor buyers"
+  ],
+  "amenities": [
+   "Club house",
+   "CCTV surveillance",
+   "Cafeteria",
+   "Multipurpose court",
+   "Shopping center"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.795,
+   76.715
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://apexrealty.in/the-address-new-chandigarh/",
+   "http://theaddressapartments.com/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": 17,
+  "slug": "sushma-joynest-moh-1",
+  "name": "Sushma Joynest MOH 1",
+  "tagline": "",
+  "developer": "Sushma Buildtech Ltd.",
+  "city": "Zirakpur",
+  "location": "PR-7 / Airport Road, near Aerocity, Zirakpur",
+  "rera": [
+   "PBRERA-SAS79-PR0083"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Under Construction",
+  "configShort": "2 BHK & 3 BHK",
+  "configs": [
+   {
+    "type": "2 BHK",
+    "super_area_sqft": 1350,
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": 1640,
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   2,
+   3
+  ],
+  "price": "Price on Request",
+  "sizeRange": "1350-1640",
+  "sizeMin": 1350,
+  "sizeMax": 1640,
+  "highlights": [
+   "Located on the 200-ft wide PR-7 Airport Ring Road near Aerocity",
+   "Spread across 10.75 acres with 13 mid-rise towers",
+   "Resort-style amenities including swimming pool and landscaped gardens",
+   "Established regional developer with multiple delivered projects"
+  ],
+  "amenities": [
+   "Swimming Pool",
+   "Gymnasium",
+   "Landscaped Gardens",
+   "Multipurpose Hall",
+   "Hobby Classes",
+   "Kids Play Area"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.655,
+   76.8
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://www.flatszirakpur.com/sushma-joynest-moh-1-zirakpur/",
+   "https://www.addressofchoice.com/sushma-joynest-moh-1-pr-airport-road-zirakpur-p47460"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": 18,
+  "slug": "sushma-joynest-zrk-1",
+  "name": "Sushma Joynest ZRK 1",
+  "tagline": "",
+  "developer": "Sushma Buildtech Ltd.",
+  "city": "Zirakpur",
+  "location": "VIP Road / Gazipur, Zirakpur",
+  "rera": [
+   "PBRERA-SAS79-PR0081"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Ready to Move",
+  "configShort": "3 BHK",
+  "configs": [
+   {
+    "type": "3 BHK",
+    "super_area_sqft": 1270,
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": 1350,
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   3
+  ],
+  "price": "Price on Request",
+  "sizeRange": "1270-1350",
+  "sizeMin": 1270,
+  "sizeMax": 1350,
+  "highlights": [
+   "Compact gated community on VIP Road, Gazipur",
+   "172 thoughtfully designed 3 BHK apartments over 2.34 acres",
+   "Prime VIP Road connectivity to Chandigarh and the airport",
+   "Backed by Sushma Buildtech, a leading Tricity developer"
+  ],
+  "amenities": [
+   "Swimming Pool",
+   "Gymnasium",
+   "Landscaped Gardens",
+   "Clubhouse",
+   "24x7 Security"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.632,
+   76.812
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://www.squareyards.com/zirakpur-residential-property/sushma-joynest-zrk/9065/project",
+   "https://www.commonfloor.com/sushma-joynest-zrk-1-zirakpur/povp-01jnf2"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": 19,
+  "slug": "sushma-crescent",
+  "name": "Sushma Crescent",
+  "tagline": "",
+  "developer": "Sushma Buildtech Ltd.",
+  "city": "Zirakpur",
+  "location": "Dhakoli, Zirakpur",
+  "rera": [
+   "PBRERA-SAS79-PR0084"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Ready to Move",
+  "configShort": "2 BHK, 3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "2 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "4 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   2,
+   3,
+   4
+  ],
+  "price": "Price on Request",
+  "sizeRange": "360-2380",
+  "sizeMin": 360,
+  "sizeMax": 2380,
+  "highlights": [
+   "Prime Dhakoli location, approx 2 km from NH-7",
+   "2, 3 and 4 BHK options for varied family needs",
+   "Ready-to-move inventory in an established neighbourhood",
+   "Part of the well-known Sushma residential portfolio"
+  ],
+  "amenities": [
+   "Gymnasium",
+   "Power Backup",
+   "24x7 Security",
+   "Landscaped Gardens",
+   "Reserved Parking"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.66,
+   76.835
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://www.squareyards.com/zirakpur-residential-property/sushma-crescent/9003/project",
+   "http://sushmacrescent.co.in/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": 20,
+  "slug": "maya-garden-city",
+  "name": "Maya Garden City",
+  "tagline": "",
+  "developer": "Maya Garden Group (Barnala Builders)",
+  "city": "Zirakpur",
+  "location": "Lohgarh, VIP Road, Zirakpur",
+  "rera": [
+   "PBRERA-SAS79-PR0192"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Ready to Move",
+  "configShort": "2 BHK, 3 BHK & 5 BHK",
+  "configs": [
+   {
+    "type": "2 BHK",
+    "super_area_sqft": 1152,
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": 1852,
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "5 BHK",
+    "super_area_sqft": 2850,
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   2,
+   3,
+   5
+  ],
+  "price": "Price on Request",
+  "sizeRange": "1152-3060",
+  "sizeMin": 1152,
+  "sizeMax": 3060,
+  "highlights": [
+   "Large integrated township spread over approx 23 acres",
+   "41 towers with around 1575 apartments",
+   "Wide mix of 2, 3, 4 and 5 BHK configurations",
+   "Self-contained community with extensive on-site amenities"
+  ],
+  "amenities": [
+   "Swimming Pool",
+   "Gymnasium",
+   "Banquet Hall",
+   "Landscaped Garden",
+   "Kids Play Area",
+   "Jogging Track",
+   "Power Backup",
+   "24 Hour Water Supply"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.632,
+   76.812
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://www.squareyards.com/zirakpur-residential-property/maya-garden-city/9081/project",
+   "https://www.99acres.com/maya-garden-city-zirakpur-chandigarh-npxid-r1570"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": 21,
+  "slug": "motiaz-blue-ridge",
+  "name": "Motiaz Blue Ridge",
+  "tagline": "",
+  "developer": "Motiaz (Motia Group)",
+  "city": "Zirakpur",
+  "location": "Peer Muchalla, Zirakpur",
+  "rera": [
+   "PBRERA-SAS80-PR0333"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Under Construction",
+  "configShort": "3 BHK",
+  "configs": [
+   {
+    "type": "3 BHK",
+    "super_area_sqft": 1611,
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": 1721,
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   3
+  ],
+  "price": "Starting approx Rs. 98.5 Lakh (3 BHK)",
+  "sizeRange": "1611-1721",
+  "sizeMin": 1611,
+  "sizeMax": 1721,
+  "highlights": [
+   "Luxury 3 BHK residences in the greener Peer Muchalla belt",
+   "Clubhouse with swimming pool, gym and yoga centre",
+   "Boom-barrier entry with 3-tier security",
+   "Premium specification from an established Tricity brand"
+  ],
+  "amenities": [
+   "Clubhouse",
+   "Swimming Pool",
+   "Gymnasium",
+   "Yoga Centre",
+   "Landscaped Gardens",
+   "Car Parking",
+   "3-Tier Security"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.69,
+   76.852
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://motiaz.com/motiaz-blue-ridge",
+   "https://www.squareyards.com/zirakpur-residential-property/motiaz-royal-citi/111305/project"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": 22,
+  "slug": "aps-highland-park",
+  "name": "APS Highland Park",
+  "tagline": "",
+  "developer": "APS Group (APS & Ubber Group Alliance)",
+  "city": "Zirakpur",
+  "location": "Highland Marg, Patiala Road / Patiala Highway, Zirakpur",
+  "rera": [
+   "PBRERA-SAS79-PR0127"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Ready to Move",
+  "configShort": "2 BHK, 3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "2 BHK",
+    "super_area_sqft": 1060,
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "4 BHK",
+    "super_area_sqft": 2190,
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   2,
+   3,
+   4
+  ],
+  "price": "Approx Rs. 45 Lakh - Rs. 95 Lakh",
+  "sizeRange": "1060-2190",
+  "sizeMin": 1060,
+  "sizeMax": 2190,
+  "highlights": [
+   "Ready-to-move 2, 3 and 4 BHK luxury apartments over 8+ acres",
+   "Located on Patiala Road in a green, low-pollution pocket",
+   "Developed by the APS and Ubber Group alliance",
+   "Wide range of unit sizes for different budgets"
+  ],
+  "amenities": [
+   "Clubhouse",
+   "Gymnasium",
+   "Landscaped Gardens",
+   "Kids Play Area",
+   "Power Backup",
+   "24x7 Security"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.612,
+   76.822
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://www.realestateindia.com/projects/highland-park-by-aps-group-in-highland-marg-zirakpur/",
+   "https://www.highlandparkhomes.in/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": 23,
+  "slug": "gbp-athens",
+  "name": "GBP Athens",
+  "tagline": "",
+  "developer": "GBP Group",
+  "city": "Zirakpur",
+  "location": "Ambala Highway / International Airport Road, Zirakpur",
+  "rera": [
+   "PBRERA-SAS79-PR0218",
+   "PBRERA-SAS79-PR0291"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Under Construction",
+  "configShort": "2 BHK & 3 BHK",
+  "configs": [
+   {
+    "type": "2 BHK",
+    "super_area_sqft": 1504,
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Penthouse",
+    "super_area_sqft": 3345,
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   2,
+   3
+  ],
+  "price": "Price on Request",
+  "sizeRange": "1504-3345",
+  "sizeMin": 1504,
+  "sizeMax": 3345,
+  "highlights": [
+   "Greek-architecture-inspired towers on Ambala Highway",
+   "Mix of G+6, G+9 and S+12 blocks with 2/3 BHK and penthouses",
+   "Strong connectivity via Ambala-Chandigarh Expressway",
+   "Multi-phase development by an established Zirakpur builder"
+  ],
+  "amenities": [
+   "Clubhouse",
+   "Swimming Pool",
+   "Gymnasium",
+   "Landscaped Gardens",
+   "Power Backup",
+   "24x7 Security"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.655,
+   76.8
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://www.squareyards.com/zirakpur-residential-property/gbp-athens/111652/project",
+   "https://www.gbpgroup.in/gbp-athens/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": 24,
+  "slug": "vintage-greens",
+  "name": "Vintage Greens",
+  "tagline": "",
+  "developer": "Vintage Buildtech",
+  "city": "Zirakpur",
+  "location": "PR-7 International Airport Road, Zirakpur",
+  "rera": [
+   "PBRERA-SAS79-PR1181"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "New Launch",
+  "configShort": "1 BHK, 3 BHK & 4 BHK",
+  "configs": [
+   {
+    "type": "3 BHK",
+    "super_area_sqft": 2350,
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "3+1 BHK",
+    "super_area_sqft": 2698,
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "4 BHK",
+    "super_area_sqft": 3796,
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   1,
+   3,
+   4
+  ],
+  "price": "Approx Rs. 2.13 Cr (3+1 BHK); others On Request",
+  "sizeRange": "2350-3796",
+  "sizeMin": 2350,
+  "sizeMax": 3796,
+  "highlights": [
+   "Ultra-luxury high-rise on the 200-ft wide PR-7 Airport Road",
+   "Large-format 3 BHK, 3+1 BHK and 4 BHK park-facing homes",
+   "Premium positioning with expansive unit sizes",
+   "New-launch inventory with projected 2030 possession"
+  ],
+  "amenities": [
+   "Clubhouse",
+   "Swimming Pool",
+   "Gymnasium",
+   "Landscaped Gardens",
+   "Indoor Games",
+   "24x7 Security"
+  ],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.655,
+   76.8
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": null,
+  "sources": [
+   "https://www.99acres.com/vintage-greens-zirakpur-chandigarh-npxid-r446731",
+   "https://vintagegreenszirakpur.com/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": 25,
+  "slug": "homeland-global-park",
+  "name": "Homeland Global Park",
+  "tagline": "",
+  "developer": "Homeland Group",
+  "city": "Mohali",
+  "location": "Sector 75, International Airport Road, Mohali",
+  "rera": [
+   "PBRERA-SAS81-PC0325"
+  ],
+  "type": "Mixed-use",
+  "category": "Commercial",
+  "status": "Under Construction",
+  "configShort": "Mixed-use",
+  "configs": [
+   {
+    "type": "High-street retail shop",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Boutique office",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "IT office floor",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [],
+  "price": "Price on Request",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "Landmark 15-acre integrated mixed-use township on Airport Road, a high-growth corridor",
+   "Ultra-luxury mall plus high-street retail driving footfall to retail and office units",
+   "Combines serviced residences, business suites and entertainment for captive walk-in demand",
+   "RERA-registered for transparency and investor confidence",
+   "Airport Road frontage offers strong visibility and long-term capital appreciation"
+  ],
+  "amenities": [],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.655,
+   76.8
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": "Mixed-use",
+  "sources": [
+   "https://acquirestate.com/projects/homeland-global-park-mohali",
+   "https://www.flatszirakpur.com/homeland-global-park-mohali/",
+   "https://homelandglobalpark-mohali.com/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": 26,
+  "slug": "sushma-capital",
+  "name": "Sushma Capital",
+  "tagline": "",
+  "developer": "Sushma Group",
+  "city": "Zirakpur",
+  "location": "Dhakoli (near Sector 20 Panchkula), Zirakpur",
+  "rera": [
+   "PBRERA-SAS79-PR0091"
+  ],
+  "type": "Showroom",
+  "category": "Commercial",
+  "status": "Under Construction",
+  "configShort": "Showroom",
+  "configs": [
+   {
+    "type": "Retail showroom / shop",
+    "super_area_sqft": "602 sq.ft to 2,668 sq.ft",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [],
+  "price": "Starting around Rs 49.90 lakh onwards (per marketing source)",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "1,000 ft frontage maximises visibility and brand presence for retailers",
+   "12% assured return advertised till possession on limited units",
+   "High-density Dhakoli catchment ensures strong residential footfall",
+   "RERA-registered, providing legal compliance and buyer assurance",
+   "Mix of retail, showrooms, cafes, salons and clinics for diversified tenant demand"
+  ],
+  "amenities": [],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.66,
+   76.835
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": "Showroom",
+  "sources": [
+   "https://sushmaservicepartners.in/sushma-capital-zirakpur/",
+   "https://reconsultadvisory.com/commercial-property-in-sushma-capital-zirakpur/",
+   "https://www.addressofchoice.com/sushma-capital-dhakoli-zirakpur-p71345"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": 27,
+  "slug": "sushma-metropol",
+  "name": "Sushma Metropol",
+  "tagline": "",
+  "developer": "Sushma Group",
+  "city": "Zirakpur",
+  "location": "200 ft PR-7 International Airport Road, Zirakpur",
+  "rera": [
+   "PBRERA-SAS79-PC0125"
+  ],
+  "type": "Mixed-use",
+  "category": "Commercial",
+  "status": "Under Construction",
+  "configShort": "Mixed-use",
+  "configs": [
+   {
+    "type": "Retail shop / showroom",
+    "super_area_sqft": "447 sq.ft to 950 sq.ft (some sources up to 1,868 sq.ft)",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Deck office / SOHO suite",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [],
+  "price": "Starting around Rs 32 lakh onwards; ~Rs 73.76 lakh average per SquareYards listing",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "Tricity's first twin-tower premium business-space project with Skywalk-level retail",
+   "200 ft Airport Road frontage delivers premium visibility and accessibility",
+   "Versatile mix (retail, F&B, deck offices, co-working, serviced apartments, auto showrooms) widens tenant pool",
+   "RERA-registered for transparency and investor protection",
+   "360-degree Sky Deck and landmark design create destination footfall"
+  ],
+  "amenities": [],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.655,
+   76.8
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": "Mixed-use",
+  "sources": [
+   "https://sushmaservicepartners.in/sushma-metropol-zirakpur/",
+   "https://www.squareyards.com/zirakpur-residential-property/sushma-metropol/113780/project"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": 28,
+  "slug": "sushma-infinium",
+  "name": "Sushma Infinium",
+  "tagline": "",
+  "developer": "Sushma Group",
+  "city": "Zirakpur",
+  "location": "Delhi NH-22, adjoining Best Price, Ghazipur, Zirakpur",
+  "rera": [],
+  "type": "Office Space",
+  "category": "Commercial",
+  "status": "Under Construction",
+  "configShort": "Office Space",
+  "configs": [
+   {
+    "type": "Retail shop",
+    "super_area_sqft": "298 sq.ft to 919 sq.ft",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Office space",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [],
+  "price": "Price on Request",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "Located on the high-traffic Delhi NH-22 highway frontage with strong vehicular footfall",
+   "989-unit mix of office and showroom spaces offers wide entry-price options for investors",
+   "Adjoins an established big-box retail anchor, ensuring ready catchment",
+   "Compact 298 sq.ft starter shops suit first-time commercial investors",
+   "Established Sushma brand with multiple delivered Zirakpur commercial assets"
+  ],
+  "amenities": [],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.642,
+   76.82
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": "Office Space",
+  "sources": [
+   "https://www.squareyards.com/zirakpur-residential-property/sushma-infinium/9277/project",
+   "https://sushmaservicepartners.in/sushma-infinium-zirakpur/",
+   "https://www.madhyam.com/sushma-infinium-chandigarh.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": 29,
+  "slug": "omaxe-world-street",
+  "name": "Omaxe World Street",
+  "tagline": "",
+  "developer": "Omaxe Group",
+  "city": "New Chandigarh",
+  "location": "Sector 6, New Chandigarh (Mullanpur)",
+  "rera": [
+   "PBRERA-SAS80-PC0195"
+  ],
+  "type": "SCO",
+  "category": "Commercial",
+  "status": "Under Construction",
+  "configShort": "SCO",
+  "configs": [
+   {
+    "type": "SCO Plot",
+    "super_area_sqft": "80 to 200 sq.yd",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Retail shop",
+    "super_area_sqft": "250 to 1,000 sq.ft",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Office space",
+    "super_area_sqft": "300 to 1,200 sq.ft",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [],
+  "price": "SCO plots approx Rs 1.2 Cr to Rs 3.5 Cr; retail shops Rs 90 L to Rs 2 Cr; offices Rs 1 Cr to Rs 2.5 Cr (marketing sources)",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "100+ acre multi-use commercial destination anchoring New Chandigarh's retail growth",
+   "Double-height SCOs with expansive plazas maximise frontage and rental potential",
+   "Five zoned districts with food courts and entertainment generate destination footfall",
+   "Backed by listed national developer Omaxe with RERA registration",
+   "Early-stage New Chandigarh pricing offers long-term capital appreciation runway"
+  ],
+  "amenities": [],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.795,
+   76.715
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": "SCO",
+  "sources": [
+   "https://www.omaxe.com/commercial-property-in-new-chandigarh/omaxe-world-street",
+   "https://omaxeworldstreetnewchandigarh.in/about/",
+   "https://omaxechandigarh.in/omaxe-world-street-commercial-new-chandigarh/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": 30,
+  "slug": "jlpl-commercial-bay-shops-sco-booths-sector-82",
+  "name": "JLPL Commercial - Bay Shops, SCO & Booths (Sector 82)",
+  "tagline": "",
+  "developer": "JLPL (Janta Land Promoters Ltd)",
+  "city": "Mohali",
+  "location": "Sector 82, Mohali (part of 263-acre Sectors 66A/82/83 township)",
+  "rera": [],
+  "type": "SCO",
+  "category": "Commercial",
+  "status": "Ready to Move",
+  "configShort": "SCO",
+  "configs": [
+   {
+    "type": "SCO",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Bay shop",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Built-up booth",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [],
+  "price": "Price on Request",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "Ready-to-move commercial within an established 263-acre integrated township",
+   "Mix of SCOs, bay shops and built-up booths suits varied investor budgets",
+   "Surrounded by IT complexes, hotels and group housing ensuring captive demand",
+   "Established connectivity along Mohali's industrial and IT corridor",
+   "Delivered township reduces construction-delay risk for end-users"
+  ],
+  "amenities": [],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.68,
+   76.69
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": "SCO",
+  "sources": [
+   "https://www.99acres.com/jlpl-shops-sco-and-built-up-booths-mohali-chandigarh-npxid-c670",
+   "https://mypropertystore.com/jlpl-bay-shops-sco-booths-sector-82-mohali/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": 31,
+  "slug": "jlpl-commercial-shops-scos-booths-sectors-90-91",
+  "name": "JLPL Commercial - Shops, SCOs & Booths (Sectors 90-91)",
+  "tagline": "",
+  "developer": "JLPL (Janta Land Promoters Ltd)",
+  "city": "Mohali",
+  "location": "Sectors 90-91, Mohali (143-acre township)",
+  "rera": [],
+  "type": "Booth",
+  "category": "Commercial",
+  "status": "Ready to Move",
+  "configShort": "Booth",
+  "configs": [
+   {
+    "type": "SCO",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Built-up booth",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Ground-floor shop",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [],
+  "price": "Price on Request",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "Possession-ready commercial inside a delivered 143-acre residential township",
+   "Booths and SCOs serve a large captive residential and group-housing catchment",
+   "Vastu-compliant units with ATM and rainwater-harvesting infrastructure",
+   "Lower-ticket booths attractive for rental-yield-focused investors",
+   "Mature, fully-developed location reduces investment risk"
+  ],
+  "amenities": [],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.7,
+   76.72
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": "Booth",
+  "sources": [
+   "http://mypropertystore.com/jlpl-shops-scos-and-booths-in-sec-90-91-mohali/",
+   "https://www.99acres.com/jlpl-shops-sco-and-built-up-booths-mohali-chandigarh-npxid-c670"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": 32,
+  "slug": "tdi-city-commercial-sco-park-street-retail",
+  "name": "TDI City - Commercial (SCO & Park Street Retail)",
+  "tagline": "",
+  "developer": "TDI Infratech",
+  "city": "Mohali",
+  "location": "Sectors 110-118, Mohali (TDI City; Park Street in Sector 118, Airport Road)",
+  "rera": [],
+  "type": "SCO",
+  "category": "Commercial",
+  "status": "Under Construction",
+  "configShort": "SCO",
+  "configs": [
+   {
+    "type": "SCO plot/unit",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Retail shop (Park Street)",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [],
+  "price": "Price on Request",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "SCO and retail within a large integrated township with completed road infrastructure",
+   "TDI Park Street offers centrally air-conditioned retail, food court and 3-screen multiplex",
+   "Airport Road / Sector 117-118 location on a key growth corridor",
+   "Punjab RERA approved (Park Street) for buyer assurance",
+   "Township-scale demand from delivered residential plots and floors"
+  ],
+  "amenities": [],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.655,
+   76.8
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": "SCO",
+  "sources": [
+   "http://tdigroupmohali.in/",
+   "https://pcinfratech.com/properties/tdi-park-street-mohali/",
+   "https://www.mohaliaerotropolis.com/developer/tdi-infratech"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": 33,
+  "slug": "gmada-omaxe-sector-88-89-sco-plots-booths",
+  "name": "GMADA / Omaxe Sector 88-89 SCO Plots & Booths",
+  "tagline": "",
+  "developer": "Omaxe (GMADA-allotted sectors)",
+  "city": "Mohali",
+  "location": "Sectors 88-89, Mohali",
+  "rera": [
+   "PBRERA-SAS80-PC0195"
+  ],
+  "type": "SCO",
+  "category": "Commercial",
+  "status": "Ready to Move",
+  "configShort": "SCO",
+  "configs": [
+   {
+    "type": "SCO Plot",
+    "super_area_sqft": "100 sq.yd (paired with 1,000 sq.yd residential plots)",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "Commercial booth",
+    "super_area_sqft": "",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [],
+  "price": "Price on Request",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "Freehold SCO plots in an established planned GMADA-grade residential belt",
+   "100 sq.yd SCO format ideal for build-to-suit office or showroom investors",
+   "Strong residential density in Sectors 88-89 underpins retail footfall",
+   "Plot ownership offers flexibility and long-term land appreciation",
+   "Backed by listed developer Omaxe with RERA registration"
+  ],
+  "amenities": [],
+  "specs": {},
+  "about": "",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.7,
+   76.72
+  ],
+  "featured": false,
+  "placeholder": true,
+  "hero": "",
+  "card": "",
+  "gallery": [],
+  "floorplans": [],
+  "commercialType": "SCO",
+  "sources": [
+   "https://www.fortunerealestates.co.in/home/project/8/sector-88-89",
+   "https://mohalirealty.com/sector-88-89-mohali/"
+  ],
+  "confidence": "low"
  }
 ]
