@@ -3531,5 +3531,142 @@
   "sources": [],
   "confidence": "high",
   "brochure": "assets/brochures/escon-primera.pdf"
+ },
+ {
+  "id": 43,
+  "slug": "el-spazia",
+  "name": "El Spazia",
+  "tagline": "Elite Spanish Homes",
+  "developer": "Allwin Infrastructure Limited",
+  "city": "Zirakpur",
+  "location": "PR-7 (Airport Road), Zirakpur",
+  "rera": [
+   "PBRERA-SAS79-PRO526"
+  ],
+  "type": "Apartments",
+  "category": "Residential",
+  "status": "Ready to Move",
+  "configShort": "1 BHK & 3 BHK",
+  "configs": [
+   {
+    "type": "3 BHK",
+    "super_area_sqft": "1638",
+    "carpet_area_sqft": "1195",
+    "price": null
+   },
+   {
+    "type": "3+1 BHK",
+    "super_area_sqft": "2284",
+    "carpet_area_sqft": "1540",
+    "price": null
+   },
+   {
+    "type": "Lower Duplex",
+    "super_area_sqft": "3995",
+    "carpet_area_sqft": "1533.07",
+    "price": null
+   },
+   {
+    "type": "Upper Duplex",
+    "super_area_sqft": "3995",
+    "carpet_area_sqft": "1280.68",
+    "price": null
+   },
+   {
+    "type": "Lower Penthouse",
+    "super_area_sqft": "3995 + 1253",
+    "carpet_area_sqft": "1533.07",
+    "price": null
+   },
+   {
+    "type": "Upper Penthouse with Terrace",
+    "super_area_sqft": "3995 + 1253",
+    "carpet_area_sqft": "1375",
+    "price": null
+   }
+  ],
+  "bhk": [
+   3
+  ],
+  "price": "Price on Request",
+  "sizeRange": "1638 - 5248 sq.ft. super area",
+  "sizeMin": 1253,
+  "sizeMax": 5248,
+  "highlights": [
+   "Award-winning Spanish architecture by qualified civil engineers",
+   "Ready to move with Occupancy Certificate received and immediate registry",
+   "Three-side-open layout for the best natural light and cross ventilation",
+   "Exclusive low-density community with only 3 BHK, 3+1 BHK and penthouses",
+   "Fitted with premium Japanese brands including Lixil, Toto and Fujitech",
+   "Immediate electric meter and piped gas connection",
+   "Strategically located on PR-7 Airport Road, 300 metres from the Chandigarh-Delhi Highway",
+   "A thriving community with 70+ families already living happily"
+  ],
+  "amenities": [
+   "Swimming Pool",
+   "Gymnasium",
+   "Club House",
+   "Indoor Sports",
+   "Outdoor Sports",
+   "Activity Room",
+   "Kids Play Area",
+   "Yoga / Meditation Zone",
+   "Gazebos",
+   "Landscaped Green Areas",
+   "Sports Zone",
+   "Water Body",
+   "Gated Community Security"
+  ],
+  "specs": {
+   "Structure": "Earthquake-resistant RCC framed structure; no use of red bricks",
+   "Flooring": "Premium vitrified / branded flooring",
+   "Kitchen": "Modular kitchen fittings with premium Japanese brand fixtures (Lixil, Toto)",
+   "Security": "Gated, exclusive community living with round-the-clock security",
+   "Power Backup": "Power backup with immediate electric meter connection"
+  },
+  "about": "El Spazia is a ready-to-move residential landmark on PR-7 (Airport Road) in Zirakpur, crafted by Allwin Infrastructure Limited and styled in award-winning Spanish architecture. Designed by qualified civil engineers, the towers stand three-side-open to draw in light and air, while a low-density mix of 3 BHK, 3+1 BHK, duplexes and penthouses keeps the community intimate and serene.\n\nEvery home is finished to an exceptional standard and equipped with premium Japanese brands such as Lixil, Toto and Fujitech, with no use of red bricks in construction. The project arrives fully compliant: Occupancy Certificate received, immediate registry, instant electric meter and a piped gas connection, so families can settle in without delay.\n\nResidents enjoy a complete suite of lifestyle amenities, including a swimming pool, gymnasium, club house, indoor and outdoor sports, an activity room, kids play areas and landscaped greens. Just 300 metres from the Chandigarh-Delhi Highway and minutes from the international airport, schools, hospitals and malls, El Spazia pairs a connected address with the calm of an established, gentry neighbourhood where 70+ families already live happily.",
+  "locationAdv": [
+   "300 metres from the Chandigarh-Delhi Highway (NH-22)",
+   "Directly on PR-7 Airport Road / Ring Road to Panchkula and Himachal Pradesh",
+   "10 minutes to Chandigarh International Airport",
+   "2 minutes to St. Xavier's Int. School, McDonald's, KFC, INOX, Decathlon",
+   "5 minutes to Chandigarh, Hotel Park Plaza, Amcare Hospital, Metro and Zirakpur Bus Stand",
+   "10 minutes to Elante Mall, IT City, IISER and Sector 20 Panchkula",
+   "20 minutes to Fortis Hospital, PGI, Sukhna Lake, Punjab University and Chandigarh IT Park"
+  ],
+  "architect": "",
+  "units": null,
+  "towers": 5,
+  "landArea": "",
+  "coords": [
+   30.654,
+   76.801
+  ],
+  "featured": true,
+  "placeholder": false,
+  "hero": "assets/img/projects/el-spazia/hero.jpg",
+  "card": "assets/img/projects/el-spazia/card.jpg",
+  "gallery": [
+   "assets/img/projects/el-spazia/g1.jpg",
+   "assets/img/projects/el-spazia/g2.jpg",
+   "assets/img/projects/el-spazia/g3.jpg",
+   "assets/img/projects/el-spazia/g4.jpg",
+   "assets/img/projects/el-spazia/g5.jpg",
+   "assets/img/projects/el-spazia/g6.jpg",
+   "assets/img/projects/el-spazia/g7.jpg",
+   "assets/img/projects/el-spazia/g8.jpg",
+   "assets/img/projects/el-spazia/g9.jpg",
+   "assets/img/projects/el-spazia/g10.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/el-spazia/fp1.jpg",
+   "assets/img/projects/el-spazia/fp2.jpg",
+   "assets/img/projects/el-spazia/fp3.jpg",
+   "assets/img/projects/el-spazia/fp4.jpg"
+  ],
+  "commercialType": null,
+  "sources": [],
+  "confidence": "high",
+  "brochure": "assets/brochures/el-spazia.pdf"
  }
 ]
