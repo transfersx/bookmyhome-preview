@@ -305,6 +305,18 @@ input[type=range]{width:100%;accent-color:var(--brand)}
 .q-progress{height:4px;background:rgba(255,255,255,.16);border-radius:2px;overflow:hidden;margin-top:6px}
 .q-progress i{display:block;height:100%;background:var(--accent);transition:.4s;width:25%}
 
+/* ---------- explore directory tiles ---------- */
+.dir-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.dir-grid.type{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+.dir-grid.city{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.dir-tile{display:flex;align-items:center;gap:13px;padding:15px 17px;border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff;transition:.18s}
+.dir-tile:hover{border-color:var(--brand);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.dir-tile .ti{width:42px;height:42px;border-radius:12px;background:var(--brand-soft);color:var(--brand);display:grid;place-items:center;flex-shrink:0}
+.dir-tile .tx{flex:1;min-width:0}
+.dir-tile .tx b{display:block;font-family:var(--serif);font-weight:600;font-size:1.04rem;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dir-tile .tx span{font-size:.8rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.dir-tile .ct{font-size:.78rem;color:#fff;background:var(--brand);border-radius:999px;padding:3px 10px;font-weight:700;min-width:26px;text-align:center;flex-shrink:0}
+
 /* ---------- BMH Invest commercial band ---------- */
 .invest-band{background:linear-gradient(140deg,#241b18,#3a2c26);border-radius:var(--radius-lg);padding:38px 26px;display:grid;gap:30px;color:#fff}
 @media(min-width:880px){.invest-band{grid-template-columns:1.05fr 1fr;align-items:center;padding:48px 42px;gap:48px}}

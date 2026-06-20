@@ -11,14 +11,17 @@ const state={
   type: params.get('type')||'',
   ctype: params.get('ctype')||'',
   status: params.get('status')||'',
-  dev:'', sizeMax:5600, sort:'featured'
+  dev: params.get('developer')||'',
+  locality: params.get('locality')||'',
+  sizeMax:5600, sort:'featured'
 };
 
 const uniq=(arr)=>[...new Set(arr)];
 const cities=uniq(P.map(p=>p.city)).filter(Boolean);
 const types=uniq(P.filter(p=>p.category!=='Commercial').map(p=>p.type.split(' ')[0]));
 const ctypes=uniq(P.filter(p=>p.category==='Commercial').map(p=>p.commercialType)).filter(Boolean);
-const devs=uniq(P.map(p=>p.developer.split('(')[0].trim())).filter(Boolean);
+const devs=uniq(P.map(p=>p.devName)).filter(Boolean).sort();
+const localities=uniq(P.map(p=>p.locality)).filter(Boolean);
 
 /* build filter chips */
 function chipRow(el, items, getActive, onClick, labelFn){
@@ -35,6 +38,7 @@ function buildFilters(){
   $('#gCtype')&&$('#gCtype').classList.toggle('hide',!com);
   $('#plotsBanner')&&$('#plotsBanner').classList.toggle('hide',!plots);
   chipRow($('#fCity'),['All',...cities],v=>v==='All'?!state.city:state.city===v,v=>{state.city=v==='All'?'':v;apply();});
+  if($('#fLocality'))chipRow($('#fLocality'),['All',...localities],v=>v==='All'?!state.locality:state.locality===v,v=>{state.locality=v==='All'?'':v;apply();},v=>v==='All'?'All':v.split(',')[0]);
   chipRow($('#fBhk'),[2,3,4,5],v=>state.bhk.includes(+v),v=>{v=+v;state.bhk.includes(v)?state.bhk=state.bhk.filter(x=>x!==v):state.bhk.push(v);apply();},v=>v+' BHK');
   chipRow($('#fType'),['All',...types],v=>v==='All'?!state.type:state.type===v,v=>{state.type=v==='All'?'':v;apply();});
   if($('#fCtype'))chipRow($('#fCtype'),['All',...ctypes],v=>v==='All'?!state.ctype:state.ctype===v,v=>{state.ctype=v==='All'?'':v;apply();});
@@ -59,6 +63,7 @@ function match(p,st){
   }
   if(st.category && p.category!==st.category)return false;
   if(st.ctype && p.commercialType!==st.ctype)return false;
+  if(st.locality && p.locality!==st.locality)return false;
   if(st.city && p.city!==st.city)return false;
   if(st.bhk.length && !st.bhk.some(b=>p.bhk.includes(b)))return false;
   if(st.type && !p.type.toLowerCase().includes(st.type.toLowerCase()) &&
@@ -69,13 +74,13 @@ function match(p,st){
     if(s.includes('under') && !/under/i.test(p.status))return false;
     if(s.includes('new') && !/new/i.test(p.status))return false;
   }
-  if(st.dev && p.developer.split('(')[0].trim()!==st.dev)return false;
+  if(st.dev && p.devName!==st.dev)return false;
   if(st.sizeMax<5600 && p.sizeMin && p.sizeMin>st.sizeMax)return false;
   return true;
 }
 /* never dead-end: progressively drop the least-essential filters until something matches */
 function closest(){
-  const drops=['status','sizeMax','ctype','type','dev','bhk'];
+  const drops=['status','sizeMax','ctype','locality','type','dev','bhk'];
   const st={...state};
   for(const f of drops){
     if(f==='sizeMax')st.sizeMax=5600; else if(f==='bhk')st.bhk=[]; else st[f]='';
@@ -116,10 +121,13 @@ function apply(){
   // title
   const where=state.city||'Tricity';
   let t='All properties in Tricity';
-  if(state.category==='Commercial')t=`Commercial in ${where}`+(state.ctype?` · ${state.ctype}`:'');
+  if(state.dev)t=`${state.dev}`+(state.category?` · ${state.category==='Residential'?'Homes':state.category}`:'');
+  else if(state.locality)t=`Projects in ${state.locality.split(',')[0]}`;
+  else if(state.category==='Commercial')t=`Commercial in ${where}`+(state.ctype?` · ${state.ctype}`:'');
   else if(state.category==='Residential')t=`Homes in ${where}`;
+  else if(state.category==='Plots')t=`Plots in ${where}`;
   else if(state.city)t=`Properties in ${state.city}`;
-  if(state.category!=='Commercial'&&state.bhk.length)t=`${state.bhk.join(', ')} BHK homes`+(state.city?` · ${state.city}`:'');
+  if(!state.dev&&!state.locality&&state.category!=='Commercial'&&state.bhk.length)t=`${state.bhk.join(', ')} BHK homes`+(state.city?` · ${state.city}`:'');
   $('#listTitle').textContent=t;
 }
 
@@ -128,7 +136,7 @@ $('#searchInput').value=state.q;
 $('#searchInput').addEventListener('input',e=>{state.q=e.target.value;apply();});
 $('#sortSelect').addEventListener('change',e=>{state.sort=e.target.value;apply();});
 $('#fSize').addEventListener('input',e=>{state.sizeMax=+e.target.value;$('#fSizeVal').textContent=(+e.target.value).toLocaleString('en-IN');apply();});
-function clearAll(){state.q='';state.category='';state.city='';state.bhk=[];state.type='';state.ctype='';state.status='';state.dev='';state.sizeMax=5600;
+function clearAll(){state.q='';state.category='';state.city='';state.bhk=[];state.type='';state.ctype='';state.status='';state.dev='';state.locality='';state.sizeMax=5600;
   $('#searchInput').value='';$('#fSize').value=5600;$('#fSizeVal').textContent='5,600';apply();}
 $('#clearFilters').addEventListener('click',clearAll);
 $('#clearFilters2')&&$('#clearFilters2').addEventListener('click',clearAll);

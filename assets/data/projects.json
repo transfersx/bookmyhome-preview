@@ -142,7 +142,9 @@
   "sources": [],
   "confidence": "high",
   "commercialType": null,
-  "brochure": "assets/brochures/falcon-view.pdf"
+  "brochure": "assets/brochures/falcon-view.pdf",
+  "locality": "Sector 66 / 66A, Mohali",
+  "devName": "JLPL"
  },
  {
   "id": 2,
@@ -345,7 +347,9 @@
   "sources": [],
   "confidence": "high",
   "commercialType": null,
-  "brochure": "assets/brochures/galaxy-heights-2.pdf"
+  "brochure": "assets/brochures/galaxy-heights-2.pdf",
+  "locality": "Sector 66 / 66A, Mohali",
+  "devName": "JLPL"
  },
  {
   "id": 3,
@@ -494,7 +498,9 @@
   "sources": [],
   "confidence": "high",
   "commercialType": null,
-  "brochure": "assets/brochures/noble-callista.pdf"
+  "brochure": "assets/brochures/noble-callista.pdf",
+  "locality": "Sector 66 / 66A, Mohali",
+  "devName": "Noble Ventures"
  },
  {
   "id": 4,
@@ -618,7 +624,9 @@
   "sources": [],
   "confidence": "high",
   "commercialType": null,
-  "brochure": "assets/brochures/galaxy-heights.pdf"
+  "brochure": "assets/brochures/galaxy-heights.pdf",
+  "locality": "Sector 66 / 66A, Mohali",
+  "devName": "JLPL"
  },
  {
   "id": 5,
@@ -802,7 +810,9 @@
   "sources": [],
   "confidence": "high",
   "commercialType": null,
-  "brochure": "assets/brochures/hero-homes-mohali.pdf"
+  "brochure": "assets/brochures/hero-homes-mohali.pdf",
+  "locality": "Sector 88, Mohali",
+  "devName": "Hero Realty"
  },
  {
   "id": 6,
@@ -866,7 +876,9 @@
   "sources": [],
   "confidence": "high",
   "commercialType": null,
-  "brochure": "assets/brochures/premium-residences.pdf"
+  "brochure": "assets/brochures/premium-residences.pdf",
+  "locality": "Mohali",
+  "devName": ""
  },
  {
   "id": 7,
@@ -985,7 +997,9 @@
   "sources": [],
   "confidence": "high",
   "commercialType": null,
-  "brochure": "assets/brochures/horizon-belmond.pdf"
+  "brochure": "assets/brochures/horizon-belmond.pdf",
+  "locality": "Sector 88-89, Mohali",
+  "devName": "The Horizon Group"
  },
  {
   "id": 8,
@@ -1079,7 +1093,9 @@
   "sources": [],
   "confidence": "high",
   "commercialType": null,
-  "brochure": "assets/brochures/joy-grand.pdf"
+  "brochure": "assets/brochures/joy-grand.pdf",
+  "locality": "Mohali",
+  "devName": "Joy Group"
  },
  {
   "id": 9,
@@ -1202,7 +1218,9 @@
   "sources": [],
   "confidence": "high",
   "commercialType": null,
-  "brochure": "assets/brochures/the-medallion.pdf"
+  "brochure": "assets/brochures/the-medallion.pdf",
+  "locality": "IT City (Sector 82), Mohali",
+  "devName": "Turnstone Realty"
  },
  {
   "id": 10,
@@ -1278,7 +1296,9 @@
    "https://www.squareyards.com/chandigarh-residential-property/omaxe-lake/9070/project"
   ],
   "confidence": "high",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Mullanpur / Eco City, New Chandigarh",
+  "devName": "Omaxe"
  },
  {
   "id": 11,
@@ -1358,7 +1378,9 @@
    "https://www.omaxe.com/residential-property-in-new-chandigarh/omaxe-cassia"
   ],
   "confidence": "high",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Mullanpur / Eco City, New Chandigarh",
+  "devName": "Omaxe"
  },
  {
   "id": 12,
@@ -1434,7 +1456,9 @@
    "https://www.99acres.com/omaxe-new-chandigarh-mullanpur-chandigarh-npxid-r154285"
   ],
   "confidence": "high",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Mullanpur / Eco City, New Chandigarh",
+  "devName": "Omaxe"
  },
  {
   "id": 13,
@@ -1522,7 +1546,9 @@
    "https://www.99acres.com/dlf-hyde-park-estate-mullanpur-chandigarh-npxid-r1357"
   ],
   "confidence": "high",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Mullanpur / Eco City, New Chandigarh",
+  "devName": "DLF"
  },
  {
   "id": 14,
@@ -1595,7 +1621,9 @@
    "https://bnhabitat.com/project/marbella-twin-towers"
   ],
   "confidence": "medium",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Mullanpur / Eco City, New Chandigarh",
+  "devName": "Marbella"
  },
  {
   "id": 15,
@@ -1678,7 +1706,9 @@
    "https://www.99acres.com/manohar-palm-residency-mullanpur-chandigarh-npxid-r303083"
   ],
   "confidence": "high",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Mullanpur / Eco City, New Chandigarh",
+  "devName": "Manohar Singh & Co"
  },
  {
   "id": 16,
@@ -1753,7 +1783,9 @@
    "http://theaddressapartments.com/"
   ],
   "confidence": "medium",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Mullanpur / Eco City, New Chandigarh",
+  "devName": "Address Infrastructures"
  },
  {
   "id": 20,
@@ -1838,7 +1870,9 @@
    "https://www.99acres.com/maya-garden-city-zirakpur-chandigarh-npxid-r1570"
   ],
   "confidence": "high",
-  "brochure": ""
+  "brochure": "",
+  "locality": "VIP Road, Zirakpur",
+  "devName": "Maya Garden Group"
  },
  {
   "id": 21,
@@ -1914,7 +1948,9 @@
    "https://www.squareyards.com/zirakpur-residential-property/motiaz-royal-citi/111305/project"
   ],
   "confidence": "high",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Peer Muchalla, Zirakpur",
+  "devName": "Motiaz"
  },
  {
   "id": 22,
@@ -1997,7 +2033,9 @@
    "https://www.highlandparkhomes.in/"
   ],
   "confidence": "high",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Patiala Road, Zirakpur",
+  "devName": "APS Group"
  },
  {
   "id": 24,
@@ -2097,7 +2135,9 @@
   "commercialType": null,
   "sources": [],
   "confidence": "high",
-  "brochure": "assets/brochures/vintage-greens.pdf"
+  "brochure": "assets/brochures/vintage-greens.pdf",
+  "locality": "PR-7 Airport Road, Zirakpur",
+  "devName": "Vintage Buildtech"
  },
  {
   "id": 25,
@@ -2171,7 +2211,9 @@
    "https://homelandglobalpark-mohali.com/"
   ],
   "confidence": "medium",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Sector 75, Mohali",
+  "devName": "Homeland Group"
  },
  {
   "id": 29,
@@ -2245,7 +2287,9 @@
    "https://omaxechandigarh.in/omaxe-world-street-commercial-new-chandigarh/"
   ],
   "confidence": "medium",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Mullanpur / Eco City, New Chandigarh",
+  "devName": "Omaxe"
  },
  {
   "id": 30,
@@ -2316,7 +2360,9 @@
    "https://mypropertystore.com/jlpl-bay-shops-sco-booths-sector-82-mohali/"
   ],
   "confidence": "medium",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Sector 66 / 66A, Mohali",
+  "devName": "JLPL"
  },
  {
   "id": 31,
@@ -2387,7 +2433,9 @@
    "https://www.99acres.com/jlpl-shops-sco-and-built-up-booths-mohali-chandigarh-npxid-c670"
   ],
   "confidence": "medium",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Mohali",
+  "devName": "JLPL"
  },
  {
   "id": 32,
@@ -2453,7 +2501,9 @@
    "https://www.mohaliaerotropolis.com/developer/tdi-infratech"
   ],
   "confidence": "medium",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Airport Road, Mohali",
+  "devName": "TDI Infratech"
  },
  {
   "id": 33,
@@ -2520,7 +2570,9 @@
    "https://mohalirealty.com/sector-88-89-mohali/"
   ],
   "confidence": "low",
-  "brochure": ""
+  "brochure": "",
+  "locality": "Sector 88-89, Mohali",
+  "devName": "Omaxe"
  },
  {
   "id": 34,
@@ -2616,7 +2668,9 @@
   "commercialType": null,
   "sources": [],
   "confidence": "high",
-  "brochure": "assets/brochures/opus-one.pdf"
+  "brochure": "assets/brochures/opus-one.pdf",
+  "locality": "Mullanpur / Eco City, New Chandigarh",
+  "devName": "GB Realty"
  },
  {
   "id": 35,
@@ -2710,7 +2764,9 @@
   "commercialType": null,
   "sources": [],
   "confidence": "high",
-  "brochure": "assets/brochures/la-parisian.pdf"
+  "brochure": "assets/brochures/la-parisian.pdf",
+  "locality": "New Chandigarh",
+  "devName": "Ambika Group"
  },
  {
   "id": 36,
@@ -2794,7 +2850,9 @@
   "commercialType": null,
   "sources": [],
   "confidence": "high",
-  "brochure": "assets/brochures/wave-estate-group-housing-2-phase-2.pdf"
+  "brochure": "assets/brochures/wave-estate-group-housing-2-phase-2.pdf",
+  "locality": "Wave Estate (Sector 99), Mohali",
+  "devName": "Wave"
  },
  {
   "id": 37,
@@ -2881,7 +2939,9 @@
   "commercialType": null,
   "sources": [],
   "confidence": "high",
-  "brochure": "assets/brochures/noble-magnollia.pdf"
+  "brochure": "assets/brochures/noble-magnollia.pdf",
+  "locality": "Sector 88, Mohali",
+  "devName": "ACPL"
  },
  {
   "id": 38,
@@ -3004,7 +3064,9 @@
   "commercialType": null,
   "sources": [],
   "confidence": "high",
-  "brochure": "assets/brochures/noble-aurellia.pdf"
+  "brochure": "assets/brochures/noble-aurellia.pdf",
+  "locality": "Sector 88, Mohali",
+  "devName": "Noble Ventures"
  },
  {
   "id": 39,
@@ -3132,7 +3194,9 @@
   "commercialType": null,
   "sources": [],
   "confidence": "high",
-  "brochure": "assets/brochures/uptown-skylla.pdf"
+  "brochure": "assets/brochures/uptown-skylla.pdf",
+  "locality": "PR-7 Airport Road, Zirakpur",
+  "devName": "Artique Infratech"
  },
  {
   "id": 40,
@@ -3271,7 +3335,9 @@
   "commercialType": null,
   "sources": [],
   "confidence": "high",
-  "brochure": "assets/brochures/affinity-belgravia.pdf"
+  "brochure": "assets/brochures/affinity-belgravia.pdf",
+  "locality": "Patiala Road, Zirakpur",
+  "devName": "Affinity Buildtech"
  },
  {
   "id": 41,
@@ -3406,7 +3472,9 @@
   "commercialType": null,
   "sources": [],
   "confidence": "high",
-  "brochure": "assets/brochures/green-lotus-utsav.pdf"
+  "brochure": "assets/brochures/green-lotus-utsav.pdf",
+  "locality": "PR-7 Airport Road, Zirakpur",
+  "devName": "Maya Estate (Green Lotus)"
  },
  {
   "id": 42,
@@ -3530,7 +3598,9 @@
   "commercialType": null,
   "sources": [],
   "confidence": "high",
-  "brochure": "assets/brochures/escon-primera.pdf"
+  "brochure": "assets/brochures/escon-primera.pdf",
+  "locality": "Airport Road, Mohali",
+  "devName": "Malwa Developers"
  },
  {
   "id": 43,
@@ -3667,6 +3737,8 @@
   "commercialType": null,
   "sources": [],
   "confidence": "high",
-  "brochure": "assets/brochures/el-spazia.pdf"
+  "brochure": "assets/brochures/el-spazia.pdf",
+  "locality": "PR-7 Airport Road, Zirakpur",
+  "devName": "Allwin Infrastructure"
  }
 ]

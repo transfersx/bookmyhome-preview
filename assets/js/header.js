@@ -10,17 +10,18 @@
   const onPlots   = (path==='listings.html' && cat==='Plots');
   const onCom     = (path==='listings.html' && cat==='Commercial');
   const onMaps    = (path==='maps.html');
+  const onExplore = (path==='explore.html');
   const A=(c)=>c?' style="color:var(--brand)"':'';
   mount.innerHTML=`
   <header class="site-header">
     <div class="wrap nav">
       <a class="brand" href="index.html"><img src="assets/img/logo.jpg" alt="Book My Home"></a>
       <nav class="nav-links">
+        <a href="explore.html"${A(onExplore)}>Explore</a>
         <a href="listings.html?category=Residential"${A(onHomes)}>Homes</a>
         <a href="listings.html?category=Plots"${A(onPlots)}>Plots</a>
         <a href="listings.html?category=Commercial"${A(onCom)}>Commercial</a>
         <a href="maps.html"${A(onMaps)}>Maps</a>
-        <a href="index.html#matcher">Find My Home</a>
       </nav>
       <div class="nav-actions">
         <a href="shortlist.html" class="icon-btn" aria-label="Shortlist">
@@ -41,6 +42,7 @@
         <img src="assets/img/logo.jpg" alt="Book My Home" style="height:34px">
         <button class="icon-btn" data-close aria-label="Close">✕</button>
       </div>
+      <a href="explore.html"><span>Explore by developer / sector</span></a>
       <a href="listings.html?category=Residential"><span>Homes</span></a>
       <a href="listings.html?category=Plots"><span>Plots</span></a>
       <a href="listings.html?category=Commercial"><span>Commercial · Invest</span></a>
