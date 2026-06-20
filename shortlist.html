@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>My Shortlist — Book My Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="icon" href="assets/img/logo.jpg">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img src="assets/img/logo.jpg" alt="Book My Home"></a>
+    <nav class="nav-links">
+      <a href="listings.html">All Properties</a>
+      <a href="listings.html?city=Mohali">Mohali</a>
+      <a href="index.html#matcher">Find My Home</a>
+      <a href="compare.html">Compare</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="shortlist.html" class="icon-btn" aria-label="Shortlist"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg><span class="badge" data-shortlist-count style="display:none">0</span></a>
+      <button class="burger" id="burger" aria-label="Menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+</header>
+<div class="drawer" id="drawer"><div class="drawer-bg" data-close></div><div class="drawer-panel">
+  <div class="drawer-top"><img src="assets/img/logo.jpg" alt="Book My Home" style="height:34px"><button class="icon-btn" data-close>✕</button></div>
+  <a href="listings.html">All Properties</a><a href="index.html#matcher">Find My Home</a><a href="shortlist.html">My Shortlist</a><a href="compare.html">Compare</a>
+</div></div>
+
+<section class="listing-top"><div class="wrap">
+  <span class="eyebrow">Saved by you</span>
+  <h1>My shortlist</h1>
+  <p style="color:var(--muted);margin-top:6px" id="slSub">Homes you've saved to revisit.</p>
+</div></section>
+
+<div class="wrap section" style="padding-top:30px">
+  <div class="grid cards" id="slGrid"></div>
+  <div class="empty hide" id="slEmpty">
+    <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg>
+    <h3>Your shortlist is empty</h3><p>Tap the heart on any home to save it here.</p>
+    <a class="btn btn-primary btn-sm" href="listings.html" style="margin-top:14px">Browse properties</a>
+  </div>
+  <div id="slCta" class="hide" style="margin-top:34px;background:var(--cream);border:1px solid var(--line);border-radius:var(--radius-lg);padding:30px 24px;text-align:center">
+    <h3 style="font-size:1.4rem;margin-bottom:8px">Like what you've saved?</h3>
+    <p style="color:var(--muted);max-width:48ch;margin:0 auto 16px">Send your shortlist to an advisor and we'll arrange visits to all of them in one trip.</p>
+    <a class="btn btn-primary" href="index.html#contact">Request advisor callback</a>
+    <a class="btn btn-ghost" href="compare.html" style="margin-left:8px">Compare them</a>
+  </div>
+</div>
+
+<footer class="footer" id="footer"></footer>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/footer.js"></script>
+<script>
+(function(){
+const {P,card,byId,shortlist}=window.BMH;
+function render(){
+  const items=shortlist().map(byId).filter(Boolean);
+  const grid=document.getElementById('slGrid'),empty=document.getElementById('slEmpty'),cta=document.getElementById('slCta');
+  document.getElementById('slSub').textContent=items.length?`${items.length} home${items.length>1?'s':''} saved — revisit, compare or send to an advisor.`:'Homes you save will appear here.';
+  if(items.length){grid.innerHTML=items.map(card).join('');grid.classList.remove('hide');empty.classList.add('hide');cta.classList.remove('hide');
+    const s=shortlist(),c=window.BMH.compare();
+    grid.querySelectorAll('[data-fav]').forEach(b=>b.classList.toggle('on',s.includes(b.dataset.fav)));
+    grid.querySelectorAll('[data-cmp]').forEach(b=>b.checked=c.includes(b.dataset.cmp));
+  }else{grid.innerHTML='';grid.classList.add('hide');empty.classList.remove('hide');cta.classList.add('hide');}
+}
+render();
+// re-render when a heart is toggled off on this page
+document.addEventListener('click',e=>{if(e.target.closest('[data-fav]'))setTimeout(render,30);});
+})();
+</script>
+</body>
+</html>

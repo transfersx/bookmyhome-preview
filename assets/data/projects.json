@@ -1,0 +1,1096 @@
+[
+ {
+  "id": 1,
+  "slug": "falcon-view",
+  "name": "Falcon View",
+  "tagline": "Where Luxury Resides \u2014 More Than Just An Address",
+  "developer": "Janta Land Promoters Pvt. Ltd. (JLPL)",
+  "city": "Mohali",
+  "location": "Sector 66-A, S.A.S. Nagar (Mohali), near International Airport Road",
+  "rera": [],
+  "type": "Apartments",
+  "status": "Ready to Move",
+  "configShort": "3, 4 BHK & Penthouses",
+  "configs": [
+   {
+    "type": "3 BHK + Utility/Servant Room",
+    "super_area_sqft": "2480",
+    "carpet_area_sqft": "1676",
+    "price": null
+   },
+   {
+    "type": "4 BHK + Utility/Servant Room",
+    "super_area_sqft": "3008",
+    "carpet_area_sqft": "2080",
+    "price": null
+   },
+   {
+    "type": "4 BHK + Utility/Servant Room Penthouse (Duplex)",
+    "super_area_sqft": "4695",
+    "carpet_area_sqft": "3112",
+    "price": null
+   },
+   {
+    "type": "5 BHK + Utility/Servant Room Penthouse (Duplex)",
+    "super_area_sqft": "5570",
+    "carpet_area_sqft": "3645",
+    "price": null
+   }
+  ],
+  "bhk": [
+   3,
+   4,
+   5
+  ],
+  "price": "Price on Request",
+  "sizeRange": "2480 \u2013 5570",
+  "sizeMin": 2480,
+  "sizeMax": 5570,
+  "highlights": [
+   "Spread across approx. 34.02 acres with 18 acres of lush green landscape \u2014 the green jewel of Tricity",
+   "Designed by world-renowned architect Hafeez Contractor",
+   "One of India's biggest clubhouses, spanning 1,50,000 sq ft",
+   "Iconic falcon-shaped grand entrance and double-height 5-star tower lobbies",
+   "Olympic-size swimming pool plus kids' pool and lap pool",
+   "3 car parks per flat, 3 lifts per tower and future-ready EV chargers",
+   "Servant accommodation with separate entry and toilet in every unit",
+   "Minutes from the International Airport, Knowledge City and IT City"
+  ],
+  "amenities": [
+   "Clubhouse (1,50,000 sq ft)",
+   "Olympic-size swimming pool",
+   "Kids pool & lap pool",
+   "9-hole mini golf arena with putting green & practice driving range",
+   "Competition-size badminton courts",
+   "Squash courts with viewing deck",
+   "State-of-the-art gymnasium",
+   "Lawn tennis court",
+   "Basketball & multipurpose court",
+   "Box cricket",
+   "Skating rink",
+   "Table tennis",
+   "Billiards & pool table",
+   "Banquet hall",
+   "Fine dine restaurant",
+   "Huge departmental store",
+   "Yoga studio",
+   "Dance & aerobics room",
+   "Spa - sauna/steam/jacuzzi",
+   "Meditation lawn",
+   "Carrom & cards room",
+   "Kids play area",
+   "Amphitheatre",
+   "Children's adventure park & rock climbing",
+   "Elderly therapeutic garden & reflexology path",
+   "Pet zone / natural play",
+   "Multi-tiered CCTV security",
+   "Rain water harvesting"
+  ],
+  "specs": {
+   "Structure": "Earthquake-resistant RCC framed structure as per IS codes",
+   "Flooring": "Vitrified tile flooring in living/dining and bedrooms; marble/granite/vitrified tiles at tower entrance; anti-skid tiles in balconies and utility",
+   "Kitchen": "Dry and wet kitchen with dedicated store room; modular cabinets with BWP/HDHMR finish; single-bowl SS sink with CP fitting; RO water provision; tiles up to 2 ft above counter",
+   "Doors & Windows": "7'-6\" high polished solid-wood main entrance door with smart digital lock; aluminium-system full-height windows with toughened glass",
+   "Security": "Secured gated community with multi-tiered, high-definition CCTV surveillance, society management app and 24-hour gated security",
+   "Power Backup": "DG power backup \u2014 4 KW for 3 BHK and 4 KW for 4 BHK flats; backup for lifts and common areas",
+   "Air Conditioning": "All-weather (hot & cold) air conditioners in living/dining and bedrooms",
+   "Lifts": "3 lifts in every tower \u2014 premium 2 passenger + 1 service/passenger elevator with CCTV and intercom",
+   "Parking": "3 car parks per flat, including 1 on a hydraulic stack platform"
+  },
+  "about": "Falcon View by JLPL (Janta Land Promoters) is a landmark luxury residential address in Sector 66-A, Mohali, set across approximately 34.02 acres at the heart of the Tricity. Designed by world-renowned architect Hafeez Contractor, the project is announced by an iconic falcon-shaped grand entrance \u2014 a symbol of strength and freedom \u2014 that leads into a community defined by grand architecture and meticulous landscaping.\n\nKnown as the green jewel of Tricity, Falcon View devotes 18 acres to lush green landscape, with vehicle-free green walkways and gardens designed to bring residents closer to nature. At its centre sits one of India's biggest clubhouses, spread over 1,50,000 sq ft, with a double-height lobby and an exhaustive suite of indoor and outdoor amenities \u2014 from an Olympic-size pool and a 9-hole mini golf arena to squash and badminton courts, a spa, banquet hall and fine-dine restaurant.\n\nThe residences range from spacious 3 and 4 BHK apartments to expansive duplex penthouses, each thoughtfully planned with utility/servant accommodation, full-height windows, dry and wet kitchens and 5-star double-height tower lobbies. Strategically positioned minutes from the International Airport, Knowledge City and GMADA IT City, Falcon View pairs premium living with exceptional connectivity.",
+  "locationAdv": [
+   "Just 5 minutes to Shaheed Bhagat Singh International Airport, Mohali",
+   "Only 2 minutes from Knowledge City, Sector 81, Mohali",
+   "Adjacent to GMADA IT City & Aerocity",
+   "Just 5 minutes to Mohali Railway Station",
+   "Only 10 minutes to Fortis Hospital, Mohali",
+   "Just a 12-minute drive from ISBT, Sector 43, Chandigarh",
+   "Located on the 200-feet-wide International Airport Road"
+  ],
+  "architect": "Hafeez Contractor",
+  "units": null,
+  "towers": null,
+  "landArea": "Approx. 34.02 acres (18 acres of green landscape)",
+  "coords": [
+   30.6925,
+   76.6905
+  ],
+  "featured": true,
+  "hero": "assets/img/projects/falcon-view/hero.jpg",
+  "card": "assets/img/projects/falcon-view/card.jpg",
+  "gallery": [
+   "assets/img/projects/falcon-view/g1.jpg",
+   "assets/img/projects/falcon-view/g2.jpg",
+   "assets/img/projects/falcon-view/g3.jpg",
+   "assets/img/projects/falcon-view/g4.jpg",
+   "assets/img/projects/falcon-view/g5.jpg",
+   "assets/img/projects/falcon-view/g6.jpg",
+   "assets/img/projects/falcon-view/g7.jpg",
+   "assets/img/projects/falcon-view/g8.jpg",
+   "assets/img/projects/falcon-view/g9.jpg",
+   "assets/img/projects/falcon-view/g10.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/falcon-view/fp1.jpg",
+   "assets/img/projects/falcon-view/fp2.jpg",
+   "assets/img/projects/falcon-view/fp3.jpg",
+   "assets/img/projects/falcon-view/fp4.jpg",
+   "assets/img/projects/falcon-view/fp5.jpg"
+  ]
+ },
+ {
+  "id": 2,
+  "slug": "galaxy-heights-2",
+  "name": "Galaxy Heights-2",
+  "tagline": "Luxury re-defined",
+  "developer": "Janta Land Promoters Pvt. Ltd. (JLPL)",
+  "city": "Mohali",
+  "location": "Sector 66-A, Mohali, Punjab",
+  "rera": [
+   "PBRERA-SAS81PR0763",
+   "PBRERA-SAS81PR0765"
+  ],
+  "type": "Residential Apartments",
+  "status": "Under Construction",
+  "configShort": "2 & 3 BHK",
+  "configs": [
+   {
+    "type": "2 BHK (Unit B)",
+    "super_area_sqft": "1105",
+    "carpet_area_sqft": "713",
+    "price": null
+   },
+   {
+    "type": "2 BHK (Unit C)",
+    "super_area_sqft": "1095",
+    "carpet_area_sqft": "700",
+    "price": null
+   },
+   {
+    "type": "2 BHK (Unit D)",
+    "super_area_sqft": "1105",
+    "carpet_area_sqft": "713",
+    "price": null
+   },
+   {
+    "type": "2 BHK (Unit E)",
+    "super_area_sqft": "1055",
+    "carpet_area_sqft": "708",
+    "price": null
+   },
+   {
+    "type": "2 BHK (Unit I)",
+    "super_area_sqft": "1310",
+    "carpet_area_sqft": "791",
+    "price": null
+   },
+   {
+    "type": "2 BHK (Unit J)",
+    "super_area_sqft": "1610",
+    "carpet_area_sqft": "719",
+    "price": null
+   },
+   {
+    "type": "2 BHK (Unit K)",
+    "super_area_sqft": "1200",
+    "carpet_area_sqft": "719",
+    "price": null
+   },
+   {
+    "type": "3 BHK (Unit A)",
+    "super_area_sqft": "1420",
+    "carpet_area_sqft": "908",
+    "price": null
+   },
+   {
+    "type": "3 BHK (Unit F)",
+    "super_area_sqft": "1630",
+    "carpet_area_sqft": "1018",
+    "price": null
+   },
+   {
+    "type": "3 BHK (Unit G)",
+    "super_area_sqft": "1586",
+    "carpet_area_sqft": "1010",
+    "price": null
+   },
+   {
+    "type": "3 BHK (Unit G1)",
+    "super_area_sqft": "1630",
+    "carpet_area_sqft": "1018",
+    "price": null
+   },
+   {
+    "type": "3 BHK (Unit H)",
+    "super_area_sqft": "1944",
+    "carpet_area_sqft": "1242",
+    "price": null
+   },
+   {
+    "type": "3 BHK (Unit H1)",
+    "super_area_sqft": "1957",
+    "carpet_area_sqft": "1253",
+    "price": null
+   },
+   {
+    "type": "3 BHK (Unit H2)",
+    "super_area_sqft": "1963",
+    "carpet_area_sqft": "1253",
+    "price": null
+   }
+  ],
+  "bhk": [
+   2,
+   3
+  ],
+  "price": "Price on Request",
+  "sizeRange": "1055 - 1963 sq.ft. (Super Area); 700 - 1253 sq.ft. (Carpet Area)",
+  "sizeMin": 1055,
+  "sizeMax": 1963,
+  "highlights": [
+   "High-rise 2 & 3 BHK group housing in the heart of Sector 66-A, Mohali",
+   "Designed by internationally renowned architect Hafeez Contractor",
+   "284 units across four majestic towers",
+   "Approximately 40,000 sq.ft. of beautifully landscaped green area",
+   "Club House of approximately 5,500 sq.ft. with outdoor swimming pool",
+   "Wide-spread balconies and ample windows designed to maximise views and natural light",
+   "Earthquake-resistant RCC framed structure",
+   "Gated community with 24-hour manned security and electronic surveillance",
+   "Situated adjacent to Galaxy Heights and Sky Gardens within JLPL's integrated township"
+  ],
+  "amenities": [
+   "Swimming Pool",
+   "Kid's Pool",
+   "Pool Deck",
+   "Gymnasium",
+   "Outdoor Gym",
+   "Club House",
+   "Reading Room",
+   "Indoor Games / Activities",
+   "Multipurpose Hall",
+   "Kid's Play Area",
+   "Spa Facilities",
+   "Amphitheater",
+   "Grand Lawn",
+   "Outdoor Multipurpose Court",
+   "Box Cricket",
+   "Children's Play Area",
+   "Sit-Out Areas",
+   "Entry Plaza with Roundabout",
+   "Rain Water Harvesting",
+   "Solar Water Heating provision",
+   "DG Power Backup",
+   "Fire Fighting System",
+   "Intercom & Internet provision in each flat"
+  ],
+  "specs": {
+   "Structure": "Earthquake-resistant RCC framed structure as per codal provisions; external finish in texture paint",
+   "Flooring": "Laminated wooden / vitrified tile flooring in living, dining and Bedroom I; vitrified tiles and ceramic tiles in other bedrooms; vitrified tiles in balconies",
+   "Kitchen": "Marble / granite working platform with single-bowl stainless steel sink; modular kitchen cabinet (without hob and chimney); ceramic tile flooring and dado up to door height",
+   "Security": "Secured gated community with CCTV, 24-hour manned security, electronic surveillance and one intercom point in each apartment",
+   "Power Backup": "DG power backup of 3 KW per apartment, plus backup for lifts and common areas"
+  },
+  "about": "Galaxy Heights-2 is JLPL's latest high-rise residential address in the coveted Sector 66-A of Mohali, rising adjacent to its predecessor Galaxy Heights and the Sky Gardens community. Designed by internationally renowned architect Hafeez Contractor, it brings together world-class aesthetics, considered specifications and a sense of understated, new-age luxury. Four majestic towers hold 284 thoughtfully planned 2 and 3 BHK apartments, each oriented to capture the best possible views, with ample windows and wide-spread balconies that lend every home a feeling of openness, light and fresh air.\n\nLife here is built around comfort and community. Approximately 40,000 sq.ft. of beautifully landscaped greens wrap the towers, leading to a roughly 5,500 sq.ft. club house with an outdoor swimming pool, gymnasium, spa, reading room and indoor games. Outdoor spaces are equally generous, with an amphitheater, grand lawn, kids' play areas, a box-cricket pitch, an outdoor gym and a multipurpose court. The homes themselves are warm and welcoming - elegant kitchens designed for both beauty and function, cosy bedrooms and inviting living areas finished in quality materials.\n\nDeveloped by Janta Land Promoters, one of Punjab's pioneering real estate master developers with a track record that includes Falcon View, Sky Gardens and a delivered mega-township of over 400 acres, Galaxy Heights-2 sits within a fully integrated, gated environment backed by 24-hour security, rain water harvesting, solar provisions and dependable power backup. It is an exclusive, luxuriously elegant living space designed to let your happiness ascend to the pinnacle.",
+  "locationAdv": [
+   "Located in Sector 66-A, part of JLPL's Super Mega Mixed-Use Integrated Industrial Park spread across Sectors 66-A, 82 and 83, Mohali",
+   "Within JLPL's integrated green destination featuring IT towers, malls, multiplexes, business centres, hotels and healthcare facilities",
+   "Adjacent to Galaxy Heights and Sky Gardens residential communities",
+   "Set along a 100-foot-wide road for easy connectivity"
+  ],
+  "architect": "Hafeez Contractor",
+  "units": 284,
+  "towers": 4,
+  "landArea": "",
+  "coords": [
+   30.6905,
+   76.6935
+  ],
+  "featured": true,
+  "hero": "assets/img/projects/galaxy-heights-2/hero.jpg",
+  "card": "assets/img/projects/galaxy-heights-2/card.jpg",
+  "gallery": [
+   "assets/img/projects/galaxy-heights-2/g1.jpg",
+   "assets/img/projects/galaxy-heights-2/g2.jpg",
+   "assets/img/projects/galaxy-heights-2/g3.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/galaxy-heights-2/fp1.jpg",
+   "assets/img/projects/galaxy-heights-2/fp2.jpg",
+   "assets/img/projects/galaxy-heights-2/fp3.jpg",
+   "assets/img/projects/galaxy-heights-2/fp4.jpg",
+   "assets/img/projects/galaxy-heights-2/fp5.jpg",
+   "assets/img/projects/galaxy-heights-2/fp6.jpg",
+   "assets/img/projects/galaxy-heights-2/fp7.jpg",
+   "assets/img/projects/galaxy-heights-2/fp8.jpg",
+   "assets/img/projects/galaxy-heights-2/fp9.jpg",
+   "assets/img/projects/galaxy-heights-2/fp10.jpg",
+   "assets/img/projects/galaxy-heights-2/fp11.jpg",
+   "assets/img/projects/galaxy-heights-2/fp12.jpg",
+   "assets/img/projects/galaxy-heights-2/fp13.jpg",
+   "assets/img/projects/galaxy-heights-2/fp14.jpg",
+   "assets/img/projects/galaxy-heights-2/fp15.jpg",
+   "assets/img/projects/galaxy-heights-2/fp16.jpg",
+   "assets/img/projects/galaxy-heights-2/fp17.jpg",
+   "assets/img/projects/galaxy-heights-2/fp18.jpg",
+   "assets/img/projects/galaxy-heights-2/fp19.jpg"
+  ]
+ },
+ {
+  "id": 3,
+  "slug": "noble-callista",
+  "name": "Noble Callista",
+  "tagline": "Blissful Priv\u00e9 Lifestyle",
+  "developer": "Noble Ventures (Noble Dream Projects Pvt Ltd)",
+  "city": "Mohali",
+  "location": "Plot No. 1, Sector 66 Beta, IT City, Mohali, Punjab - 160062",
+  "rera": [
+   "PBRERA-SAS81-PR0748"
+  ],
+  "type": "Residential Apartments (Group Housing)",
+  "status": "Under Construction",
+  "configShort": "3, 4 & 5 BHK",
+  "configs": [
+   {
+    "type": "3+1 BHK",
+    "super_area_sqft": "2850",
+    "carpet_area_sqft": "1751",
+    "price": null
+   },
+   {
+    "type": "4+1 BHK",
+    "super_area_sqft": "3500",
+    "carpet_area_sqft": "2122",
+    "price": null
+   },
+   {
+    "type": "5+1 BHK",
+    "super_area_sqft": "5000",
+    "carpet_area_sqft": "2968",
+    "price": null
+   }
+  ],
+  "bhk": [
+   3,
+   4,
+   5
+  ],
+  "price": "Price on Request",
+  "sizeRange": "2850 - 5000 sq.ft. (Super Built-up)",
+  "sizeMin": 2850,
+  "sizeMax": 5000,
+  "highlights": [
+   "First project in the region with 5 Club Houses, including the Master Club 'Club Royce'",
+   "Low-density living at approximately 55 families per acre",
+   "Spacious 3+1, 4+1 and 5+1 BHK bespoke residences with servant, pooja and store rooms",
+   "Only 4 apartments per floor (3+1 BHK) and 2 per floor (4+1 / 5+1 BHK) for added privacy",
+   "18-storied towers built with Mivan (Malaysian) brick-less construction technology",
+   "Half-Olympic sized swimming pool with a private section for women",
+   "3.5 acres of open green area with parks, water features and a 1 km cycling track",
+   "First Maha-Vastu compliant project in Sector 66 Beta, IT City Mohali",
+   "3 car parks per apartment (EV and non-EV) with EV charging points",
+   "Set within IT City Mohali with seamless access to Chandigarh and the airport"
+  ],
+  "amenities": [
+   "Master Club 'Club Royce' plus 4 mini tower clubs (5 club houses)",
+   "Half-Olympic sized swimming pool with private section for women",
+   "Fully-equipped gymnasium",
+   "Yoga & meditation room",
+   "Steam & sauna bath, salon & spa",
+   "Lawn tennis court",
+   "Squash court",
+   "Badminton court",
+   "Basketball court",
+   "Football zone",
+   "Cricket practice net",
+   "Billiards room, carrom, chess, table tennis & card room",
+   "Dance & music zone",
+   "Mini cineplex",
+   "Library",
+   "Cafeteria & restaurant and bar",
+   "Banquet hall (open & closed)",
+   "Art & craft studio for kids",
+   "Kids play area with slides, swings & sandpit",
+   "Senior citizen zone",
+   "Open air amphitheatre",
+   "Open air garden gym",
+   "1 km cycling track and 1 km jogging track",
+   "Divine pergola, gazebo & central plaza",
+   "Landscaped gardens across 3.5 acres with water bodies",
+   "Pet's zone",
+   "Worship zone / cr\u00e8che",
+   "VIP guest waiting lounge & guest suites",
+   "Driver's lounge, dormitory and restrooms",
+   "Electric golf carts and car washing area",
+   "Cycle hub spot (smart bike station) & sanitization hub spots",
+   "9,000 sq.ft. shopping arcade with separate security access",
+   "5-tier security with concierge, panic button/app and CCTV",
+   "Round-the-clock water & electricity supply with power backup",
+   "Medical emergency vehicle and on-call housekeeping & laundry"
+  ],
+  "specs": {
+   "Structure": "18-storied, earthquake-resistant RCC framed structure using Mivan (Malaysian) brick-less formwork technology",
+   "Flooring": "Premium vitrified tiles (Simpolo / Somany / Kajaria) in living, dining and bedrooms; Italian marble flooring in 5 BHK drawing & dining; laminated wooden flooring in bedrooms",
+   "Kitchen": "Premium modular kitchen with Hafele/Blum/Hettich fittings, composite marble counter, branded R.O., chimney, geyser, built-in hob, microwave, OTG, dishwasher and refrigerator",
+   "Security": "5-tier security with reception & concierge, video door phone, panic button/mobile app, fire sprinklers (per NBC) and CCTV-monitored access",
+   "Power Backup": "Round-the-clock water & electricity supply with power backup; concealed wiring, modular switches and protective MCBs"
+  },
+  "about": "Noble Callista is an uber-luxury residential address by Noble Ventures, rising at Plot No. 1, Sector 66 Beta within IT City, Mohali. Conceived as a low-density sanctuary at around 55 families per acre, the gated community pairs 18-storied towers built with Mivan brick-less construction technology against 3.5 acres of landscaped parkland, water features and tree-lined walking and cycling tracks.\n\nThe residences are spacious 3+1, 4+1 and 5+1 BHK bespoke apartments, each finished with marbled flooring, premium modular kitchens, all-weather hybrid air-conditioning and signature windows that flood the homes with natural light. With only two to four apartments per floor, every home enjoys cross-ventilation, a central-green or hill outlook and a genuine sense of priv\u00e9 living. Each unit also accommodates servant, pooja and store rooms for effortless day-to-day living.\n\nWhat sets Noble Callista apart is its leisure offering: the first project in the region to feature five club houses, anchored by the Master Club 'Club Royce'. Residents enjoy a half-Olympic swimming pool with a dedicated women's section, a fully-equipped gymnasium, indoor and outdoor sports courts, a spa, a mini cineplex and curated green zones for every age. The Maha-Vastu compliant masterplan, three car parks per home and a 9,000 sq.ft. shopping arcade complete an address designed for effortless 24x7 living.",
+  "locationAdv": [
+   "Located within IT City, Mohali with IT City office hubs at the doorstep (0 km)",
+   "Industrial Area Phase 9 and Sector 82 within ~2 km",
+   "International Airport approximately 7 km / 12 min",
+   "Manav Rachna International School ~2 km; ISB & IISER Mohali ~3 km; NIPER ~4 km",
+   "Bestech Mall ~4 km; Sector 70 Mohali market ~7 km; Elante Mall, Chandigarh ~11 km",
+   "Jindal Clinic ~5 km, Fortis Hospital ~8 km, PGIMER ~19 km",
+   "PCA Stadium Phase 9 ~7 km; Chandigarh Golf Club ~16 km; Sukhna Lake ~18 km",
+   "Railway Station ~6 km; ISBT Sector 43 ~11 km; Chandigarh High Court ~18 km",
+   "Hotels Radisson ~4 km, Hyatt & Taj ~11 km, JW Marriott & Park Plaza ~13 km"
+  ],
+  "architect": "",
+  "units": null,
+  "towers": 8,
+  "landArea": "Approx. 7 acres (low-density, ~55 families per acre; 3.5 acres open green area)",
+  "coords": [
+   30.6855,
+   76.6955
+  ],
+  "featured": true,
+  "hero": "assets/img/projects/noble-callista/hero.jpg",
+  "card": "assets/img/projects/noble-callista/card.jpg",
+  "gallery": [
+   "assets/img/projects/noble-callista/g1.jpg",
+   "assets/img/projects/noble-callista/g2.jpg",
+   "assets/img/projects/noble-callista/g3.jpg",
+   "assets/img/projects/noble-callista/g4.jpg",
+   "assets/img/projects/noble-callista/g5.jpg",
+   "assets/img/projects/noble-callista/g6.jpg",
+   "assets/img/projects/noble-callista/g7.jpg",
+   "assets/img/projects/noble-callista/g8.jpg",
+   "assets/img/projects/noble-callista/g9.jpg",
+   "assets/img/projects/noble-callista/g10.jpg",
+   "assets/img/projects/noble-callista/g11.jpg",
+   "assets/img/projects/noble-callista/g12.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/noble-callista/fp1.jpg",
+   "assets/img/projects/noble-callista/fp2.jpg",
+   "assets/img/projects/noble-callista/fp3.jpg",
+   "assets/img/projects/noble-callista/fp4.jpg"
+  ]
+ },
+ {
+  "id": 4,
+  "slug": "galaxy-heights",
+  "name": "Galaxy Heights",
+  "tagline": "Redefining Luxury",
+  "developer": "Janta Land Promoters Ltd. (JLPL)",
+  "city": "Mohali",
+  "location": "Sector 66A, Mohali",
+  "rera": [],
+  "type": "Residential Apartments",
+  "status": "Under Construction",
+  "configShort": "2 BHK",
+  "configs": [
+   {
+    "type": "2 BHK (Unit Plan A)",
+    "super_area_sqft": "1050",
+    "carpet_area_sqft": "",
+    "price": null
+   },
+   {
+    "type": "2 BHK (Unit Plan B)",
+    "super_area_sqft": "1050",
+    "carpet_area_sqft": "",
+    "price": null
+   },
+   {
+    "type": "2 BHK (Unit Plan C)",
+    "super_area_sqft": "1065",
+    "carpet_area_sqft": "",
+    "price": null
+   },
+   {
+    "type": "2 BHK (Unit Plan E)",
+    "super_area_sqft": "1045",
+    "carpet_area_sqft": "",
+    "price": null
+   }
+  ],
+  "bhk": [
+   2
+  ],
+  "price": "Price on Request",
+  "sizeRange": "1045 - 1065 sq.ft. (super area)",
+  "sizeMin": 1045,
+  "sizeMax": 1065,
+  "highlights": [
+   "World-class 2 BHK apartments designed by internationally renowned architect Hafeez Contractor",
+   "Spread over 4.12 acres in the heart of Sector 66A, Mohali",
+   "Six aesthetically designed residential towers for privacy and maximum space utilisation",
+   "Beautifully landscaped over 40,000 sq.ft. of green area",
+   "Approximately 6,000 sq.ft. Club House with swimming pool facility",
+   "Gated, 24-hour manned perimeter security with electronic surveillance",
+   "Earthquake-resistant RCC frame structure",
+   "Prime location with easy connectivity and affordable luxury"
+  ],
+  "amenities": [
+   "Club House (approx. 6,000 sq.ft.)",
+   "Swimming Pool",
+   "Landscaped green area (over 40,000 sq.ft.)",
+   "Grand tower entrance",
+   "Naturally ventilated, well-lit lift lobbies",
+   "1 Passenger Lift and 1 Service Lift per tower",
+   "2 staircases per tower",
+   "Gated 24-hour manned security with electronic surveillance",
+   "CCTV with one intercom point per apartment",
+   "Internet and intercom connection provision in each flat",
+   "Rain Water Harvesting System",
+   "Fire prevention and fighting system as per NBC norms",
+   "DG power backup (3 KW per apartment plus lifts and common areas)",
+   "Car parking provision as per norms"
+  ],
+  "specs": {
+   "Structure": "Earthquake-resistant RCC frame structure with texture paint external finish",
+   "Flooring": "Vitrified tiles in living/dining and Bedroom II; wooden/vitrified flooring in Bedroom I; anti-skid ceramic tiles in kitchen, toilets and balconies",
+   "Kitchen": "Modular kitchen (without hob) with granite counter, single-bowl stainless steel sink with drain board; ceramic tile walls up to 2' above counter",
+   "Security": "Secured gated community with CCTV, 24-hour manned perimeter security and one intercom point in each apartment",
+   "Power Backup": "DG power backup - 3 KW per apartment plus backup for lifts and common areas"
+  },
+  "about": "JLPL Galaxy Heights is a multi-storey freehold residential development that rises in the heart of Sector 66A, Mohali. Spread across 4.12 acres of lush green surroundings, the project brings together six aesthetically designed residential towers, offering world-class 2 BHK apartments crafted for comfortable, contemporary living. Designed by internationally renowned architect Hafeez Contractor, the towers balance privacy, generous space utilisation and resort-style amenities.\n\nResidents enjoy over 40,000 sq.ft. of beautifully landscaped greens, an approximately 6,000 sq.ft. Club House with a swimming pool, and a gated community secured by 24-hour manned perimeter security and electronic surveillance. Earthquake-resistant RCC construction, modular kitchens, rain water harvesting and reliable power backup combine to deliver dependable, urban-ready homes.\n\nDeveloped by Janta Land Promoters Ltd. (JLPL), an integrated real estate master developer with a proven track record across Mohali and Punjab, Galaxy Heights enjoys a prime, well-connected address - close to the upcoming Chandigarh-Mohali International Airport, Infosys Mohali, the Mohali Railway Station and the Knowledge City institutional belt. It is luxury made affordable, in one of Mohali's most coveted growth corridors.",
+  "locationAdv": [
+   "Near the upcoming Chandigarh-Mohali International Airport",
+   "Near Infosys Mohali",
+   "Adjoining Mohali Railway Station",
+   "Beside GMADA 'Aerocity' (1,200 acres)",
+   "Beside GMADA 'IT City' (1,900 acres)",
+   "Near the proposed Mohali Bus Terminal, Sector 66A",
+   "Near PCA Cricket Stadium and Fortis Hospital",
+   "12-minute drive from ISBT-43, Chandigarh",
+   "Stone's throw from Knowledge City, Sector 81 (350 acres) - home to ISB and IISER",
+   "Accessible via a 200 ft. wide road connecting to the upcoming airport and bye-pass, linking Delhi, Ambala, Patiala, Ludhiana, Kullu-Manali and J&K"
+  ],
+  "architect": "Hafeez Contractor",
+  "units": null,
+  "towers": 6,
+  "landArea": "4.12 acres",
+  "coords": [
+   30.6915,
+   76.6925
+  ],
+  "featured": false,
+  "hero": "assets/img/projects/galaxy-heights/hero.jpg",
+  "card": "assets/img/projects/galaxy-heights/card.jpg",
+  "gallery": [
+   "assets/img/projects/galaxy-heights/g1.jpg",
+   "assets/img/projects/galaxy-heights/g2.jpg",
+   "assets/img/projects/galaxy-heights/g3.jpg",
+   "assets/img/projects/galaxy-heights/g4.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/galaxy-heights/fp1.jpg",
+   "assets/img/projects/galaxy-heights/fp2.jpg",
+   "assets/img/projects/galaxy-heights/fp3.jpg",
+   "assets/img/projects/galaxy-heights/fp4.jpg",
+   "assets/img/projects/galaxy-heights/fp5.jpg",
+   "assets/img/projects/galaxy-heights/fp6.jpg",
+   "assets/img/projects/galaxy-heights/fp7.jpg"
+  ]
+ },
+ {
+  "id": 5,
+  "slug": "hero-homes-mohali",
+  "name": "Hero Homes Mohali",
+  "tagline": "Where Nature Meets Urban Elegance \u2014 Welcome to the Parkside Life",
+  "developer": "Hero Realty Private Limited",
+  "city": "Mohali",
+  "location": "Sector 88, SAS Nagar (Mohali), Punjab",
+  "rera": [
+   "PBRERA-SAS81-PR1114"
+  ],
+  "type": "Residential Apartments",
+  "status": "Under Construction",
+  "configShort": "4 BHK + Utility",
+  "configs": [
+   {
+    "type": "4 BHK + Utility",
+    "super_area_sqft": "3490",
+    "carpet_area_sqft": "",
+    "price": null
+   }
+  ],
+  "bhk": [
+   4
+  ],
+  "price": "Price on Request",
+  "sizeRange": "3490 sq.ft.",
+  "sizeMin": 3490,
+  "sizeMax": 3490,
+  "highlights": [
+   "Iconic Phase III development promoting the Parkside Life",
+   "Luxurious 4 BHK + Study / Utility residences",
+   "2 new towers with 172 units",
+   "Unit area 3,490 sq.ft. (324.23 sq.mtr.)",
+   "More than 85% open and green areas",
+   "IGBC Gold Rated, climate-responsive master plan",
+   "Designed as per Vastu principles",
+   "Breathtaking Shivalik Hills views from balconies",
+   "6 ft wide balconies and grand double-height lobby",
+   "Marble flooring, smart door locks and DGU doors & windows",
+   "Modular kitchen with hob and chimney",
+   "22,500 sq.ft. expansive clubhouse",
+   "28,934 sq.ft. exclusive recreation area for new tower residents"
+  ],
+  "amenities": [
+   "Indoor landscape court",
+   "Yoga & meditation terrace",
+   "Business center with WFH area, conference and meeting rooms",
+   "Senior citizen lounge with e-library",
+   "Cafe",
+   "Zumba & aerobics studio",
+   "Terrace garden",
+   "Indoor gaming zone",
+   "Indoor kids play area",
+   "Outdoor kids play area",
+   "Jogging track",
+   "Cycling track",
+   "Fruit garden boulevard",
+   "Expansive clubhouse (22,500 sq.ft.)",
+   "Swimming pool",
+   "Spa & sauna",
+   "Pool table",
+   "Squash court",
+   "Zen garden",
+   "Tree house",
+   "Tennis court",
+   "Basketball court",
+   "Cricket pitch",
+   "Skating rink",
+   "Outdoor & open gym",
+   "Reflexology path",
+   "Community garden",
+   "Celebration & club lawns",
+   "Maze and chess board",
+   "Adjoining 4.3 acre GMADA park"
+  ],
+  "specs": {
+   "Structure": "RCC framed structure; doors & windows with DGU (double glazed units)",
+   "Flooring": "Marble flooring in residences",
+   "Kitchen": "Modular kitchen with hob and chimney",
+   "Security": "Smart door locks; gated community with main entrance gate and control room",
+   "Power Backup": ""
+  },
+  "about": "Hero Homes Mohali, set in Sector 88, is the Phase III chapter of Hero Realty's flagship residential brand \u2014 an iconic development where contemporary living blends seamlessly with the serenity of nature. Conceived around the idea of the Parkside Life, the project offers spacious 4 BHK residences framed by lush green landscapes, more than 85% open spaces and uninterrupted views of the Shivalik Hills from every balcony.\n\nThe two new towers introduce 172 elevated homes, each 3,490 sq.ft., defined by marble flooring, six-foot-wide balconies, smart door locks, DGU doors and windows, and a modular kitchen with hob and chimney. Residents arrive through a majestic tower entrance into a grand double-height lobby, and enjoy an exclusive 28,934 sq.ft. recreation zone alongside a sprawling 22,500 sq.ft. clubhouse.\n\nBacked by the seven-decade legacy of Hero Enterprise and built to an IGBC Gold standard on a climate-responsive, Vastu-aligned master plan, the community pairs wellness-focused amenities \u2014 yoga terrace, business center, senior citizen e-library lounge and abundant sport and play facilities \u2014 with strong connectivity to Chandigarh, its airport and the city's key institutions. The result is a rare balance of modern convenience and natural grandeur.",
+  "locationAdv": [
+   "Judicial Court Complex \u2014 1 Km",
+   "Manav Mangal Smart School \u2014 1 Km",
+   "Fortis Hospital \u2014 5 Km",
+   "Chandigarh \u2014 7 Km",
+   "ISBT 43 Chandigarh \u2014 7 Km",
+   "Railway Station SAS Nagar \u2014 8 Km",
+   "Chandigarh International Airport \u2014 14 Km",
+   "Adjacent to 4.3 acre GMADA park",
+   "Flanked by 80 ft, 100 ft sector roads and a 100 ft service road"
+  ],
+  "architect": "",
+  "units": 172,
+  "towers": 2,
+  "landArea": "",
+  "coords": [
+   30.6655,
+   76.7155
+  ],
+  "featured": true,
+  "hero": "assets/img/projects/hero-homes-mohali/hero.jpg",
+  "card": "assets/img/projects/hero-homes-mohali/card.jpg",
+  "gallery": [
+   "assets/img/projects/hero-homes-mohali/g1.jpg",
+   "assets/img/projects/hero-homes-mohali/g2.jpg",
+   "assets/img/projects/hero-homes-mohali/g3.jpg",
+   "assets/img/projects/hero-homes-mohali/g4.jpg",
+   "assets/img/projects/hero-homes-mohali/g5.jpg",
+   "assets/img/projects/hero-homes-mohali/g6.jpg",
+   "assets/img/projects/hero-homes-mohali/g7.jpg",
+   "assets/img/projects/hero-homes-mohali/g8.jpg",
+   "assets/img/projects/hero-homes-mohali/g9.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/hero-homes-mohali/fp1.jpg",
+   "assets/img/projects/hero-homes-mohali/fp2.jpg"
+  ]
+ },
+ {
+  "id": 6,
+  "slug": "premium-residences",
+  "name": "Premium Residences",
+  "tagline": "",
+  "developer": "",
+  "city": "Mohali",
+  "location": "",
+  "rera": [],
+  "type": "Apartments",
+  "status": "Floor Plans",
+  "configShort": "3 & 4 BHK + Servant",
+  "configs": [
+   {
+    "type": "3 BHK + Servant",
+    "super_area_sqft": "2808 / 2606",
+    "carpet_area_sqft": null,
+    "price": null
+   },
+   {
+    "type": "4 BHK + Servant",
+    "super_area_sqft": "3538 / 3326",
+    "carpet_area_sqft": null,
+    "price": null
+   }
+  ],
+  "bhk": [
+   3,
+   4
+  ],
+  "price": "Price on Request",
+  "sizeRange": "2606 \u2013 3538",
+  "sizeMin": 2606,
+  "sizeMax": 3538,
+  "highlights": [],
+  "amenities": [],
+  "specs": {},
+  "about": "This is a floor-plan sheet only. It presents two typical floor plans for a premium apartment development: a 3 BHK + Servant configuration (Super Area 2808 sq.ft for Unit-1 and 2606 sq.ft for Unit-2) and a 4 BHK + Servant configuration (Super Area 3538 sq.ft for Unit-1 and 3326 sq.ft for Unit-2). Both layouts feature wide balconies, family lounges, separate dining areas, wet kitchens, servant rooms with attached toilets, and multiple lifts plus a fire lift off a central wide corridor. No developer name, RERA number, location, pricing, or amenity details are visible on this sheet.",
+  "locationAdv": [],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.7,
+   76.72
+  ],
+  "featured": false,
+  "hero": "assets/img/projects/premium-residences/hero.jpg",
+  "card": "assets/img/projects/premium-residences/card.jpg",
+  "gallery": [],
+  "floorplans": [
+   "assets/img/projects/premium-residences/fp1.jpg",
+   "assets/img/projects/premium-residences/fp2.jpg",
+   "assets/img/projects/premium-residences/fp3.jpg",
+   "assets/img/projects/premium-residences/fp4.jpg"
+  ]
+ },
+ {
+  "id": 7,
+  "slug": "horizon-belmond",
+  "name": "Horizon Belmond",
+  "tagline": "Address of Significance",
+  "developer": "The Horizon Group (Horizon Infrastructure & Developers LLP)",
+  "city": "Mohali",
+  "location": "GH2, Sector 88-89 Dividing Road, Mohali, Punjab",
+  "rera": [
+   "PBRERA-SAS81-PR0813"
+  ],
+  "type": "Residential Apartments",
+  "status": "Under Construction",
+  "configShort": "Luxury Apartments & 5 BHK Duplex",
+  "configs": [
+   {
+    "type": "Luxury Apartments (G+24)",
+    "super_area_sqft": "",
+    "carpet_area_sqft": "",
+    "price": null
+   },
+   {
+    "type": "Koh-i-Noor 5 BHK Duplex Residences (Limited Edition)",
+    "super_area_sqft": "",
+    "carpet_area_sqft": "",
+    "price": null
+   }
+  ],
+  "bhk": [
+   4,
+   5
+  ],
+  "price": "Price on Request",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "Seven exclusive Belmond Towers",
+   "Stunning G+24 storey luxe apartments in prime Sector 88, Mohali",
+   "Koh-i-Noor limited-edition 5 BHK duplex residences with personal lift and double-height living rooms",
+   "Cluster of only two apartments on every floor",
+   "Both-side-open, all green-facing apartments with ample natural light and ventilation",
+   "Sun decks and uninterrupted green views",
+   "Vastu-compliant project",
+   "Interiors curated by celebrity designer Sussanne Khan",
+   "Project management by Colliers International",
+   "On-site concierge and valet parking services"
+  ],
+  "amenities": [
+   "Club Stardom (exclusive indoor club)",
+   "All-weather indoor swimming pool",
+   "Fully equipped gymnasium",
+   "Aerobics / yoga room",
+   "Restaurant & coffee shop",
+   "Banquet hall",
+   "Well-stocked library",
+   "Games room / pool room",
+   "Kids' play area",
+   "Activity room",
+   "Multi-purpose sports court",
+   "Multiple open-air sports facilities",
+   "Landscaped lawns and green areas",
+   "Belmond Drive lifestyle promenade with specialty outlets and dining",
+   "Exclusive on-site concierge and valet parking",
+   "Grand foyer, lobbies and high-speed elevators",
+   "Rainwater harvesting pits",
+   "Sewage treatment plant",
+   "Solid waste management"
+  ],
+  "specs": {
+   "Structure": "G+24 storey RCC high-rise towers (seven Belmond Towers)",
+   "Flooring": "",
+   "Kitchen": "",
+   "Security": "Exclusive on-site concierge and valet parking",
+   "Power Backup": ""
+  },
+  "about": "Horizon Belmond is The Horizon Group's flagship luxury residential address in the prime Sector 88 of Mohali, set on the GH2, Sector 88-89 dividing road. Conceived as an ode to the glory of Punjab, the precinct rises as seven exclusive Belmond Towers, each a striking G+24 storey high-rise designed to redefine the city's skyline. With only a cluster of two apartments on every floor, every home is both-side open and green-facing, drenched in natural light and ventilation, and complemented by generous sun decks and uninterrupted views.\n\nAt the heart of the offering sits the Koh-i-Noor collection, a limited edition of 5 BHK exclusive duplex residences appointed with personal lifts, double-height living rooms, large sun decks and sophisticated, curated finishes. The interiors carry the signature of acclaimed designer Sussanne Khan, while project execution is overseen by Colliers International, lending the development a rare pedigree of craftsmanship and precision.\n\nLife at Horizon Belmond revolves around Club Stardom, an exclusive indoor club housing an all-weather pool, a fully equipped gymnasium, a library, banquet hall, restaurant and coffee shop, alongside open-air sports courts and lush landscaped greens. A Vastu-compliant plan and sustainable systems such as rainwater harvesting and a sewage treatment plant round out a community designed for elevated, balanced and enduring living.",
+  "locationAdv": [
+   "Located in the prime Sector 88 of Mohali, Punjab's future city",
+   "Close proximity to Chandigarh International Airport",
+   "Well-connected to Chandigarh, Mohali and Panchkula (Tricity)",
+   "Near IT and commercial hubs of Mohali",
+   "Near reputed schools and universities (IISER, ISB, NIPER, Chandigarh Engineering College)",
+   "Near medical facilities including Fortis Hospital",
+   "Close to shopping malls (Bestech Mall, VR Punjab Mall, Quark City)",
+   "Excellent road connectivity via Landran Chowk and major highways"
+  ],
+  "architect": "",
+  "units": null,
+  "towers": 7,
+  "landArea": "",
+  "coords": [
+   30.6605,
+   76.7205
+  ],
+  "featured": true,
+  "hero": "assets/img/projects/horizon-belmond/hero.jpg",
+  "card": "assets/img/projects/horizon-belmond/card.jpg",
+  "gallery": [
+   "assets/img/projects/horizon-belmond/g1.jpg",
+   "assets/img/projects/horizon-belmond/g2.jpg",
+   "assets/img/projects/horizon-belmond/g3.jpg",
+   "assets/img/projects/horizon-belmond/g4.jpg",
+   "assets/img/projects/horizon-belmond/g5.jpg",
+   "assets/img/projects/horizon-belmond/g6.jpg",
+   "assets/img/projects/horizon-belmond/g7.jpg",
+   "assets/img/projects/horizon-belmond/g8.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/horizon-belmond/fp1.jpg",
+   "assets/img/projects/horizon-belmond/fp2.jpg"
+  ]
+ },
+ {
+  "id": 8,
+  "slug": "joy-grand",
+  "name": "Joy Grand",
+  "tagline": "Your Story, Your Glorious Legacy",
+  "developer": "Joy Group",
+  "city": "Mohali",
+  "location": "SAS Nagar, Mohali (Tricity)",
+  "rera": [
+   "PBRERA-SAS81-PRO928"
+  ],
+  "type": "Residential Apartments",
+  "status": "Under Construction",
+  "configShort": "3 & 4 BHK",
+  "configs": [
+   {
+    "type": "3 BHK + 1 (Corner Unit)",
+    "super_area_sqft": "",
+    "carpet_area_sqft": "",
+    "price": null
+   },
+   {
+    "type": "4 BHK + 1 (Corner Unit)",
+    "super_area_sqft": "",
+    "carpet_area_sqft": "",
+    "price": null
+   }
+  ],
+  "bhk": [
+   3,
+   4
+  ],
+  "price": "Price on Request",
+  "sizeRange": "",
+  "sizeMin": null,
+  "sizeMax": null,
+  "highlights": [
+   "Spacious 3 BHK + 1 and 4 BHK + 1 corner residences",
+   "High-rise towers with expansive wrap-around balconies",
+   "Private and dedicated elevators serving residences",
+   "Premium Italian marble in living and dining areas",
+   "Modular kitchens with chimney, hob and RO",
+   "Designed where classic elegance blends with modernity"
+  ],
+  "amenities": [
+   "Landscaped central greens and gardens",
+   "Swimming pool",
+   "Indoor games and recreation lounge (table tennis, billiards)",
+   "Clubhouse with lounge and entertainment spaces",
+   "Children's play areas",
+   "Surface and basement parking",
+   "Power backup",
+   "Gated community with security"
+  ],
+  "specs": {
+   "Structure": "RCC framed high-rise structure",
+   "Flooring": "Premium Italian marble in living/dining; laminated wooden flooring or premium vitrified tiles in bedrooms; anti-skid vitrified tiles in toilets and kitchen",
+   "Kitchen": "Premium modular kitchen cabinets, granite/synthetic stone/premium quartz counters, anti-skid vitrified flooring, premium vitrified dado up to 2ft above counter, chimney, hob and RO",
+   "Security": "Laminated main door with digital door lock; gated community",
+   "Power Backup": "Power backup provided"
+  },
+  "about": "Joy Grand is a premium high-rise residential address by Joy Group, rising in SAS Nagar, Mohali, within the heart of the Tricity. Conceived around the idea of a glorious family legacy, the development offers thoughtfully planned 3 BHK + 1 and 4 BHK + 1 corner residences designed for those who value space, light and refinement in equal measure.\n\nThe architecture lets elegance blend with modernity. Sweeping balconies, generous living and dining rooms, serene bedrooms and private elevators come together to create an effortless, contemporary lifestyle. Interiors are finished with premium Italian marble, laminated wooden flooring, modular kitchens and quality fittings, while every detail honours timeless elegance alongside the comforts of the future.\n\nSet within a landscaped, gated community, Joy Grand pairs lush central greens, a swimming pool, recreation lounges and a clubhouse with the connectivity advantages of Mohali. It is positioned as a luxury home crafted for a premier legacy, for families who want their address to tell their story for generations to come.",
+  "locationAdv": [
+   "Located in SAS Nagar, Mohali, part of the Chandigarh Tricity region",
+   "Well connected by wide internal and arterial roads",
+   "Proximity to Tricity business, retail and education hubs",
+   "Convenient access to Chandigarh and Mohali International Airport"
+  ],
+  "architect": "",
+  "units": null,
+  "towers": null,
+  "landArea": "",
+  "coords": [
+   30.7,
+   76.7205
+  ],
+  "featured": false,
+  "hero": "assets/img/projects/joy-grand/hero.jpg",
+  "card": "assets/img/projects/joy-grand/card.jpg",
+  "gallery": [
+   "assets/img/projects/joy-grand/g1.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/joy-grand/fp1.jpg",
+   "assets/img/projects/joy-grand/fp2.jpg"
+  ]
+ },
+ {
+  "id": 9,
+  "slug": "the-medallion",
+  "name": "The Medallion",
+  "tagline": "Location. Luxury. Lifestyle",
+  "developer": "Turnstone Realty",
+  "city": "Mohali",
+  "location": "GHS Site No. 4 & 5, IT City, Sector 82 Alpha, Airport Road, SAS Nagar, Mohali, Punjab",
+  "rera": [],
+  "type": "Residential Apartments",
+  "status": "Under Construction",
+  "configShort": "3 & 4 BHK",
+  "configs": [
+   {
+    "type": "3 BHK Mini",
+    "super_area_sqft": "1550",
+    "carpet_area_sqft": "1285",
+    "price": null
+   },
+   {
+    "type": "3 BHK + Store",
+    "super_area_sqft": "1995",
+    "carpet_area_sqft": "1728",
+    "price": null
+   },
+   {
+    "type": "4 BHK",
+    "super_area_sqft": "2695",
+    "carpet_area_sqft": "2116",
+    "price": null
+   }
+  ],
+  "bhk": [
+   3,
+   4
+  ],
+  "price": "Price on Request",
+  "sizeRange": "1550 - 2695",
+  "sizeMin": 1550,
+  "sizeMax": 2695,
+  "highlights": [
+   "Independent towers with all corner flats",
+   "Designed for ample sunlight and natural ventilation",
+   "Dedicated lobbies for every tower with drop-off point",
+   "First time in Tri-City: double-height podium parking",
+   "22-storied, earthquake-resistant Mivan (Malaysian technology) RCC structure",
+   "Vastu-compliant site",
+   "Dedicated green spaces with central green area",
+   "Concept gardens: Flower, Herb, Zen and Therapeutic",
+   "Minutes from Chandigarh International Airport on Airport Road, IT City"
+  ],
+  "amenities": [
+   "Terrace Lounge",
+   "Swimming Pool",
+   "Spa & Sauna",
+   "Gymnasium",
+   "Barbeque Areas",
+   "Indoor Games Arcade",
+   "Restaurant & Coffee Shop",
+   "Conference Room",
+   "Co-Working Spaces",
+   "CCTV-Controlled Kids' Play Areas",
+   "Splash Pool",
+   "Gaming Zone",
+   "Sand Pits",
+   "Art & Craft Studio",
+   "Lawn Tennis Court",
+   "Cricket Pitch",
+   "Basketball Court",
+   "Volleyball Court",
+   "Senior Citizen Sit-outs with Friendly Staircase",
+   "24x7 Ambulance Service & On-Call Doctor",
+   "4-Tier Security"
+  ],
+  "specs": {
+   "Structure": "22-storied, earthquake-resistant Mivan framework (Malaysian technology) RCC-formed structure, with bricks only where needed; textured exterior-grade paint",
+   "Flooring": "Premium/Vitrified/Italian tiles in living-dining; laminated wooden flooring in master bedroom and premium vitrified tiles in other bedrooms; anti-skid vitrified tiles in balconies and kitchen; appropriate mix of marble/granite in lobbies",
+   "Kitchen": "Premium modular kitchen cabinets (Hettich) with branded chimney/hob, premium granite counter, anti-skid vitrified flooring and vitrified-tile dado up to 2ft above counter",
+   "Security": "4-tier security, panic button in all apartments, Honeywell or equivalent video door phone, keyless entry (Yale/Godrej), CCTV-controlled play areas, fire sprinklers per NBC, 24x7 ambulance and on-call doctor",
+   "Power Backup": null
+  },
+  "about": "The Medallion by Turnstone Realty is a luxury residential address in IT City, Sector 82 Alpha, on Mohali's 200-ft Airport Road. Conceived around the spirit of the Zen Enso, a symbol of strength, elegance and one-mindedness, the development pairs vibrant community living with carefully composed green spaces, including a central green and concept gardens for flowers, herbs, Zen and therapy.\n\nThe residences are offered as 3 BHK Mini, 3 BHK + Store and 4 BHK apartments ranging from 1,550 to 2,695 sq.ft of super area. Independent towers rise 22 storeys in an earthquake-resistant Mivan RCC framework, with every flat a corner flat designed for ample sunlight and cross ventilation. Thoughtful touches such as double-height podium parking, a Tri-City first, dedicated tower lobbies with drop-off points and a Vastu-compliant site reflect the developer's customer-centric ethos.\n\nA resort-style amenity programme spans a swimming pool, spa and sauna, gymnasium, terrace lounge, indoor games arcade, co-working spaces and a full suite of sports courts, alongside dedicated zones for children and senior residents. Set minutes from the international airport, the Indian School of Business, Infosys and leading universities, The Medallion places an immaculate living experience at the heart of the city's most thriving neighbourhood.",
+  "locationAdv": [
+   "Chandigarh International Airport - 5 min",
+   "IT City - 0 min",
+   "Indian School of Business (ISB) - 2 min",
+   "Infosys - 2 min",
+   "Manav Rachna International School - 0 min",
+   "Ashoka University - 2 min",
+   "Amity University - 1 min",
+   "Aero City - 1 min",
+   "PCA Stadium, Mohali - 5 min",
+   "Fortis Hospital - 7 min",
+   "Railway Station, Mohali - 4 min",
+   "Elante Mall - 13 min"
+  ],
+  "architect": "",
+  "units": null,
+  "towers": 9,
+  "landArea": "",
+  "coords": [
+   30.6755,
+   76.6905
+  ],
+  "featured": true,
+  "hero": "assets/img/projects/the-medallion/hero.jpg",
+  "card": "assets/img/projects/the-medallion/card.jpg",
+  "gallery": [
+   "assets/img/projects/the-medallion/g1.jpg"
+  ],
+  "floorplans": [
+   "assets/img/projects/the-medallion/fp1.jpg",
+   "assets/img/projects/the-medallion/fp2.jpg",
+   "assets/img/projects/the-medallion/fp3.jpg",
+   "assets/img/projects/the-medallion/fp4.jpg"
+  ]
+ }
+]

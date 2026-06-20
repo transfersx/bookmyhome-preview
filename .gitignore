@@ -1,0 +1,5 @@
+# heavy source assets (repo root) — not needed for the live site
+/brochures/
+/projects/
+.DS_Store
+.claude/

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>All Properties — Book My Home · Tricity</title>
+<meta name="description" content="Browse RERA-verified luxury residences across Mohali, Chandigarh & Panchkula. Filter by configuration, size, locality & developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="icon" href="assets/img/logo.jpg">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img src="assets/img/logo.jpg" alt="Book My Home"></a>
+    <nav class="nav-links">
+      <a href="listings.html">All Properties</a>
+      <a href="listings.html?city=Mohali">Mohali</a>
+      <a href="listings.html?type=Penthouses">Luxury</a>
+      <a href="index.html#matcher">Find My Home</a>
+      <a href="compare.html">Compare</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="shortlist.html" class="icon-btn" aria-label="Shortlist">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg>
+        <span class="badge" data-shortlist-count style="display:none">0</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer">
+  <div class="drawer-bg" data-close></div>
+  <div class="drawer-panel">
+    <div class="drawer-top"><img src="assets/img/logo.jpg" alt="Book My Home" style="height:34px"><button class="icon-btn" data-close>✕</button></div>
+    <a href="listings.html">All Properties</a>
+    <a href="listings.html?city=Mohali">Mohali</a>
+    <a href="listings.html?type=Penthouses">Luxury Collection</a>
+    <a href="index.html#matcher">Find My Home</a>
+    <a href="shortlist.html">My Shortlist</a>
+    <a href="compare.html">Compare</a>
+    <a href="index.html#contact" class="btn btn-primary" style="margin-top:14px" data-close>Get a Callback</a>
+  </div>
+</div>
+
+<!-- top -->
+<section class="listing-top">
+  <div class="wrap">
+    <span class="eyebrow">The collection</span>
+    <h1 id="listTitle">All properties in Tricity</h1>
+    <div class="toolbar">
+      <div class="search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--brand)"><circle cx="11" cy="11" r="7"/><path d="m21 21-4-4"/></svg>
+        <input id="searchInput" type="search" placeholder="Search by project, developer, sector…">
+      </div>
+      <button class="btn btn-ghost btn-sm mob-filter-btn" id="mobFilterBtn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M7 12h10M10 18h4"/></svg> Filters
+      </button>
+      <select id="sortSelect">
+        <option value="featured">Featured first</option>
+        <option value="size-asc">Size: small → large</option>
+        <option value="size-desc">Size: large → small</option>
+        <option value="name">Name A–Z</option>
+      </select>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="filters">
+    <!-- FILTER PANEL -->
+    <aside class="filter-panel" id="filterPanel">
+      <div class="fbox">
+        <div class="fgroup">
+          <h4>City</h4>
+          <div class="chips" id="fCity"></div>
+        </div>
+        <div class="fgroup">
+          <h4>Configuration</h4>
+          <div class="chips" id="fBhk"></div>
+        </div>
+        <div class="fgroup">
+          <h4>Property type</h4>
+          <div class="chips" id="fType"></div>
+        </div>
+        <div class="fgroup">
+          <h4>Possession</h4>
+          <div class="chips" id="fStatus"></div>
+        </div>
+        <div class="fgroup">
+          <h4>Built-up size (sq.ft.)</h4>
+          <input type="range" id="fSize" min="1000" max="5600" step="100" value="5600">
+          <div class="range-vals"><span>1,000</span><span>Up to <b id="fSizeVal">5,600</b></span></div>
+        </div>
+        <div class="fgroup">
+          <h4>Developer</h4>
+          <div class="chips" id="fDev"></div>
+        </div>
+        <button class="btn btn-ghost btn-sm btn-block" id="clearFilters" style="margin-top:16px">Clear all filters</button>
+      </div>
+    </aside>
+
+    <!-- RESULTS -->
+    <main class="results">
+      <div class="results-head">
+        <div class="count"><b id="resCount">0</b> homes found</div>
+      </div>
+      <div class="grid cards" id="resGrid"></div>
+      <div class="empty hide" id="emptyState">
+        <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="m21 21-4-4"/></svg>
+        <h3>No homes match those filters</h3>
+        <p>Try widening your search or clearing filters.</p>
+        <button class="btn btn-primary btn-sm" id="clearFilters2" style="margin-top:14px">Clear filters</button>
+      </div>
+    </main>
+  </div>
+</div>
+
+<!-- mobile filter sheet uses same panel; toggled via .show -->
+
+<footer class="footer" id="footer"></footer>
+
+<div class="fab">
+  <a class="wa" href="https://wa.me/919888268882" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.743-.927.235.085z"/></svg>
+  </a>
+  <button class="top" id="toTop" style="display:none" aria-label="Top"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/footer.js"></script>
+<script src="assets/js/listings.js"></script>
+</body>
+</html>
