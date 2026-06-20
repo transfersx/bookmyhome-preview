@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Plot Maps & Tricity Master Plan — Book My Home</title>
-<meta name="description" content="View or download GMADA sector maps, the Tricity master plan and developer plot layouts across Mohali, New Chandigarh & Zirakpur.">
+<title>Maps &amp; Brochures — download what you need · Book My Home</title>
+<meta name="description" content="Download GMADA sector maps, the Tricity master plan and developer plot layouts, or pick any project to download its brochure.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,16 +16,20 @@
 
 <section class="listing-top">
   <div class="wrap">
-    <span class="eyebrow">Plot sales · Tricity</span>
-    <h1>Maps &amp; plot layouts</h1>
-    <p style="color:var(--muted);margin-top:8px;max-width:60ch">View or download GMADA sector maps, the full Tricity master plan and developer plot layouts — handy when you just want the lay of the land before a plot hunt.</p>
+    <span class="eyebrow">Downloads</span>
+    <h1>Maps &amp; brochures</h1>
+    <p style="color:var(--muted);margin-top:8px;max-width:62ch">Grab what you need — view or download GMADA sector maps and the Tricity master plan, or pick any project and download its brochure.</p>
+    <div class="cat-toggle" id="dlToggle">
+      <button data-dl="maps" class="active">Plot maps</button>
+      <button data-dl="brochures">Project brochures</button>
+    </div>
   </div>
 </section>
 
-<div class="wrap section" style="padding-top:30px">
+<!-- MAPS PANEL -->
+<div class="wrap section" id="panel-maps" style="padding-top:30px">
   <div class="grid cards" id="mapsGrid"></div>
-
-  <div style="margin-top:40px;background:linear-gradient(140deg,#241b18,#3a2c26);color:#fff;border-radius:var(--radius-lg);padding:36px 26px;display:grid;gap:18px" class="reveal">
+  <div style="margin-top:40px;background:linear-gradient(140deg,#241b18,#3a2c26);color:#fff;border-radius:var(--radius-lg);padding:36px 26px;display:grid;gap:18px">
     <div style="max-width:560px">
       <span class="eyebrow" style="color:var(--gold)">Buying a plot?</span>
       <h2 style="color:#fff;font-size:clamp(1.5rem,4.5vw,2.2rem);margin:8px 0">Tell us the sector — we'll find the plot.</h2>
@@ -38,6 +42,19 @@
   </div>
 </div>
 
+<!-- BROCHURES PANEL -->
+<div class="wrap section hide" id="panel-brochures" style="padding-top:30px">
+  <div class="toolbar" style="margin-bottom:24px">
+    <div class="search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--brand)"><circle cx="11" cy="11" r="7"/><path d="m21 21-4-4"/></svg>
+      <input id="broSearch" type="search" placeholder="Search a project to download its brochure…">
+    </div>
+    <span class="count" style="font-size:.9rem;color:var(--muted)"><b id="broCount">0</b> brochures</span>
+  </div>
+  <div class="grid cards" id="brochuresGrid"></div>
+  <div class="empty hide" id="broEmpty"><h3>No matching project</h3><p>Try a different name, developer or sector.</p></div>
+</div>
+
 <footer class="footer" id="footer"></footer>
 
 <!-- map viewer lightbox -->
@@ -47,6 +64,29 @@
   <img id="mapLbImg" src="" alt="">
   <button class="lb-nav lb-next" data-mlb-next>›</button>
   <div id="mapLbCap" style="position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#fff;font-size:.85rem"></div>
+</div>
+
+<!-- brochure email-gate modal -->
+<div class="modal" id="brochureModal">
+  <div class="modal-bg" data-bro-close></div>
+  <div class="modal-card">
+    <button class="modal-close" data-bro-close>✕</button>
+    <span class="eyebrow">Get the brochure</span>
+    <h2 style="font-size:1.5rem;margin:8px 0 4px" id="broTitle">Download brochure</h2>
+    <p style="color:var(--muted);font-size:.9rem;margin-bottom:18px">Enter your details and we'll open the brochure straight away — and keep you posted on price &amp; availability.</p>
+    <form id="broForm" style="display:grid;gap:13px">
+      <div class="field-row"><label>Full name</label><input name="name" required placeholder="Your name"></div>
+      <div class="field-row"><label>Email</label><input name="email" type="email" required placeholder="you@email.com"></div>
+      <div class="field-row"><label>Phone</label><input name="phone" required placeholder="+91" inputmode="tel"></div>
+      <button class="btn btn-primary btn-block" type="submit">Get the brochure</button>
+      <p style="font-size:.74rem;color:var(--muted)">By submitting you agree to be contacted by Book My Home.</p>
+    </form>
+    <div id="broDone" class="hide" style="text-align:center;padding:10px 0">
+      <div style="width:54px;height:54px;border-radius:50%;background:#e7f3ec;color:var(--ok);display:grid;place-items:center;margin:0 auto 12px"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></div>
+      <p id="broDoneMsg" style="font-weight:600;margin-bottom:14px"></p>
+      <a id="broDownload" class="btn btn-primary" download>Download brochure (PDF)</a>
+    </div>
+  </div>
 </div>
 
 <div class="fab">

@@ -22,7 +22,7 @@
         <a href="listings.html?category=Residential"${A(onHomes)}>Homes</a>
         <a href="listings.html?category=Plots"${A(onPlots)}>Plots</a>
         <a href="listings.html?category=Commercial"${A(onCom)}>Commercial</a>
-        <a href="maps.html"${A(onMaps)}>Maps</a>
+        <a href="maps.html"${A(onMaps)}>Maps &amp; Brochures</a>
         <a href="partner.html"${A(onPartner)}>Partner</a>
       </nav>
       <div class="nav-actions">
@@ -48,7 +48,7 @@
       <a href="listings.html?category=Residential"><span>Homes</span></a>
       <a href="listings.html?category=Plots"><span>Plots</span></a>
       <a href="listings.html?category=Commercial"><span>Commercial · Invest</span></a>
-      <a href="maps.html"><span>Maps &amp; plot layouts</span></a>
+      <a href="maps.html"><span>Maps &amp; brochures — downloads</span></a>
       <a href="partner.html"><span>Partner with us — Refer &amp; Earn</span></a>
       <a href="index.html#matcher" data-close><span>Find My Home</span></a>
       <a href="shortlist.html"><span>My Shortlist</span></a>

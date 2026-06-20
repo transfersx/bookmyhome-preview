@@ -3531,7 +3531,7 @@
   "type": "Apartments",
   "category": "Residential",
   "status": "Ready to Move",
-  "configShort": "1 BHK & 3 BHK",
+  "configShort": "3 BHK \u00b7 Duplex & Penthouse",
   "configs": [
    {
     "type": "3 BHK",
