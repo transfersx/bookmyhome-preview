@@ -94,11 +94,10 @@ $('#detailMain').innerHTML=`
     <div class="amen-grid">${p.locationAdv.map(l=>`<div class="amen"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span><span>${l}</span></div>`).join('')}</div></div>`:''}
 
   <div class="block"><h2>On the map</h2>
-    <div id="map"></div>
-    <div id="mapFallback" class="hide" style="background:var(--cream);border:1px solid var(--line);border-radius:var(--radius);padding:24px;text-align:center;color:var(--muted)">
-      <p style="margin-bottom:10px">${p.location||p.city}</p>
-      <a class="btn btn-ghost btn-sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name+' '+p.location)}">Open in Google Maps</a>
-    </div>
+    <p style="color:var(--muted);margin-bottom:14px"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2" style="vertical-align:-2px"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> ${p.location||p.city}</p>
+    <iframe class="mini-map" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" title="${p.name} location"
+      src="https://www.google.com/maps?q=${encodeURIComponent(p.name+', '+(p.location||p.city)+', Punjab')}&z=14&output=embed"></iframe>
+    <div style="margin-top:12px"><a class="btn btn-ghost btn-sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name+' '+(p.location||p.city)+' Punjab')}">Open in Google Maps ↗</a></div>
   </div>
 
   <div class="block"><h2>Project details</h2>
@@ -203,17 +202,6 @@ document.addEventListener('click',e=>{
 });
 document.addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;
   if(e.key==='Escape')lb.classList.remove('open');if(e.key==='ArrowLeft')navLb(-1);if(e.key==='ArrowRight')navLb(1);});
-
-/* ---------- map ---------- */
-try{
-  if(window.L && p.coords){
-    const map=L.map('map',{scrollWheelZoom:false}).setView(p.coords,14);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap'}).addTo(map);
-    const ic=L.divIcon({className:'',html:`<div style="background:var(--brand);width:30px;height:30px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);box-shadow:0 4px 10px rgba(0,0,0,.3);border:2px solid #fff"></div>`,iconSize:[30,30],iconAnchor:[15,30]});
-    L.marker(p.coords,{icon:ic}).addTo(map).bindPopup(`<b>${p.name}</b><br>${p.location.split(',')[0]}`);
-    setTimeout(()=>map.invalidateSize(),300);
-  }else throw new Error('no leaflet');
-}catch(e){$('#map').classList.add('hide');$('#mapFallback').classList.remove('hide');}
 
 /* ---------- EMI ---------- */
 function calcEmi(){
