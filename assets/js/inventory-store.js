@@ -12,6 +12,11 @@ window.INV_STATUS={
   'under-construction':{label:'Under Construction',cls:'uc'},
   'resale':{label:'Resale',cls:'resale'}
 };
+// residential vs commercial — explicit field, else inferred from the config/notes
+window.invType=function(u){
+  if(u && u.type) return u.type;
+  return /(shop|commercial|sco|booth|office|showroom|retail|food\s*court|plaza)/i.test(((u&&u.config)||'')+' '+((u&&u.notes)||'')) ? 'commercial' : 'residential';
+};
 
 // seed inventory — shown to fresh visitors until you connect the Sheet backend
 const SEED=[
@@ -71,6 +76,13 @@ window.Inventory={
     }
     const all=local(); all.unshift(item); saveLocal(all);
     return item;
+  },
+  async update(id,patch){
+    if(api()){
+      await fetch(api(),{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},
+        body:JSON.stringify({action:'update',pin:window.INVENTORY_PIN,id,item:patch})});
+    }
+    saveLocal(local().map(x=>x.id===id?Object.assign({},x,patch,{id:id}):x));
   },
   async remove(id){
     if(api()){

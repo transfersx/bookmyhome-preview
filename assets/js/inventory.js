@@ -2,7 +2,7 @@
 (function(){
 const {$,$$,byId}=window.BMH;
 const S=window.INV_STATUS;
-let ALL=[], st='', q='';
+let ALL=[], st='', q='', ty='residential';
 const BIZ='919888268882';
 
 function waLink(u){
@@ -36,7 +36,7 @@ function card(u){
   </article>`;
 }
 function render(){
-  let list=ALL.filter(u=>(!st||u.status===st));
+  let list=ALL.filter(u=>window.invType(u)===ty && (!st||u.status===st));
   if(q){const s=q.toLowerCase();list=list.filter(u=>(u.project+' '+u.locality+' '+u.city+' '+u.config+' '+u.notes+' '+u.facing).toLowerCase().includes(s));}
   $('#invCount').textContent=list.length;
   const g=$('#invGrid'),em=$('#invEmpty');
@@ -49,6 +49,7 @@ async function load(){
   if(window.Inventory.isLive())$('#liveTag').innerHTML='<span class="inv-live">● Live</span>';
   render();
 }
+$$('#invType button').forEach(b=>b.addEventListener('click',()=>{ty=b.dataset.ty;$$('#invType button').forEach(x=>x.classList.toggle('active',x===b));render();}));
 $$('#invTabs button').forEach(b=>b.addEventListener('click',()=>{st=b.dataset.st;$$('#invTabs button').forEach(x=>x.classList.toggle('active',x===b));render();}));
 $('#invSearch').addEventListener('input',e=>{q=e.target.value;render();});
 load();

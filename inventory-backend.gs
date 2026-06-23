@@ -19,7 +19,7 @@
 
 var SHEET_NAME = 'Inventory';
 var PIN = '2580'; // <-- must match window.INVENTORY_PIN in inventory-config.js
-var COLS = ['id','project','projectSlug','city','locality','config','size','facing',
+var COLS = ['id','project','projectSlug','type','city','locality','config','size','facing',
             'floorUnit','price','paymentPlan','units','status','possession','notes','createdAt'];
 
 function sheet_() {
@@ -54,10 +54,27 @@ function doPost(e) {
     sh.appendRow(COLS.map(function(c){ return it[c] !== undefined ? it[c] : ''; }));
     return json_({ ok:true });
   }
-  if (body.action === 'delete') {
+  if (body.action === 'update') {
+    var up = body.item || {};
     var vals = sh.getDataRange().getValues();
+    var ci = COLS.indexOf('createdAt');
     for (var i = 1; i < vals.length; i++) {
-      if (String(vals[i][0]) === String(body.id)) { sh.deleteRow(i + 1); return json_({ ok:true }); }
+      if (String(vals[i][0]) === String(body.id)) {
+        var row = COLS.map(function(c){
+          if (c === 'id') return body.id;
+          if (c === 'createdAt') return vals[i][ci] || up.createdAt || '';
+          return up[c] !== undefined ? up[c] : '';
+        });
+        sh.getRange(i + 1, 1, 1, COLS.length).setValues([row]);
+        return json_({ ok:true });
+      }
+    }
+    return json_({ ok:false, error:'not found' });
+  }
+  if (body.action === 'delete') {
+    var dvals = sh.getDataRange().getValues();
+    for (var j = 1; j < dvals.length; j++) {
+      if (String(dvals[j][0]) === String(body.id)) { sh.deleteRow(j + 1); return json_({ ok:true }); }
     }
     return json_({ ok:false, error:'not found' });
   }

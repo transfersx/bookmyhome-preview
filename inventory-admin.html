@@ -9,7 +9,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css">
-<link rel="icon" href="assets/img/logo.jpg">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/img/icon-192.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#b01627">
 </head>
 <body>
 <div id="hdr"></div>
@@ -44,9 +48,11 @@
     <div>
       <h2 style="font-size:1.4rem;margin-bottom:16px">Add a unit</h2>
       <form id="invForm" style="display:grid;gap:14px;max-width:760px">
-        <div style="display:grid;gap:14px;grid-template-columns:1fr 1fr">
+        <div style="display:grid;gap:14px;grid-template-columns:2fr 1fr 1fr">
           <div class="field-row"><label>Project</label>
             <select id="projSel"><option value="">— Custom / resale (type below) —</option></select></div>
+          <div class="field-row"><label>Type *</label>
+            <select name="type" required><option value="residential">Residential</option><option value="commercial">Commercial</option></select></div>
           <div class="field-row"><label>Status *</label>
             <select name="status" required><option value="ready">Ready to Move</option><option value="under-construction">Under Construction</option><option value="resale">Resale</option></select></div>
         </div>
@@ -70,7 +76,10 @@
           <div class="field-row"><label>Units available</label><input name="units" placeholder="Multiple / 20–25 units"></div>
         </div>
         <div class="field-row"><label>Notes</label><textarea name="notes" rows="2" placeholder="Fully loaded apartment. Call for best deal."></textarea></div>
-        <button class="btn btn-primary" type="submit" style="justify-self:start;padding-left:30px;padding-right:30px">Add to inventory</button>
+        <div style="display:flex;gap:10px;align-items:center">
+          <button id="invSubmit" class="btn btn-primary" type="submit" style="padding-left:30px;padding-right:30px">Add to inventory</button>
+          <button id="invCancel" type="button" class="btn btn-ghost hide">Cancel edit</button>
+        </div>
       </form>
     </div>
 
