@@ -3395,15 +3395,15 @@
   "id": 42,
   "slug": "escon-primera",
   "coords": [
-   30.658,
+   30.648,
    76.808
   ],
   "featured": true,
   "name": "Escon Primera",
   "tagline": "Defining the Skyline of Tricity",
   "developer": "Malwa Developers",
-  "city": "Mohali",
-  "location": "International Airport Road, District Mohali, Tricity",
+  "city": "Zirakpur",
+  "location": "International Airport Road, Zirakpur",
   "rera": [
    "PBRERA-SAS79-PR0529",
    "PBRERA-SAS79-PR0852"
@@ -3514,7 +3514,7 @@
   "sources": [],
   "confidence": "high",
   "brochure": "assets/brochures/escon-primera.pdf",
-  "locality": "Airport Road, Mohali",
+  "locality": "Airport Road, Zirakpur",
   "devName": "Malwa Developers"
  },
  {
