@@ -306,6 +306,31 @@ input[type=range]{width:100%;accent-color:var(--brand)}
 .q-progress{height:4px;background:rgba(255,255,255,.16);border-radius:2px;overflow:hidden;margin-top:6px}
 .q-progress i{display:block;height:100%;background:var(--accent);transition:.4s;width:25%}
 
+/* ---------- live inventory ---------- */
+.inv-grid-wrap{display:grid;gap:18px;grid-template-columns:1fr}
+@media(min-width:640px){.inv-grid-wrap{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.inv-grid-wrap{grid-template-columns:repeat(3,1fr)}}
+.inv-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px 16px;display:flex;flex-direction:column;gap:12px;box-shadow:var(--shadow-sm);transition:.2s}
+.inv-card:hover{box-shadow:var(--shadow);border-color:var(--line-2)}
+.inv-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.inv-head h3{font-size:1.2rem;line-height:1.15}
+.inv-pill{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:5px 10px;border-radius:999px;white-space:nowrap}
+.inv-pill.ready{background:#e7f3ec;color:#1f8a54}
+.inv-pill.uc{background:#fbeedd;color:#9a6212}
+.inv-pill.resale{background:#e6f1fb;color:#185fa5}
+.inv-specs{font-family:var(--serif);font-size:1.06rem;color:var(--ink)}
+.inv-rows{display:grid;gap:8px;border-top:1px solid var(--line);padding-top:12px}
+.inv-rows>div{display:flex;justify-content:space-between;gap:12px;font-size:.9rem}
+.inv-rows span{color:var(--muted)}
+.inv-rows b{color:var(--ink);text-align:right}
+.inv-notes{font-size:.86rem;color:var(--ink-2);background:var(--cream);border-radius:10px;padding:9px 12px;margin:0}
+.inv-foot{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap}
+.inv-foot .btn{flex:1;white-space:nowrap}
+.inv-live{display:inline-flex;align-items:center;gap:5px;color:#1f8a54;font-weight:600;font-size:.82rem}
+.admin-row{display:flex;gap:12px;align-items:center;justify-content:space-between;background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);padding:12px 14px;margin-bottom:10px}
+.admin-row .meta{font-size:.86rem;color:var(--muted)}
+.admin-row b{color:var(--ink)}
+
 /* ---------- explore directory tiles ---------- */
 .dir-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
 .dir-grid.type{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}

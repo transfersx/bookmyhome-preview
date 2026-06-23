@@ -11,6 +11,7 @@
       <div>
         <h4>Explore</h4>
         <a href="listings.html">All properties</a>
+        <a href="inventory.html">Live inventory</a>
         <a href="listings.html?status=Ready">Ready to move</a>
         <a href="listings.html?type=Penthouses">Luxury collection</a>
         <a href="compare.html">Compare homes</a>

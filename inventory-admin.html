@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Inventory Admin — Book My Home</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="icon" href="assets/img/logo.jpg">
+</head>
+<body>
+<div id="hdr"></div>
+
+<!-- PIN gate -->
+<div id="gate" class="wrap section" style="max-width:420px;padding-top:60px">
+  <div style="background:#fff;border:1px solid var(--line);border-radius:var(--radius-lg);padding:30px 26px;text-align:center">
+    <span class="eyebrow">Team access</span>
+    <h1 style="font-size:1.6rem;margin:8px 0 6px">Inventory admin</h1>
+    <p style="color:var(--muted);font-size:.9rem;margin-bottom:18px">Enter the team PIN to add or remove live inventory.</p>
+    <form id="pinForm" style="display:grid;gap:12px">
+      <input id="pinInput" type="password" inputmode="numeric" placeholder="PIN" style="text-align:center;font-size:1.2rem;letter-spacing:.3em;border:1.5px solid var(--line-2);border-radius:12px;padding:14px;font-family:inherit">
+      <button class="btn btn-primary btn-block" type="submit">Unlock</button>
+      <p id="pinErr" class="hide" style="color:var(--brand);font-size:.85rem">Wrong PIN — try again.</p>
+    </form>
+  </div>
+</div>
+
+<!-- App -->
+<div id="app" class="hide">
+  <section class="listing-top"><div class="wrap" style="display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap">
+    <div>
+      <span class="eyebrow">Inventory admin</span>
+      <h1>Add &amp; manage live inventory</h1>
+      <p style="color:var(--muted);margin-top:6px" id="modeNote"></p>
+    </div>
+    <a href="inventory.html" class="btn btn-ghost btn-sm" target="_blank">View public page ↗</a>
+  </div></section>
+
+  <div class="wrap section" style="padding-top:30px;display:grid;gap:34px">
+    <!-- add form -->
+    <div>
+      <h2 style="font-size:1.4rem;margin-bottom:16px">Add a unit</h2>
+      <form id="invForm" style="display:grid;gap:14px;max-width:760px">
+        <div style="display:grid;gap:14px;grid-template-columns:1fr 1fr">
+          <div class="field-row"><label>Project</label>
+            <select id="projSel"><option value="">— Custom / resale (type below) —</option></select></div>
+          <div class="field-row"><label>Status *</label>
+            <select name="status" required><option value="ready">Ready to Move</option><option value="under-construction">Under Construction</option><option value="resale">Resale</option></select></div>
+        </div>
+        <div style="display:grid;gap:14px;grid-template-columns:2fr 1fr 1fr">
+          <div class="field-row"><label>Project name *</label><input name="project" required placeholder="e.g. Falcon View"></div>
+          <div class="field-row"><label>City</label><input name="city" placeholder="Mohali"></div>
+          <div class="field-row"><label>Sector / locality</label><input name="locality" placeholder="Sector 66A, Mohali"></div>
+        </div>
+        <div style="display:grid;gap:14px;grid-template-columns:1fr 1fr 1fr">
+          <div class="field-row"><label>Configuration *</label><input name="config" required placeholder="3+1 BHK"></div>
+          <div class="field-row"><label>Size (sq.ft.)</label><input name="size" inputmode="numeric" placeholder="2480"></div>
+          <div class="field-row"><label>Facing</label><input name="facing" placeholder="Park facing"></div>
+        </div>
+        <div style="display:grid;gap:14px;grid-template-columns:1fr 1fr">
+          <div class="field-row"><label>Tower / Flat no.</label><input name="floorUnit" placeholder="Tower I · Flat 1001"></div>
+          <div class="field-row"><label>Price</label><input name="price" placeholder="₹3.15 Cr  or  ₹8,000 / sq.ft."></div>
+        </div>
+        <div style="display:grid;gap:14px;grid-template-columns:1fr 1fr 1fr">
+          <div class="field-row"><label>Possession</label><input name="possession" placeholder="Ready  /  Dec 2028"></div>
+          <div class="field-row"><label>Payment plan</label><input name="paymentPlan" placeholder="25:25:25:25"></div>
+          <div class="field-row"><label>Units available</label><input name="units" placeholder="Multiple / 20–25 units"></div>
+        </div>
+        <div class="field-row"><label>Notes</label><textarea name="notes" rows="2" placeholder="Fully loaded apartment. Call for best deal."></textarea></div>
+        <button class="btn btn-primary" type="submit" style="justify-self:start;padding-left:30px;padding-right:30px">Add to inventory</button>
+      </form>
+    </div>
+
+    <!-- list -->
+    <div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+        <h2 style="font-size:1.4rem"><span id="invN">0</span> units in inventory</h2>
+        <input id="adminSearch" type="search" placeholder="Filter…" style="border:1.5px solid var(--line-2);border-radius:999px;padding:9px 16px;font-family:inherit;font-size:.9rem">
+      </div>
+      <div id="adminList"></div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer" id="footer"></footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/header.js"></script>
+<script src="assets/js/footer.js"></script>
+<script src="assets/js/inventory-config.js"></script>
+<script src="assets/js/inventory-store.js"></script>
+<script src="assets/js/inventory-admin.js"></script>
+</body>
+</html>

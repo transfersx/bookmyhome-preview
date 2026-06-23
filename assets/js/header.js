@@ -12,18 +12,19 @@
   const onMaps    = (path==='maps.html');
   const onExplore = (path==='explore.html');
   const onPartner = (path==='partner.html');
+  const onInv = (path==='inventory.html');
   const A=(c)=>c?' style="color:var(--brand)"':'';
   mount.innerHTML=`
   <header class="site-header">
     <div class="wrap nav">
       <a class="brand" href="index.html"><img src="assets/img/logo.jpg" alt="Book My Home"></a>
       <nav class="nav-links">
-        <a href="explore.html"${A(onExplore)}>Explore</a>
         <a href="listings.html?category=Residential"${A(onHomes)}>Homes</a>
         <a href="listings.html?category=Plots"${A(onPlots)}>Plots</a>
         <a href="listings.html?category=Commercial"${A(onCom)}>Commercial</a>
+        <a href="inventory.html"${A(onInv)}>Inventory</a>
+        <a href="explore.html"${A(onExplore)}>Explore</a>
         <a href="maps.html"${A(onMaps)}>Maps &amp; Brochures</a>
-        <a href="partner.html"${A(onPartner)}>Partner</a>
       </nav>
       <div class="nav-actions">
         <a href="shortlist.html" class="icon-btn" aria-label="Shortlist">
@@ -48,6 +49,7 @@
       <a href="listings.html?category=Residential"><span>Homes</span></a>
       <a href="listings.html?category=Plots"><span>Plots</span></a>
       <a href="listings.html?category=Commercial"><span>Commercial · Invest</span></a>
+      <a href="inventory.html"><span>Live inventory — available units</span></a>
       <a href="maps.html"><span>Maps &amp; brochures — downloads</span></a>
       <a href="partner.html"><span>Partner with us — Refer &amp; Earn</span></a>
       <a href="index.html#matcher" data-close><span>Find My Home</span></a>
