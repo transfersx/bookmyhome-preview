@@ -8,6 +8,7 @@ if(!p){document.getElementById('app').innerHTML='<div class="wrap empty"><h3>Pro
 document.title=`${p.name} — ${p.location.split(',')[0]||p.city} · Book My Home`;
 const devClean=p.developer.split('(')[0].trim();
 const sizeTxt=p.sizeMin?`${p.sizeMin.toLocaleString('en-IN')}–${p.sizeMax.toLocaleString('en-IN')} sq.ft.`:'On request';
+const mapQ=p.name+', '+geoQuery(p);
 
 /* ---------- gallery ---------- */
 const imgs=[p.hero,...(p.gallery||[])].filter(Boolean);
@@ -96,8 +97,8 @@ $('#detailMain').innerHTML=`
   <div class="block"><h2>On the map</h2>
     <p style="color:var(--muted);margin-bottom:14px"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2" style="vertical-align:-2px"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> ${p.location||p.city}</p>
     <iframe class="mini-map" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" title="${p.name} location"
-      src="https://www.google.com/maps?q=${encodeURIComponent(geoQuery(p))}&z=14&output=embed"></iframe>
-    <div style="margin-top:12px"><a class="btn btn-ghost btn-sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name+' '+geoQuery(p))}">Open in Google Maps ↗</a></div>
+      src="https://maps.google.com/maps?q=${encodeURIComponent(mapQ)}&z=15&output=embed"></iframe>
+    <div style="margin-top:12px"><a class="btn btn-ghost btn-sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQ)}">Open in Google Maps ↗</a></div>
   </div>
 
   <div class="block"><h2>Project details</h2>
