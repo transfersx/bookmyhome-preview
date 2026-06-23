@@ -13,17 +13,35 @@ window.INV_STATUS={
   'resale':{label:'Resale',cls:'resale'}
 };
 
-// seed (the examples you sent) — only used until you add/delete or connect the backend
+// seed inventory — shown to fresh visitors until you connect the Sheet backend
 const SEED=[
- {id:'seed_falcon', project:'Falcon View', projectSlug:'falcon-view', city:'Mohali', locality:'Sector 66A, Mohali',
+ {id:'seed_falcon2', project:'Falcon View', projectSlug:'falcon-view', city:'Mohali', locality:'Sector 66A, Mohali (JLPL)',
+  config:'4+1 BHK', size:'3008', facing:'Park facing', floorUnit:'', price:'₹4.10 Cr', paymentPlan:'', units:'',
+  status:'ready', possession:'Ready to move', notes:'', createdAt:90},
+ {id:'seed_falcon', project:'Falcon View', projectSlug:'falcon-view', city:'Mohali', locality:'Sector 66A, Mohali (JLPL)',
   config:'3+1 BHK', size:'2480', facing:'Park facing', floorUnit:'', price:'₹3.15 Cr', paymentPlan:'', units:'Multiple units',
-  status:'ready', possession:'Ready for possession', notes:'Call for best deal & inventory.', createdAt:1},
+  status:'ready', possession:'Ready to move', notes:'Call for best deal & inventory.', createdAt:89},
+ {id:'seed_skygardens', project:'Sky Gardens', projectSlug:'', city:'Mohali', locality:'Sector 66A, Mohali (JLPL)',
+  config:'2+1 BHK', size:'1431', facing:'', floorUnit:'Tower 3 · Flat 401', price:'₹1.30 Cr', paymentPlan:'', units:'',
+  status:'ready', possession:'Ready to move', notes:'JLPL Sky Gardens.', createdAt:88},
+ {id:'seed_galaxy', project:'Galaxy Heights', projectSlug:'galaxy-heights', city:'Mohali', locality:'Sector 66A, Mohali',
+  config:'2 BHK', size:'1050', facing:'', floorUnit:'', price:'₹1.10 Cr', paymentPlan:'', units:'',
+  status:'ready', possession:'Ready to move', notes:'', createdAt:87},
+ {id:'seed_marbella', project:'Marbella Grand', projectSlug:'', city:'Mohali', locality:'Sector 82A, IT City, Mohali',
+  config:'4+1 BHK', size:'3672', facing:'', floorUnit:'', price:'', paymentPlan:'', units:'',
+  status:'ready', possession:'Ready to move', notes:'', createdAt:86},
+ {id:'seed_citycenter2', project:'Mohali City Center-2', projectSlug:'', city:'Mohali', locality:'F-Block, Aerocity, Mohali',
+  config:'Commercial shop · 8×31.6 ft', size:'', facing:'', floorUnit:'Ground floor', price:'₹65 Lakh', paymentPlan:'', units:'Shop available',
+  status:'ready', possession:'Ready to move', notes:'Commercial inventory.', createdAt:85},
  {id:'seed_joygrand', project:'Joy Grand', projectSlug:'joy-grand', city:'Mohali', locality:'Sector 88, Mohali',
   config:'3+1 BHK', size:'3192', facing:'', floorUnit:'Tower I · Flat 1001', price:'₹8,000 / sq.ft.', paymentPlan:'25:25:25:25',
-  units:'', status:'under-construction', possession:'Dec 2028', notes:'Fully loaded apartment.', createdAt:2},
+  units:'', status:'under-construction', possession:'Dec 2028', notes:'Fully loaded apartment.', createdAt:84},
  {id:'seed_herohomes', project:'Hero Homes', projectSlug:'hero-homes-mohali', city:'Mohali', locality:'Sector 88, Mohali',
   config:'4+1 BHK', size:'3490', facing:'', floorUnit:'', price:'', paymentPlan:'', units:'About 20–25 units',
-  status:'under-construction', possession:'June 2029', notes:'Multiple inventory available.', createdAt:3}
+  status:'under-construction', possession:'June 2029', notes:'Multiple inventory available.', createdAt:83},
+ {id:'seed_horizon', project:'Horizon Belmond', projectSlug:'horizon-belmond', city:'Mohali', locality:'Sector 88, Mohali',
+  config:'3+1 BHK', size:'2601', facing:'', floorUnit:'', price:'₹2 Cr', paymentPlan:'', units:'',
+  status:'under-construction', possession:'', notes:'', createdAt:82}
 ];
 
 function api(){ return (window.INVENTORY_API||'').trim(); }
