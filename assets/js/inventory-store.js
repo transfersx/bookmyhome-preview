@@ -9,8 +9,7 @@ const KEY='bmh_inventory';
 // status meta
 window.INV_STATUS={
   'ready':{label:'Ready to Move',cls:'ready'},
-  'under-construction':{label:'Under Construction',cls:'uc'},
-  'resale':{label:'Resale',cls:'resale'}
+  'under-construction':{label:'Under Construction',cls:'uc'}
 };
 // residential vs commercial — explicit field, else inferred from the config/notes
 window.invType=function(u){
